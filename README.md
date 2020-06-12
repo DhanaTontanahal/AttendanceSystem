@@ -14,8 +14,8 @@ Password : Radhasoami
 ![alt text](sc3.PNG "System Screenshot 3")
 
 
-![alt text](biometric-scanner.png "Mark Attendance using Biometric device")
+![alt text](biometric-scanner.PNG "Mark Attendance using Biometric device")
 
 
-![alt text](barcode-scanner.png "Mark Attendance using Barcode scanner")
+![alt text](barcode-scanner.PNG "Mark Attendance using Barcode scanner")
 
