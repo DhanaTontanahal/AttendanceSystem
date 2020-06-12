@@ -7,15 +7,15 @@ User name : admin@ams.com
 Password : Radhasoami
 
 
-![alt text](img/sc1.PNG "System Screenshot 1")
+![alt text](sc1.PNG "System Screenshot 1")
 
-![alt text](img/sc1.PNG "System Screenshot 2")
+![alt text](sc2.PNG "System Screenshot 2")
 
-![alt text](img/sc1.PNG "System Screenshot 3")
-
-
-![alt text](img/biometric scanner.png "Mark Attendance using Biometric device")
+![alt text](sc3.PNG "System Screenshot 3")
 
 
-![alt text](img/barcode-scanner.png "Mark Attendance using Barcode scanner")
+![alt text](biometric scanner.png "Mark Attendance using Biometric device")
+
+
+![alt text](barcode-scanner.png "Mark Attendance using Barcode scanner")
 
