@@ -1,0 +1,38 @@
+<div  class="panel-body">
+          <div class="panel panel-primary">
+          <div class="panel-heading">E-Satsang Present Summary : Till Today   -{{todaysDate}} 
+          </div>
+          <div ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions1" class="gridc1" ui-grid-auto-resize>
+            <div class="watermark" ng-show="!gridOptions1.data.length">No data in the present list</div>
+        </div> 
+      </div>
+    </div>
+
+<!-- 
+ <div id="summary">
+<table  class="table table-bordered">
+    <thead>
+     
+      <tr>
+        <td>Activity</td>
+        <td>UID</td>
+        <td>Attendance count</td>
+       
+      </tr>
+      
+    </thead>
+    <tbody>
+       
+      <tr ng-repeat="c in messagesData track by $index"> 
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.eSatsangValue,branchCodeSelected)" href="">{{c.activity}}</a>
+        </td>
+        <td><b>{{c.uid}}</b></td>
+        <td><b>{{c.countVallue}}</b></td>
+        
+       
+      </tr>
+     
+</tbody>
+</table>
+</div> -->

@@ -1,0 +1,669 @@
+<button ng-hide="true" ng-click="dataCleanup()">Data CleanUp</button>
+
+
+<div ng-show="showBioMetricSpace">
+  <h2 class="func-title"> BIOMETRIC ATTENDACE</h2>
+
+  <p style="font-size: 12px"> Click on the image below, sensor light will start glowing, place you finger
+    on the sensor to scan fingerprint.</p>
+
+  <table style="padding: 10px; border-radius: 15px; border: 2px solid #FF9933">
+    <tr>
+      <td>
+        <img class="easyui-tooltip" title="Click To Scan" style="width: 100%; max-width: 200px; border-radius: 15px" id="fpimage"
+          alt="FingerPrint" src="/images/left_hand_6.png" ng-click="fpCapture(succCapture, failureFunc)">
+      <td>
+    </tr>
+  </table>
+  <p id="result1">
+    <div id="rpanel" style="padding: 10px;"></div>
+
+
+    PRESENT WILL BE MARKED FOR {{thisOneRecodg}}
+
+
+
+</div>
+
+<span style="z-index: 10 ; padding: 30px ; background: cadetblue;" ng-if="showMarkAttAsAbsMsg.value">{{showMarkAttAsAbsMsg.message}}</span>
+<br>
+<span style="z-index: 10 ; padding: 30px ; background: cadetblue;" ng-if="showMarkAttAsPresMsg.value">{{showMarkAttAsPresMsg.message}}</span>
+<br>
+<span style="z-index: 10 ; padding: 30px ; background: cadetblue;" ng-if="showMarkAttOfflineMsg.value">{{showMarkAttOfflineMsg.message}}</span>
+
+
+<div id="tvContainer">
+
+
+  <div style="background-color: lightgray;padding:5px;" class="row" ng-show="showTvEntry.value">
+
+    <div class="col-md-6">
+      <label for="UID">S.NO(unique)</label>
+      <input type="text" ng-disabled="true" ng-change="monitorBranchChange()" class="form-control" name="tv.Branch" id="tvBrName"
+        ng-model="tv.Branch" placeholder="Branch name">
+      <br>
+      <label for="UID">Name</label>
+      <input type="text" ng-change="monitorNameChange()" class="form-control" placeholder="Enter the name" ng-model="tv.Name">
+      <br>
+
+      <label for="UID">UID</label>
+      <input type="text" ng-hide="true" class="form-control" ng-model="tv.UID" placeholder="Enter the UID">
+      <br>
+      <label for="Gender">Gender</label>
+      <select class="btn btn-default" ng-model="tv.Gender" ng-change="handletvGenderChange()" ng-options="g for g in editOrUpdateTheUserGenders">
+      </select>
+
+      <label for="Dobyear">DOB year</label>
+      <select class="btn btn-default" ng-model="tv.DOB" ng-change="handletvDOBChange()" ng-options="d for d in editOrUpdateTheUserDOBYears">
+      </select>
+
+    </div>
+
+    <div class="col-md-6">
+      <label for="category">Category</label>
+      <select class="btn btn-default" ng-model="tv.Cat" ng-change="handletvCatChange()" ng-options="c for c in editOrUpdateTheUserCategorySelected">
+      </select>
+
+      <label for="category">Superman Scheme</label>
+      <select class="btn btn-default" ng-model="tv.su" ng-change="handleSuSchemeSelection()" ng-options="s for s in SUSchemeCategories">
+      </select>
+      <br>
+      <label for="UID">Region</label>
+      <input class="form-control" ng-model="tv.Region" type="text" placeholder="Enter Region name" />
+      <br>
+      <label for="UID">District</label>
+      <input class="form-control" ng-model="tv.District" type="text" placeholder="Enter district name" />
+      <br>
+      <label for="UID">Branch</label>
+      <input class="form-control" ng-model="tv.BranchName" type="text" placeholder="Enter branch name" />
+      <br>
+      <button class="btn btn-primary" ng-click="markTvPresent()">Mark Present</button>
+    </div>
+
+  </div>
+
+
+
+</div>
+</div>
+
+<!-- <div ng-show="showGenSum">
+    <button  ng-click="generateRefreshSummary()" class="btn btn-primary"><span class="glyphicon glyphicon-refresh"></span></button>
+    <button  ng-click="generateSummary(false)" class="btn btn-primary">Hide Summary<span
+        class="glyphicon glyphicon-summary"></span></button>
+        <br>
+  <span style="background-color: blue;padding:3px;color:white;font-weight: bold;">Total Head Count :
+    {{totalHeadCountForTheDay}}</span>
+  <br>
+  <small>M : Male , F : Female , T: Total1</small>
+ 
+</div> -->
+<div  id="dragggableSummary">
+    <div id="dragggableSummaryheader"></div>
+<div ng-show="showGenSum" id="generatedSummary">
+
+  <div ng-show="showGenSum">
+<!-- 
+    <button style="margin-bottom: 10px;" ng-click="generateRefreshSummary()" class="btn btn-primary"><span class="glyphicon glyphicon-refresh"></span></button>
+    <button style="margin-bottom: 10px;" ng-click="generateSummary(false)" class="btn btn-primary">Hide Summary<span
+        class="glyphicon glyphicon-summary"></span></button> -->
+
+    <!-- <br> -->
+    <!-- <span style="background-color: blue;padding:3px;color:white;font-weight: bold;">Total Head Count : -->
+    <!-- </span><span style="background-color: white;padding:3px;color:black;font-weight: bold;">
+      {{totalHeadCountForTheDay}}</span> -->
+    <!-- <br> -->
+    <!-- <small>M : Male , F : Female , T: Total</small> -->
+
+  </div>
+
+  <table id="theTableNew">
+    <caption id="smrTableHdngCaptn">Summary</caption>
+    <caption id="headCountCAption"> Head Count {{totalHeadCountForTheDay}} </caption>
+
+
+    <tr>
+      <td>
+
+      </td>
+      <td>
+
+      </td>
+      <td>
+        Gents
+      </td>
+      <td>
+        Ladies
+      </td>
+      <td>
+        Total
+      </td>
+
+    </tr>
+    <tr id="row0">
+      <td>
+        All Gents and Ladies > 15
+
+      </td>
+      <td>
+
+      </td>
+
+      <td>{{initiatedThisBrnchGents+initiatedOtherBrnchGents+jigThisBrnchGents+jigOtherBrnchGents+OtherthanInitJigThisBrnchGents+OtherthanInitJigOtherBrnchGents}}</td>
+      <td>{{initiatedThisBrnchLadies+initiatedOtherBrnchLadies + jigThisBrnchLadies+jigOtherBrnchLadies +
+        OtherthanInitJigThisBrnchLadies+OtherthanInitJigOtherBrnchLadies }}</td>
+      <td>{{initiatedThisBrnchLadies+initiatedOtherBrnchLadies + jigThisBrnchLadies+jigOtherBrnchLadies +
+        OtherthanInitJigThisBrnchLadies+OtherthanInitJigOtherBrnchLadies +
+        initiatedThisBrnchGents+initiatedOtherBrnchGents+jigThisBrnchGents+jigOtherBrnchGents+OtherthanInitJigThisBrnchGents+OtherthanInitJigOtherBrnchGents}}</td>
+
+    </tr>
+    <tr id="row1">
+      <td>Initiated
+      </td>
+
+      <td>
+        <div class="test">Pune</div>
+        <div class="test">Other</div>
+        <div>All</div>
+      </td>
+      <td>
+        <div class="test">{{initiatedThisBrnchGents}}</div>
+        <div class="test">{{initiatedOtherBrnchGents}}</div>
+        <div>{{initiatedThisBrnchGents+initiatedOtherBrnchGents}}</div>
+      </td>
+      <td>
+        <div class="test">{{initiatedThisBrnchLadies}}</div>
+        <div class="test">{{initiatedOtherBrnchLadies}}</div>
+        <div>{{initiatedThisBrnchLadies+initiatedOtherBrnchLadies}}</div>
+      </td>
+
+      <td>
+        <div class="test">{{initiatedThisBrnchGents+initiatedThisBrnchLadies}}</div>
+        <div class="test">{{initiatedOtherBrnchGents+initiatedOtherBrnchLadies}}</div>
+        <div>{{initiatedThisBrnchGents+initiatedThisBrnchLadies+initiatedOtherBrnchGents+initiatedOtherBrnchLadies}}</div>
+      </td>
+    </tr>
+
+    <tr id="row2">
+      <td>Jigyasu
+      </td>
+
+      <td>
+        <div class="test">Pune</div>
+        <div class="test">Other</div>
+        <div>All</div>
+      </td>
+      <td>
+        <div class="test">{{jigThisBrnchGents}}</div>
+        <div class="test">{{jigOtherBrnchGents}}</div>
+        <div>{{jigThisBrnchGents+jigOtherBrnchGents}}</div>
+      </td>
+      <td>
+        <div class="test">{{jigThisBrnchLadies}}</div>
+        <div class="test">{{jigOtherBrnchLadies}}</div>
+        <div>{{jigThisBrnchLadies+jigOtherBrnchLadies}}</div>
+      </td>
+
+      <td>
+        <div class="test">{{jigThisBrnchGents+jigThisBrnchLadies}}</div>
+        <div class="test">{{jigOtherBrnchGents+jigOtherBrnchLadies}}</div>
+        <div>{{jigThisBrnchGents+jigThisBrnchLadies+jigOtherBrnchGents+jigOtherBrnchLadies}}</div>
+      </td>
+    </tr>
+
+
+    <tr id="row3">
+      <td>Other
+      </td>
+
+      <td>
+        <div class="test">Pune</div>
+        <div class="test">Other</div>
+        <div>All</div>
+      </td>
+      <td>
+        <div class="test">{{OtherthanInitJigThisBrnchGents}}</div>
+        <div class="test">{{OtherthanInitJigOtherBrnchGents}}</div>
+        <div>{{OtherthanInitJigThisBrnchGents+OtherthanInitJigOtherBrnchGents}}</div>
+      </td>
+      <td>
+        <div class="test">{{OtherthanInitJigThisBrnchLadies}}</div>
+        <div class="test">{{OtherthanInitJigOtherBrnchLadies}}</div>
+        <div>{{OtherthanInitJigThisBrnchLadies+OtherthanInitJigOtherBrnchLadies}}</div>
+      </td>
+
+      <td>
+        <div class="test">{{OtherthanInitJigThisBrnchGents+OtherthanInitJigThisBrnchLadies}}</div>
+        <div class="test">{{OtherthanInitJigOtherBrnchGents+OtherthanInitJigOtherBrnchLadies}}</div>
+        <div>{{OtherthanInitJigThisBrnchGents+OtherthanInitJigThisBrnchLadies+OtherthanInitJigOtherBrnchGents+OtherthanInitJigOtherBrnchLadies}}</div>
+      </td>
+    </tr>
+
+    <tr id="row4">
+      <td>Children <= 15 </td> <td>
+          <div class="test">Pune</div>
+          <div class="test">Other</div>
+          <div>All</div>
+      </td>
+      <td>
+        <div class="test">{{ChildrnLesDnFtnThisBrnchGents}}</div>
+        <div class="test">{{ChildrnLesDnFtnOtherBrnchGents}}</div>
+        <div>{{ChildrnLesDnFtnThisBrnchGents+ChildrnLesDnFtnOtherBrnchGents}}</div>
+      </td>
+      <td>
+        <div class="test">{{ChildrnLesDnFtnThisBrnchLadies}}</div>
+        <div class="test">{{ChildrnLesDnFtnOtherBrnchLadies}}</div>
+        <div>{{ChildrnLesDnFtnThisBrnchLadies+ChildrnLesDnFtnOtherBrnchLadies}}</div>
+      </td>
+
+      <td>
+        <div class="test">{{ChildrnLesDnFtnThisBrnchGents+ChildrnLesDnFtnThisBrnchLadies}}</div>
+        <div class="test">{{ChildrnLesDnFtnOtherBrnchGents+ChildrnLesDnFtnOtherBrnchLadies}}</div>
+        <div>{{ChildrnLesDnFtnThisBrnchGents+ChildrnLesDnFtnThisBrnchLadies+ChildrnLesDnFtnOtherBrnchGents+ChildrnLesDnFtnOtherBrnchLadies}}</div>
+      </td>
+    </tr>
+
+
+    <tr id="row5">
+      <td>Santsu Phase 1
+      </td>
+
+      <td>
+        <div class="test">Pune</div>
+        <div>Other</div>
+
+      </td>
+      <td>
+        <div class="test">{{SntsuPh1ThisBrnchGents}}</div>
+        <div>{{SntsuPh1OtherBrnchGents}}</div>
+
+      </td>
+      <td>
+        <div class="test">{{SntsuPh1ThisBrnchLadies}}</div>
+        <div>{{SntsuPh1OtherBrnchLadies}}</div>
+
+      </td>
+
+      <td>
+        <div class="test">{{SntsuPh1ThisBrnchGents+SntsuPh1ThisBrnchLadies}}</div>
+        <div>{{SntsuPh1OtherBrnchGents+SntsuPh1OtherBrnchLadies}}</div>
+
+      </td>
+    </tr>
+
+
+    <tr id="row6">
+      <td>Santsu Phase 2
+      </td>
+
+      <td>
+        <div class="test">Pune</div>
+        <div>Other</div>
+
+      </td>
+      <td>
+        <div class="test">{{SntsuPh2ThisBrnchGents}}</div>
+        <div>{{SntsuPh2OtherBrnchGents}}</div>
+
+      </td>
+      <td>
+        <div class="test">{{SntsuPh2ThisBrnchLadies}}</div>
+        <div>{{SntsuPh2OtherBrnchLadies}}</div>
+
+      </td>
+
+      <td>
+        <div class="test">{{SntsuPh2ThisBrnchGents+SntsuPh2ThisBrnchLadies}}</div>
+        <div>{{SntsuPh2OtherBrnchGents+SntsuPh2OtherBrnchLadies}}</div>
+
+      </td>
+    </tr>
+
+
+
+  </table>
+
+
+
+
+  <!-- <table>
+
+    <tr>
+      <th>Category</th>
+      <th>
+        M &nbsp;
+      </th>
+      <th>
+        F &nbsp;
+      </th>
+      <th>T</th>
+
+
+    </tr>
+
+    <tr>
+      <td>Initiated</td>
+      <td>
+        {{countInitiatedMale}}
+      </td>
+      <td>
+        {{indexInitiatedFemale}}
+      </td>
+      <td>
+        {{totalInitiated}}
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>Jigyasu</td>
+      <td>
+        {{countJigyasuMale}}
+      </td>
+      <td>
+        {{countJigyasuFemale}}
+      </td>
+      <td>
+        {{totalJigyasu}}
+      </td>
+
+    </tr>
+
+
+    <tr>
+      <td>Children</td>
+      <td>
+        {{countChildrenbelow18Male}}
+      </td>
+      <td>
+        {{countChildrenbelow18Female}}
+      </td>
+      <td>
+        {{totalChildrenn}}
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>Santsu Phase 1</td>
+      <td>
+        {{countSUSchemePhase1Male}}
+      </td>
+      <td>
+        {{countSUSchemePhase1Female}}
+      </td>
+      <td>
+        {{countSUSchemePhase1}}
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>Santsu Phase 2</td>
+      <td>
+        {{countSUSchemePhase2Male}}
+      </td>
+      <td>
+        {{countSUSchemePhase2Female}}
+      </td>
+      <td>
+        {{countSUSchemePhase2}}
+      </td>
+
+    </tr>
+
+
+    <tr>
+      <td>Other</td>
+      <td>
+        {{countOtherMale}}
+      </td>
+      <td>
+        {{countOtherFemale}}
+      </td>
+      <td>
+        {{countOtherAll}}
+      </td>
+
+    </tr>
+
+
+  </table>
+
+
+  <div style="padding:5px;"></div>
+
+  <table>
+    <tr>
+      <th>
+        All Gents ( > 15 Y ) &nbsp;
+      </th>
+      <th>
+        All Ladies ( > 15 Y) &nbsp;
+      </th>
+
+      <th>
+        Children (< 15 ) &nbsp; </th> <th>
+          Initiated Gents &nbsp;
+      </th>
+
+      <th>
+        Initiated Ladies &nbsp;
+      </th>
+
+
+    </tr>
+
+    <tr>
+      <td>
+        {{countInitiatedMale+countJigyasuMale}}
+      </td>
+      <td>
+        {{indexInitiatedFemale+countJigyasuFemale}}
+      </td>
+
+
+      <td>
+        {{countChildrenbelow18Male+countChildrenbelow18Female}}
+      </td>
+
+
+      <td>
+        {{countInitiatedMale}}
+      </td>
+      <td>
+        {{indexInitiatedFemale}}
+      </td>
+
+
+  </table> -->
+
+
+</div>
+</div>
+
+
+<script type="text/ng-template" id="mapPresent.html">
+       <div class="ui-grid-cell-contents">
+         <input type="checkbox"
+          name="checkbox-follow-btn"
+          class="hide-checkbox-follow-btn"
+          id="{{row.entity.uid}}"
+          ng-model="userAttendanceLabel.attendanceStatus"
+          ng-true-value="'PRESENT'" 
+          ng-false-value="'ABSENT'"
+          /> 
+          <span  for="ui-grid-cell-contents" class="glyphicon glyphicon-ok"></span>
+
+        </div>
+</script>
+
+
+<script type="text/ng-template" id="templateId">
+    <h4>{{selectedNameOfActivity}} - {{attendanceForThisData}}</h4>
+    <p>Satsangies present :{{totalItems}}</p>
+</script>
+
+
+
+<script type="text/ng-template" id="mapAddress.html">
+      <div class="ui-grid-cell-contents">
+        <button id="{{row.entity.uid}}" class="btn btn-primary" type="button" ng-click="grid.appScope.markPlusPresents(row.entity)">+1</button>
+        &nbsp;
+        <button class="btn btn-danger" type="button" ng-click="grid.appScope.markDepsAbsent(row.entity)">-1</button>
+      </div>
+</script>
+
+
+<div ng-show="isUserMarkedPresent && !isUserAlreadyMarkedPresent" class="alert alert-success">
+  <strong>Success!</strong>User Presence marked Successfully
+</div>
+<div ng-show="isUserAlreadyMarkedPresent" class="alert alert-danger">
+  <strong>Error!</strong>User Presence Already marked for this date!!
+</div>
+
+<div id="barCodeInput" class="col col-md-4">
+  &nbsp;&nbsp;<input class="form form-control" id="barcodeInptTxtBx" width="15px" type="text" placeholder="Scan"
+    ng-model="barCode" />
+</div>
+&nbsp;
+<div id="mainContainerDiv" class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+
+<!-- 
+      <button ng-show="!showTodaysCountPresent" class="btn btn-success" ng-click="showTodaysCountForCopy()">&nbsp;&nbsp;Head
+        Count</button>
+      &nbsp;&nbsp;
+      <b><u>{{columnTitle1MarkAtt}}</u></b>&nbsp;<b><u>{{columnTitle2MarkAtt}}</u></b><span ng-show="showTodaysCountPresent">&nbsp;Head
+        Count = {{totalItemsMarkAtt.valueNumMarkAtt}}
+
+      </span> -->
+
+
+      <div ng-hide="true" class="col-md-3">
+        <input placeholder="Search Linked" id="searchLinkedId" class="form-control" ng-model="searchLinked" />
+      </div>
+<!-- 
+      <button ng-click="uploadAttendance()" id="offlineAttMnuBtn" class="btn btn-primary">Offline Attendance&nbsp;<span
+          class="glyphicon glyphicon-upload"></span></button>
+
+      <button ng-hide="true" id="bioMenuBtn" ng-click="showBioMetri()" class="btn btn-primary">Bio&nbsp;<span class="glyphicon glyphicon-finger"></span></button>
+
+
+      <button class="btn btn-default" id="msgBtn1" ng-click="markAttOfflineMsg()"> <span class="glyphicon glyphicon-question-sign"></span></button>
+      <button ng-click="generateSummary(true)" class="btn btn-success"><span class="
+        glyphicon glyphicon-list-alt"></span>&nbsp;Show
+        Summary<span class="glyphicon glyphicon-summary"></span></button>
+        -->
+      <button ng-click="markAttTv()" class="btn btn-default"><span class="glyphicon glyphicon-resize-vertical"></span>&nbsp;TV<span
+          class="glyphicon glyphicon-summary"></span></button> 
+
+
+      <div id="offlineContan" ng-show="showUploadFile">
+        <input type="file" id="myFile" ng-model="myFileModell" multiple size="50" ng-change="showUploadFileFunction()">
+        <div id="uploadedFile"></div>&nbsp;<a style="color:white;" href="https://firebasestorage.googleapis.com/v0/b/pams-e7971.appspot.com/o/marknow.txt?alt=media&token=aecc0c7e-e970-4a43-b19d-fd87edc08681">Sample
+          File</a>
+        <button class="btn btn-default" id="saveOfflineAttBtn" ng-click="saveAttendanceOfflineToDB()">Save Offline
+          Attendance</button>
+      </div>
+
+
+      <div ng-show="toggleExceptionDiv">
+        <input ng-hide="toggleToolButton" class="form-control" type="text" placeholder="Enter exception or  Exception or issues faced or difficulties"
+          ng-model="exception.text" />
+        <button ng-hide="toggleToolButton" class="btn btn-success" ng-click="addException()"><i class="fa fa-attendance"
+            style="font-size:15px;color:red"></i>&nbsp;Add&nbsp;<span class="glyphicon glyphicon-plus"></span></button>
+      </div>
+    </div>
+
+    <p></p>
+
+
+    <button class="btn btn-success" ng-click="refreshData()">
+      <!-- <i class="fa fa-attendance" style="font-size:15px;color:red"></i>&nbsp;
+      Present<span
+        class="glyphicon glyphicon-ok"></span> -->
+        Present
+      </button>
+
+    <button class="btn btn-danger" id="markAbsBtn" ng-click="deleteData()">Mark Absent
+      <!-- <span class="glyphicon glyphicon-remove"></span> -->
+    </button>
+    <!-- <button class="btn btn-default" id="msgBtn2" ng-click="markAbsBtnHover()"><span class="glyphicon glyphicon-question-sign"></span></button> -->
+
+    <div class="col-md-2">
+      <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="fdt" is-open="openedF" min-date="minDate"
+          max-date="dtmax" datepicker-options="dateOptions" ng-change="changeSelectF(fdt)" date-disabled="disabled(date, mode)"
+          ng-required="true" close-text="Close" />
+        <span class="input-group-btn">
+
+          <button type="button" class="btn btn-default" ng-click="openF($event)">
+            <i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
+    </div>
+
+    <div class="col-md-3">
+      <div class="form-group">
+        <div ng-show="showErrorForActivitySelectionBeingNul" class="alert alert-danger">
+          <strong>Error!</strong>Please select a valid Activity from drop down
+        </div>
+
+        <select class="btn btn-default" id="activityDrDwn" ng-model="selectedNameOfActivity" ng-change="changeActivity()" ng-options="nameOfActivity for nameOfActivity in namesOfActivity">
+        </select>
+
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="form-group">
+        <input placeholder="Search" id="searchTextBox" class="form-control" ng-model="searchAttendanceGrid"
+          ng-change="detectSearchText()" />
+      </div>
+    </div>
+
+    <div ng-hide="true" class="col-md-2">
+      <div class="form-group">
+
+        <input placeholder="Search by name"  id="searchTextBoxFirstNames" class="form-control" ng-model="searchAttendanceGridName"
+          ng-change="detectSearchTextName()" />
+
+      </div>
+
+    </div>
+
+
+
+    <div ng-show="toggleAttGrid" class="panel-body">
+      <div class="panel panel-default">
+        <div class="panel-heading">&nbsp;<span class="glyphicon glyphicon-ok-circle">&nbsp;</span>
+        </div>
+        <div ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions1" class="gridc1"
+          ui-grid-auto-resize>
+          <div class="watermark" ng-show="!gridOptions.data.length">No data in the present list</div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div ng-show="toggleMainGrid" class="panel-body">
+      <div>
+        <div ng-show="!levelOneUserLoggedIn && showPrivilageError" class="alert alert-danger">
+          <strong>Access denied!!</strong>Not enough privilaged to act.
+        </div>
+        <div class="panel panel-success">
+          <div class="panel-heading">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span>
+          </div>
+          <div id="gridDiv" ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions"
+            class="grid1" ui-grid-edit ui-grid-row-edit ui-grid-cellNav ui-grid-auto-resize>
+            <div class="watermark" ng-show="!gridOptions.data.length">Loading data if available </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

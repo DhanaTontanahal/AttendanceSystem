@@ -1,0 +1,4 @@
+define([
+    './usSpinner',
+    './dialogHere'
+], function () {});
