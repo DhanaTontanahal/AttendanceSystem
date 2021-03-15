@@ -1,1 +1,1819 @@
-var _0x4816=['levelTwoUserLoggedIn','$loaded','countChildrenbelow18Male','showCountDialog','loadBranchCodesOnly','columnChanged','.\x20file</strong><br>','showErrorForActivitySelectionBeingNul','ChildrnLesDnFtnThisBrnchLadies','failureFunc','</td><td><b>','autocomplete-items','getData','nameSatsangi','getTheAutoCompleteData','Children\x20below\x2015','jigOtherBrnchGents','uiGridExporterService','$log','showMarkAttOfflineMsg','dateKeysCountNumber','openDetails','isUserAlreadyMarkedPresent','totalChildrenn','left','uploadedFile','indexForRS','exportPdf','UTF-8','preventDefault','changeActivity','text','open','markAttTv','counter','Branch','countForTodayLoad','Cat','currentUser','The\x20files\x20property\x20is\x20not\x20supported\x20by\x20your\x20browser!','exception','showMarkAttAsAbsMsg','getElementById','BhandaraPresentsFrThisBrCode','dateKeysForNightDuty','isLoading','satsangiUsers','November','toString','filterChanged','Female','WindupPresentsFrThisBrCode','Last\x202\x20months','countSUSchemePhase1Male','TemplateBase64','update\x20gender','hrsa03gurgaon@gmail.com','showPrivilageError','HoliArtiPresentsFrThisBrCode','markDepsAbsent','index','getMonth','searchTextBoxFirstNames','sortBy','succCapture','myFile','dateKeysForWindUp','openCentral','toggleAttGrid','json','$http','generateRefreshSummary','matchScore','dateKeysForEveningCleaning','countSUSchemePhase1','SUSchemeCategories','selectedNameOfActivity','autoCompleteArrray','nextWeekSunday','dateKeysForDailySatsangEvening','markPlusPresents','stopPropagation','datePresent','promise','loadCountForToday','dd-MMMM-yyyy','biometricId','options','resetTvDefaults','appendChild','succMatch','dateKeysForHelpdeskBhandara','message','gridDiv','jigThisBrnchGents','alreadyPresent','&apid=9198&text=','ggauravkapoor81@gmail.com','blueOne','target','dobYear','countSUSchemePhase2','Evening\x20Cleaning','Category','E-Satsang','Pune','data:image/bmp;base64,','querySelectorAll','September','UID','email','totalHeadCountForTheDay','gridApi1','uploadAttendance','exceptions/','searchTextBox','getData1','WeeklyCleaningPresentsFrThisBrCode','Last\x206\x20months','POST','Time\x20Taken\x20','getFullYear','June','onmousedown','messages1','activitySummaryBybranchCode','trim','getDay','\x20bytes\x20<br>','markAbsBtnHover','markTvPresent','autocomplete-list','countSUSchemePhase1Female','getItem','countOtherMale','phase_1','Holi\x20Bhandara','child','</b></td></tr>','fadeIn','SatsangiName','getElementsByClassName','contextmenu','gender','February','openedT','autocomplete-active','columns','clientX','exportCsv','dd-MM-yyyy','NOTE:\x20To\x20Mark\x20Attendace\x20:\x20Refresh\x20the\x20page\x20and\x20start\x20typing\x20the\x20names\x20,\x20Select\x20the\x20names,\x20Hit\x20Enter\x20button\x20or\x20as\x20an\x20alternate\x20CLick\x20Present\x20Button\x20to\x20mark\x20attendance','Jigyasu','satsangi@ams.com','template1=','dateKeysForBranchSpecialSatsang','removeData','includes','ESatsangPresentsFrThisBrCode','satsangiUsersAttendanceRef','BasantBhandaraEveningPresentsFrThisBrCode','Other','admin@ams.com','jigThisBrnchLadies','messages','click','enableCellEdit','October','blue','autoCompleteArrayNames','defer','Copy\x20Unit','$save','clearSelectedRows','setDate','ALL','AuthService','getActivitiesData','forEach','showTvEntry','$apply','seth.shubhangi28@gmail.com','top','indexOfSelectedRec','<br><strong>','initiatedOtherBrnchLadies','Male','loadDetailsPerActivityAndBrCd','innerHTML','searchAttendanceGridName','attendanceForThisData','showmarkAttendanceButton','./module','branchName','dateKeysForBranchEveningSatsang','Select','\x20Seconds','$firebaseObject','remove','Bhandara','bshubhanka@gmail.com','decrementCounter','child_added','mukesh.dei90@gmail.com','datesPresentArray','auth','showHideVirtualGrid','countSUSchemePhase2Male','barCode','element','markattendanceCtrl','ErrorCode','SntsuPh1OtherBrnchGents','ISO','Arti','markAttOfflineMsg','phase_2','getElementsByTagName','files','countJigyasuMale','showUploadFile','result','hittingEnter','showTodaysCountPresent','rowEdit','generateSummary','showHideExceptionDiv','</b></td><td>','dateKeysForHoliBhandara','namesOfActivity','$firebaseArray','</strong>','searchAttendanceGrid','$timeout','countOtherAll','dateKeysForMorningCleaning','Night\x20Duty','scanBioMetricsAndMatch','DOB','size:\x20','branchCodeSelected','keydown','SntsuPh2ThisBrnchLadies','initiatedThisBrnchGents','&template2=','editOrUpdateTheUserGenders','Temporary\x20visitor\x20atttendace\x20marked\x20successfully.','tdt','dateKeys','Name','ritukhanna77@gmail.com','addNwRc','regionName','countOtherFemale','nameSatsangiSelected','Branch\x20Special\x20Satsang','temporary','currentLevelUser','editOrUpdateTheUserDOBYears','reset','openF','sendSMS','Windup','satsangiUsers-attendance','level3@ams.com','getAttendance','disableDecrementAttendanceFlag','timeFromtheSelectedDate','activitiesFromServer','set','removeChild','date','addAttendance','suscheme','Region','$rootScope','levelThreeUserLoggedIn','gridApi','searchfrbc','filteredRows','uiGridConstants','core','getRowIndex','database','update','permanant','userAttendanceLabel','jigOtherBrnchLadies','size','stringify','parentNode','dateKeysForDailySatsangMorning','abs','GridchildData','SntsuPh2OtherBrnchGents','event','sortChanged','Morning\x20Cleaning','April','keyCode','gotoExportExcel','body','OtherthanInitJigThisBrnchGents','https://amsrss-a0102.firebaseapp.com','dateKeysForMahilaAssociation','ChildrnLesDnFtnOtherBrnchGents','countInitiatedMale','dtmax','dateKeysForYouthPath','checkIfTheuserisAlreadyMarkedPresent','changeSelectT','dateKeysForHelpdeskAarti','1989','clearFilters','showGenSum','/satsangiUsers-attendance/','SntsuPh1ThisBrnchLadies','ChildrnLesDnFtnThisBrnchGents','gotoTV','visibleRowCache','levelOneUserLoggedIn','substr','floor','dateKeysForBagUnit','entity','addEventListener','uiGridExporterConstants','onmousemove','showHideMainGrid','OtherthanInitJigOtherBrnchGents','selection','valueNumMarkAtt','grid','header','key','input','getGridDataObjectForSelection','Basant\x20Arti','multiSelect','dateKeysForMedicalCamp','indexOf','clearFiltersTDS','uid','selectedfilterSel','uncheckFirst','BranchMorningSatsangPresentsFrThisBrCode','dateKeysForBhandara','substring','child_changed','nextWeekMonday','toUpperCase','deleteData','BranchSpecialSatsangPresentsFrThisBrCode','level1@ams.com','resolveUser','HoliBhandaraPresentsFrThisBrCode','ajax','/satsangiUsers/','unCheckMarkedForThisDate','January','licstr=','checkAttendanceForTheInputOnDate','activityName','Name\x20/\x20S.NO\x20/\x20UID\x20can\x27t\x20be\x20empty\x20.\x20Please\x20enter\x20the\x20Name\x20/\x20S.NO\x20/\x20UID\x20details\x20.','pdfExport','edit','checked','loadDetailsPerBrCd','MorningCleaningPresentsFrThisBrCode','signedIn','split','renderContainers','getTheExtractedBranchCode','activityType','length','add','totalJigyasu','classList','countJigyasuFemale','filter','display','$location','markPresBtnHover','$id','eSatsangDatesPrsentNumber','suSchemePhaseType','columnVisibilityChanged','controller','changeSelectF','totalInitiated','prototype','rowIsSelected','NOTE:\x20To\x20Mark\x20Attendace\x20Offline:\x20Enter\x20the\x20UIDs\x20in\x20notepad\x20and\x20upload\x20the\x20File,\x20Download/Check\x20Sample\x20File\x20for\x20reference\x20format.\x20','BranchEveningSatsangPresentsFrThisBrCode','allBranchCodeList','dateKeysForBasantBhandara','dateKeysForESatsang','OtherthanInitJigThisBrnchLadies','dateKeysForAarti','getDBReference','initiatedThisBrnchLadies','<strong>','chatMessages','http://5.9.0.178:8000/Sendsms?user=DHANA&password=123456&sender=NTRYNS&dest=','limitToValue','dragggableSummary','Basant\x20Bhandara','addException','push','Bag\x20Unit','<tr\x20class=\x22anim\x20highlight\x22><td><b>','totalItemsMarkAtt','dragggableSummaryheader','setSavePromise','colDef','showHideToggleGridButtons','BagUnitPresentsFrThisBrCode','EveningCleaningPresentsFrThisBrCode','setAttribute','csvExport','assignDatatoGrid1','countChildrenbelow18Female','rowSelectedEntity','Weekly\x20Cleaning','July','clientY','name','openT','assignDatatoGrid','onload','saveRow','showTodaysCountForCopy','random','$value','parse','update\x20dobyear','dateKeysForCopyUnit','map','branchCode','getDate','fpimage','slow','Branch\x20Evening\x20Satsang','SntsuPh1ThisBrnchGents','CopyUnitPresentsFrThisBrCode','ArtiPresentsFrThisBrCode','deps','dateKeysForBranchMorningSatsang','SntsuPh2OtherBrnchLadies','offsetTop','immediateBranchCode','SELECT','Gender','data','Initiated','clearAllFilters','resolve','keyup','getTime','null','toggleMainGrid','addClass','initiatedOtherBrnchGents','childAtts','failFunc','result1','BasantArtiPresentsFrThisBrCode','showMarkAttAsPresMsg','thisOneRecodg','DIV','</div>','toggleExceptionDiv','sortDate','fdt','/ssexportexcel','src','refreshData','beginCellEdit','value','once','<input\x20type=\x27hidden\x27\x20value=\x27','countSUSchemePhase2Female','Error\x20Scanning\x20Fingerprint\x20ErrorCode\x20=\x20','NightDutyPresentsFrThisBrCode','Holi\x20Arti','childData','attendanceForThisDataGlobal','updated\x20if\x20initiated/jigyasu/other','NOTE:\x20To\x20Mark\x20Attendace\x20as\x20Absent:\x20Place\x20the\x20Uid\x20from\x20Grid\x20first\x20Text\x20box\x20,\x20Then\x20click\x20Mark\x20Absent\x20Button','OtherthanInitJigOtherBrnchLadies','getNextWeekMonday','gridOptions1','kavya.rawat108@gmail.com','style','normal','path','Children\x20below\x2018','openedF','/temporaryVisitors','activitiesService','contactNum','toggleVirtualGrid','$filter','Please\x20scan\x20two\x20fingers\x20to\x20verify!!','level2@gmail.com','orderByChild','val','div','gridOptions','setItem','Branch\x20Morning\x20Satsang','myFile.csv','satsangiUsers/','selectRow','https://localhost:8000/SGIFPCapture','Select\x20one\x20or\x20more\x20files.','frBrnchCode','linked','selectedNameOfActivityGlobal','barcodeInptTxtBx','name:\x20','createElement','ref','currentSelectedActivityTypeForRightSideGrid','satsangiUsers-attendance/','handleSuSchemeSelection','PRESENT','editOrUpdateTheUserCategorySelected','getVisibleRows','childKey','checkForMarkedPresent','onmouseup','autoCompleteLinkedArray','then','none','dateKeysForBasantArti','filtersSels','districtName','log','showHideAttGrid','getNextWeekSunday','dateKeysForCleaningSewa','todaysCountValue','limitToLast','lpsharma9@yahoo.co.in','saveAttendanceOfflineToDB','dateValue','$scope','category','columns1','toggleToolButton','showBioMetricSpace','rowSelectionChanged','onRegisterApi','hide','December','BMPBase64'];(function(_0x2c8fac,_0x48163c){var _0x573a5c=function(_0xbf960c){while(--_0xbf960c){_0x2c8fac['push'](_0x2c8fac['shift']());}};_0x573a5c(++_0x48163c);}(_0x4816,0x11f));var _0x573a=function(_0x2c8fac,_0x48163c){_0x2c8fac=_0x2c8fac-0x0;var _0x573a5c=_0x4816[_0x2c8fac];return _0x573a5c;};define([_0x573a('0x1ce')],function(_0x387b33){'use strict';_0x387b33[_0x573a('0x64')](_0x573a('0x1e0'),[_0x573a('0x226'),_0x573a('0xd4'),_0x573a('0x1d3'),'$q',_0x573a('0x5e'),_0x573a('0x1f4'),_0x573a('0xd7'),_0x573a('0x11f'),_0x573a('0x27'),_0x573a('0x1be'),_0x573a('0x221'),_0x573a('0x104'),_0x573a('0x154'),_0x573a('0x120'),_0x573a('0x1f7'),'uiGridConstants','$templateCache','$interval',_0x573a('0x73'),function(_0x23cd7b,_0x27e8df,_0x35b0b1,_0x477df3,_0x5960f1,_0x105bd4,_0x137b4b,_0x218465,_0x354216,_0x1c13b9,_0x5cab0f,_0x582574,_0x3b7ac7,_0x517eac,_0x1b9e71,_0x1afafc,_0x545c00,_0x46abd8,_0x294e8c){_0x29b889(document[_0x573a('0x138')](_0x573a('0x76')));function _0x29b889(_0x40efa5){var _0x4e540=0x0,_0x3c8d55=0x0,_0x1ac903=0x0,_0x96da48=0x0;if(document[_0x573a('0x138')](_0x40efa5['id']+_0x573a('0x2e'))){document[_0x573a('0x138')](_0x40efa5['id']+_0x573a('0x2e'))[_0x573a('0x189')]=_0x1dbfdd;}else{_0x40efa5[_0x573a('0x189')]=_0x1dbfdd;}function _0x1dbfdd(_0x2bc2bc){_0x2bc2bc=_0x2bc2bc||window[_0x573a('0x8')];_0x2bc2bc[_0x573a('0x12b')]();_0x1ac903=_0x2bc2bc[_0x573a('0x1a2')];_0x96da48=_0x2bc2bc['clientY'];document[_0x573a('0xf4')]=_0x5e1abf;document[_0x573a('0x28')]=_0x533ac4;}function _0x533ac4(_0x239d8a){_0x239d8a=_0x239d8a||window['event'];_0x239d8a[_0x573a('0x12b')]();_0x4e540=_0x1ac903-_0x239d8a[_0x573a('0x1a2')];_0x3c8d55=_0x96da48-_0x239d8a[_0x573a('0x8a')];_0x1ac903=_0x239d8a['clientX'];_0x96da48=_0x239d8a[_0x573a('0x8a')];_0x40efa5[_0x573a('0xce')][_0x573a('0x1c4')]=_0x40efa5[_0x573a('0xa2')]-_0x3c8d55+'px';_0x40efa5[_0x573a('0xce')][_0x573a('0x126')]=_0x40efa5['offsetLeft']-_0x4e540+'px';}function _0x5e1abf(){document[_0x573a('0xf4')]=null;document[_0x573a('0x28')]=null;}}_0x582574['dataCleanup']=function(){firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0x215'))['remove']();};_0x582574[_0x573a('0x108')]=![];_0x582574['showBioMetri']=function(){_0x582574['showBioMetricSpace']=!_0x582574[_0x573a('0x108')];};var _0x38f8da;var _0x323c3f;_0x582574[_0x573a('0x164')]='';var _0x36790b='';var _0x1eb5df='';_0x582574[_0x573a('0x1fb')]=function(_0x5209ab){_0x582574[_0x573a('0x13c')]=firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0x13c'));_0x582574[_0x573a('0x13c')]['on']('value',function(_0x8068b){_0x582574[_0x573a('0x16d')]=![];if(_0x8068b[_0x573a('0xdb')]()!=null){_0x8068b[_0x573a('0x1c0')](function(_0x1163cf){var _0x3afa7c=_0x1163cf[_0x573a('0xdb')]();if(_0x3afa7c[_0x573a('0x164')]!==undefined||typeof _0x3afa7c[_0x573a('0x164')]!=='undefined'){_0x36790b=_0x3afa7c[_0x573a('0x164')];_0x1eb5df=_0x5209ab;_0x582574[_0x573a('0x156')](_0x3afa7c);}});}});return _0x582574[_0x573a('0x16d')];};_0x582574[_0x573a('0x14e')]=function(_0x42f096){_0x323c3f=new Date();var _0x385110=Math[_0x573a('0x5')](_0x38f8da-_0x323c3f);var _0x2f4c41=_0x385110/0x3e8;if(_0x42f096[_0x573a('0x1e1')]==0x0){if(_0x42f096!=null&&_0x42f096['BMPBase64'][_0x573a('0x57')]>0x0){document[_0x573a('0x138')](_0x573a('0x99'))[_0x573a('0xbc')]=_0x573a('0x178')+_0x42f096[_0x573a('0x10d')];}_0x36790b=_0x42f096[_0x573a('0x144')];_0x1eb5df=_0x42f096[_0x573a('0x144')];document[_0x573a('0x138')](_0x573a('0xb2'))[_0x573a('0x1ca')]=_0x573a('0x186')+_0x2f4c41+_0x573a('0x1d2');}else{alert(_0x573a('0xc3')+_0x42f096[_0x573a('0x1e1')]);}};_0x582574[_0x573a('0x117')]=function(_0x2e8708){};_0x582574['fpCapture']=function(){var _0x5a0e30=_0x573a('0xe3');var _0x24716e=_0x573a('0x49');_0x38f8da=new Date();$[_0x573a('0x45')]({'url':_0x5a0e30,'type':_0x573a('0x185'),'cache':![],'data':_0x24716e,'dataType':_0x573a('0x153'),'success':function(_0x199537){_0x582574[_0x573a('0x14e')](_0x199537);_0x582574[_0x573a('0x164')]=_0x199537[_0x573a('0x144')];var _0x3f23a2=_0x582574[_0x573a('0x164')];_0x582574[_0x573a('0x1fb')](_0x3f23a2);},'error':function(_0x51a47c,_0x5eedd7,_0x2f4f88){_0x582574[_0x573a('0xb1')](_0x2f4f88);}});};_0x582574[_0x573a('0x168')]=function(_0x11f67e,_0x5a5e5e){if(_0x11f67e['ErrorCode']==0x0&&_0x11f67e['MatchingScore']>0x7d){_0x582574[_0x573a('0xb5')]=_0x5a5e5e['nameSatsangi'];var _0xa6c24e=_0x5a5e5e;_0x5964fc(0x0,'',_0x573a('0x22b'),_0x573a('0x14a'),_0xa6c24e['uid'],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0xa6c24e[_0x573a('0x37')],_0xa6c24e[_0x573a('0x11b')],_0xa6c24e['gender'],_0xa6c24e[_0x573a('0x105')],_0xa6c24e['dobYear'],0x7e4-_0xa6c24e['dobYear'],_0xa6c24e[_0x573a('0x1cf')],_0xa6c24e[_0x573a('0xfa')],_0xa6c24e[_0x573a('0x20a')],_0xa6c24e['suscheme']);_0x5e88a7(0x0,'',_0xa6c24e[_0x573a('0x11b')],_0x573a('0x22b'),_0x573a('0x14a'),_0xa6c24e[_0x573a('0x37')],_0x582574[_0x573a('0x1cc')],_0x582574['selectedNameOfActivity'],_0xa6c24e[_0x573a('0x97')],_0xa6c24e[_0x573a('0x19d')],_0xa6c24e['category'],_0xa6c24e[_0x573a('0x172')],0x7e4-_0xa6c24e[_0x573a('0x172')],_0xa6c24e[_0x573a('0x1cf')],_0xa6c24e[_0x573a('0xfa')],_0xa6c24e[_0x573a('0x20a')],_0xa6c24e['suscheme']);_0x582574[_0x573a('0x1c2')]();}};_0x582574['failFunc']=function(){return;};_0x582574[_0x573a('0xb5')]='';_0x582574[_0x573a('0x156')]=function(_0x45d0a0){if(_0x36790b==''||_0x1eb5df==''){alert(_0x573a('0xd8'));return;}var _0x3450f9='https://localhost:8000/SGIMatchScore';var _0x21595d=_0x573a('0x1a8')+encodeURIComponent(_0x36790b);_0x21595d+=_0x573a('0x202')+encodeURIComponent(_0x1eb5df);_0x21595d+=_0x573a('0x49');_0x21595d+='&templateFormat='+_0x573a('0x1e3');$[_0x573a('0x45')]({'url':_0x3450f9,'type':_0x573a('0x185'),'cache':![],'data':_0x21595d,'dataType':_0x573a('0x153'),'success':function(_0x18cf4c){_0x582574[_0x573a('0x168')](_0x18cf4c,_0x45d0a0);},'error':function(_0x15b66e,_0x3b49c0,_0x45ecdd){_0x582574[_0x573a('0xb1')](_0x45ecdd);}});};_0x582574[_0x573a('0x137')]={'value':![],'message':''};_0x582574[_0x573a('0x18f')]=function(){_0x582574[_0x573a('0x137')][_0x573a('0xbf')]=!![];_0x582574['showMarkAttAsAbsMsg'][_0x573a('0x16a')]=_0x573a('0xc9');setTimeout(function(){_0x582574[_0x573a('0x137')][_0x573a('0xbf')]=![];_0x582574['showMarkAttAsAbsMsg'][_0x573a('0x16a')]='';},0x2710);};_0x582574[_0x573a('0x121')]={'value':![],'message':''};_0x582574[_0x573a('0x1e5')]=function(){_0x582574[_0x573a('0x121')][_0x573a('0xbf')]=!![];_0x582574[_0x573a('0x121')]['message']=_0x573a('0x69');setTimeout(function(){_0x582574[_0x573a('0x121')]['value']=![];_0x582574['showMarkAttOfflineMsg'][_0x573a('0x16a')]='';},0x2710);};_0x582574[_0x573a('0xb4')]={'value':![],'message':''};_0x582574[_0x573a('0x5f')]=function(){_0x582574[_0x573a('0xb4')][_0x573a('0xbf')]=!![];_0x582574[_0x573a('0xb4')][_0x573a('0x16a')]=_0x573a('0x1a5');setTimeout(function(){_0x582574['showMarkAttAsPresMsg'][_0x573a('0xbf')]=![];_0x582574['showMarkAttAsPresMsg'][_0x573a('0x16a')]='';},0x2710);};_0x582574[_0x573a('0xd5')]='';_0x582574[_0x573a('0x1ea')]=![];_0x582574[_0x573a('0x1c1')]={'value':![]};_0x582574['tv']={'Name':'','BranchName':_0x573a('0x1af'),'UID':'','Gender':'Male','DOB':_0x573a('0x19'),'Cat':_0x573a('0xa7'),'su':'NA','Region':'Other','District':'Other','Branch':Math[_0x573a('0x23')](Math[_0x573a('0x91')]()*0x2710+0x1)};_0x582574[_0x573a('0x159')]=['NA','phase_1',_0x573a('0x1e6')];_0x582574[_0x573a('0x203')]=[_0x573a('0x1c8'),_0x573a('0x140'),_0x573a('0x1af')];_0x582574[_0x573a('0xf0')]=[_0x573a('0xa7'),_0x573a('0x1a6'),_0x573a('0xd1'),'Other'];_0x582574['editOrUpdateTheUserDOBYears']=[];let _0x241f22=0x79e;for(var _0x130aa0=0x0;_0x130aa0<=0xc8;_0x130aa0++){_0x241f22=_0x241f22+0x1;_0x582574[_0x573a('0x210')]['push'](_0x241f22);}_0x582574[_0x573a('0x62')]={'value':''};_0x582574[_0x573a('0xee')]=function(){_0x582574['suSchemePhaseType'][_0x573a('0xbf')]=_0x582574[_0x573a('0x62')]['value'];};_0x582574[_0x573a('0x12f')]=function(){_0x582574[_0x573a('0x1c1')][_0x573a('0xbf')]=!_0x582574['showTvEntry'][_0x573a('0xbf')];};_0x582574[_0x573a('0x213')]=function(){var _0x40c32e=_0x582574['contactNum'];var _0x4ca771=_0x582574[_0x573a('0x13')];_0x582574['logurl']=_0x573a('0x74')+_0x40c32e+_0x573a('0x16e')+_0x4ca771+'&dcs=0';alert('Opening\x20new\x20tab\x20Please\x20close\x20it\x20after\x20the\x20task\x20is\x20completed\x20,\x20Hit\x20Enter\x20button\x20or\x20else\x20automatically\x20The\x20SMS\x20will\x20be\x20sent\x20successfully.');window[_0x573a('0x12e')](_0x582574['logurl']);};_0x582574[_0x573a('0x166')]=function(){_0x582574['tv']={'Name':'','BranchName':_0x573a('0x1af'),'Branch':Math[_0x573a('0x23')](Math['random']()*0x2710+0x1),'UID':'','Gender':'Male','DOB':_0x573a('0x19'),'Cat':_0x573a('0xa7'),'su':'NA','Region':_0x573a('0x1af'),'District':_0x573a('0x1af')};_0x582574[_0x573a('0x12f')]();};_0x582574[_0x573a('0x190')]=function(){_0x582574['tv'][_0x573a('0x17b')]=_0x582574['tv'][_0x573a('0x207')]+_0x582574['tv']['Branch'];if(_0x582574['tv'][_0x573a('0x207')]===''||_0x582574['tv'][_0x573a('0x207')]==undefined||_0x582574['tv'][_0x573a('0x207')]==null||_0x582574['tv'][_0x573a('0x17b')]===''||_0x582574['tv'][_0x573a('0x17b')]==undefined||_0x582574['tv']['UID']==null||_0x582574['tv'][_0x573a('0x131')]===''||_0x582574['tv'][_0x573a('0x131')]==undefined||_0x582574['tv'][_0x573a('0x131')]==null){alert(_0x573a('0x4c'));return;}_0x5964fc(0x0,'',_0x573a('0x20e'),_0x573a('0x14a'),_0x582574['tv'][_0x573a('0x17b')],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x582574['tv'][_0x573a('0x17b')],_0x582574['tv'][_0x573a('0x207')],_0x582574['tv'][_0x573a('0xa5')],_0x582574['tv'][_0x573a('0x133')],_0x582574['tv']['dobYear'],0x7e4-_0x582574['tv'][_0x573a('0x1fc')],_0x582574['tv'][_0x573a('0x131')],_0x582574['tv']['District'],_0x582574['tv'][_0x573a('0x220')],_0x582574['tv']['su']);_0x5e88a7(0x0,'',_0x582574['tv']['Name'],_0x573a('0x20e'),_0x573a('0x14a'),_0x582574['tv'][_0x573a('0x17b')],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x582574['tv'][_0x573a('0x131')],_0x582574['tv'][_0x573a('0xa5')],_0x582574['tv'][_0x573a('0x133')],_0x582574['tv'][_0x573a('0x1fc')],0x7e4-_0x582574['tv']['DOB'],_0x582574['tv'][_0x573a('0x131')],_0x582574['tv']['District'],_0x582574['tv'][_0x573a('0x220')],_0x582574['tv']['su']);alert(_0x573a('0x204'));_0x582574['resetTvDefaults']();_0x582574[_0x573a('0x155')]();};_0x582574[_0x573a('0x17f')]=function(){_0x582574[_0x573a('0x1ea')]=!_0x582574[_0x573a('0x1ea')];};_0x582574[_0x573a('0x102')]=function(){var _0x2ae719=document[_0x573a('0x138')](_0x573a('0x14f'));var _0x24828f='';if(_0x573a('0x1e8')in _0x2ae719){if(_0x2ae719[_0x573a('0x1e8')][_0x573a('0x57')]==0x0){_0x24828f=_0x573a('0xe4');}else{for(var _0x5c8fc8=0x0;_0x5c8fc8<_0x2ae719[_0x573a('0x1e8')][_0x573a('0x57')];_0x5c8fc8++){_0x24828f+=_0x573a('0x1c6')+(_0x5c8fc8+0x1)+_0x573a('0x114');var _0x57ad4b=_0x2ae719['files'][_0x5c8fc8];if(_0x57ad4b){var _0x2ec800=new FileReader();_0x2ec800['readAsText'](_0x57ad4b,_0x573a('0x12a'));_0x2ec800[_0x573a('0x8e')]=function(_0x4b1dea){var _0x502569=_0x4b1dea['target'][_0x573a('0x1eb')];var _0x1dabfe=_0x502569[_0x573a('0x53')](',');_0x1dabfe[_0x573a('0x96')](function(_0x2f9d66,_0x317870){const _0x5c86be=JSON[_0x573a('0x93')](localStorage[_0x573a('0x193')](_0x573a('0x37')+_0x2f9d66[_0x573a('0x18c')]()));_0x5964fc(0x0,'','permanant',_0x573a('0x14a'),_0x5c86be['uid'],_0x582574['attendanceForThisData'],_0x582574['selectedNameOfActivity'],_0x5c86be['uid'],_0x5c86be['nameSatsangi'],_0x5c86be[_0x573a('0x19d')],_0x5c86be[_0x573a('0x105')],_0x5c86be[_0x573a('0x172')],0x7e4-_0x5c86be['dobYear'],_0x5c86be['branchName'],_0x5c86be[_0x573a('0xfa')],_0x5c86be['regionName'],_0x5c86be[_0x573a('0x21f')]);_0x5e88a7(0x0,'',_0x5c86be[_0x573a('0x11b')],_0x573a('0x22b'),_0x573a('0x14a'),_0x5c86be['uid'],_0x582574[_0x573a('0x1cc')],_0x582574['selectedNameOfActivity'],_0x5c86be[_0x573a('0x97')],_0x5c86be[_0x573a('0x19d')],_0x5c86be['category'],_0x5c86be['dobYear'],0x7e4-_0x5c86be[_0x573a('0x172')],_0x5c86be[_0x573a('0x1cf')],_0x5c86be[_0x573a('0xfa')],_0x5c86be[_0x573a('0x20a')],_0x5c86be[_0x573a('0x21f')]);});};}if('name'in _0x57ad4b){_0x24828f+=_0x573a('0xe9')+_0x57ad4b[_0x573a('0x8b')]+'<br>';}if(_0x573a('0x1')in _0x57ad4b){_0x24828f+=_0x573a('0x1fd')+_0x57ad4b['size']+_0x573a('0x18e');}}}}else{if(_0x2ae719[_0x573a('0xbf')]==''){_0x24828f+=_0x573a('0xe4');}else{_0x24828f+=_0x573a('0x135');_0x24828f+='<br>The\x20path\x20of\x20the\x20selected\x20file:\x20'+_0x2ae719[_0x573a('0xbf')];}}document['getElementById'](_0x573a('0x127'))[_0x573a('0x1ca')]=_0x24828f;};_0x582574['showUploadFileFunction']=function(){};_0x582574['namesOfActivity']=[];_0x582574[_0x573a('0x15a')]=_0x573a('0x1d1');_0x582574[_0x573a('0x21a')]=_0x27e8df;_0x582574[_0x573a('0x1bf')]=function(){_0x582574[_0x573a('0x21a')][_0x573a('0x10f')]();};_0x582574[_0x573a('0x1bf')]();setTimeout(function(){for(var _0x2b98ec=0x0;_0x2b98ec<_0x582574['activitiesFromServer'][_0x573a('0x57')];_0x2b98ec++){_0x582574[_0x573a('0x1c2')]();}},0x1388);barCodeInput[_0x573a('0x26')](_0x573a('0x1ff'),function(_0x34fc4a){if(_0x34fc4a[_0x573a('0xc')]==0xd){const _0x4bf532=JSON[_0x573a('0x93')](localStorage[_0x573a('0x193')](_0x573a('0x37')+_0x582574[_0x573a('0x1de')]));if(_0x4bf532[_0x573a('0x9f')]==null||_0x4bf532[_0x573a('0x9f')]==undefined){_0x4bf532[_0x573a('0x9f')]='';}_0x5964fc(0x0,_0x4bf532['deps'],_0x573a('0x22b'),_0x573a('0x14a'),_0x4bf532[_0x573a('0x37')],_0x582574['attendanceForThisData'],_0x582574['selectedNameOfActivity'],_0x4bf532[_0x573a('0x97')],_0x4bf532['nameSatsangi'],_0x4bf532[_0x573a('0x19d')],_0x4bf532[_0x573a('0x105')],_0x4bf532[_0x573a('0x172')],0x7e4-_0x4bf532['dobYear'],_0x4bf532[_0x573a('0x1cf')],_0x4bf532[_0x573a('0xfa')],_0x4bf532[_0x573a('0x20a')],_0x4bf532['suscheme']);_0x5e88a7(0x0,_0x4bf532[_0x573a('0x9f')],_0x4bf532[_0x573a('0x11b')],_0x573a('0x22b'),_0x573a('0x14a'),_0x4bf532['uid'],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x4bf532[_0x573a('0x97')],_0x4bf532[_0x573a('0x19d')],_0x4bf532[_0x573a('0x105')],_0x4bf532[_0x573a('0x172')],0x7e4-_0x4bf532[_0x573a('0x172')],_0x4bf532[_0x573a('0x1cf')],_0x4bf532[_0x573a('0xfa')],_0x4bf532[_0x573a('0x20a')],_0x4bf532[_0x573a('0x21f')]);_0x582574[_0x573a('0x1de')]='';}});_0x582574[_0x573a('0x111')]=function(){};_0x582574[_0x573a('0x68')]=![];_0x582574[_0x573a('0x87')]={};_0x582574[_0x573a('0x130')]=0x0;_0x582574[_0x573a('0x7c')]={'valueNumMarkAtt':0x0};_0x582574[_0x573a('0x1d7')]=0x0;_0x582574[_0x573a('0x218')]={'value':!![]};_0x582574[_0x573a('0x149')]=function(_0x4e4a0a){_0x582574[_0x573a('0x1ed')]=![];if(_0x4e4a0a[_0x573a('0xb0')]-0x1<0x0){return;}_0x582574['decrementCounter']=_0x4e4a0a[_0x573a('0xb0')]-0x1;_0x5964fc(_0x4e4a0a[_0x573a('0xb0')]-0x1,_0x4e4a0a[_0x573a('0xe6')],_0x4e4a0a[_0x573a('0x128')],_0x4e4a0a[_0x573a('0x14a')],_0x4e4a0a['$id'],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x4e4a0a[_0x573a('0x97')],_0x4e4a0a[_0x573a('0x11b')]);_0x5e88a7(_0x4e4a0a[_0x573a('0xb0')]-0x1,_0x4e4a0a[_0x573a('0xe6')],_0x4e4a0a[_0x573a('0x11b')],_0x4e4a0a[_0x573a('0x128')],_0x4e4a0a[_0x573a('0x14a')],_0x4e4a0a[_0x573a('0x60')],_0x582574[_0x573a('0x1cc')],_0x582574['selectedNameOfActivity'],_0x4e4a0a[_0x573a('0x97')]);_0x582574[_0x573a('0x1d7')]=0x0;_0x582574[_0x573a('0x155')]();};_0x582574[_0x573a('0x15e')]=function(_0x1d77f5){_0x582574[_0x573a('0x1ed')]=![];if(_0x1d77f5[_0x573a('0xb0')]==undefined){_0x582574['counter']=0x0;_0x582574[_0x573a('0x130')]=_0x582574[_0x573a('0x130')]+0x1;}else{_0x582574[_0x573a('0x130')]=_0x1d77f5[_0x573a('0xb0')]+0x1;}_0x5964fc(_0x582574[_0x573a('0x130')],_0x1d77f5['linked'],_0x1d77f5[_0x573a('0x128')],_0x1d77f5['index'],_0x1d77f5['$id'],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x1d77f5['branchCode'],_0x1d77f5[_0x573a('0x11b')]);_0x5e88a7(_0x582574[_0x573a('0x130')],_0x1d77f5[_0x573a('0xe6')],_0x1d77f5[_0x573a('0x11b')],_0x1d77f5['indexForRS'],_0x1d77f5[_0x573a('0x14a')],_0x1d77f5[_0x573a('0x60')],_0x582574['attendanceForThisData'],_0x582574[_0x573a('0x15a')],_0x1d77f5[_0x573a('0x97')]);_0x582574[_0x573a('0x155')]();};_0x582574[_0x573a('0x209')]=function(_0x5ee016,_0x57f477,_0x46a5cb){$(_0x573a('0x7b')+_0x46a5cb+_0x573a('0x1f1')+_0x57f477+_0x573a('0x118')+_0x5ee016+_0x573a('0x198'))[_0x573a('0x10b')]()['prependTo']('table\x20tbody')[_0x573a('0x199')](_0x573a('0x9a'))[_0x573a('0xae')](_0x573a('0xcf'));_0x582574[_0x573a('0x211')]();};_0x582574['showPrivilageError']=![];_0x582574[_0x573a('0xad')]=![];_0x582574[_0x573a('0x152')]=!![];_0x582574[_0x573a('0xd6')]=!![];_0x582574[_0x573a('0x107')]=![];_0x582574[_0x573a('0xb8')]=![];_0x582574[_0x573a('0x136')]={'text':''};_0x582574[_0x573a('0x78')]=function(){var _0x1cdacd={'exception':_0x582574[_0x573a('0x136')]['text']};firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0x180')+new Date())[_0x573a('0x21b')](_0x1cdacd);_0x582574[_0x573a('0x136')][_0x573a('0x12d')]='';};_0x582574[_0x573a('0x1f0')]=function(){_0x582574[_0x573a('0xb8')]=!_0x582574[_0x573a('0xb8')];};_0x582574[_0x573a('0x80')]=function(){_0x582574[_0x573a('0x107')]=!_0x582574['toggleToolButton'];};_0x582574[_0x573a('0x211')]=function(){_0x582574[_0x573a('0x1f6')]='';_0x582574['searchAttendanceGridName']='';};_0x582574['autoCompleteArrray']=[];_0x582574[_0x573a('0x1b7')]=[];_0x582574[_0x573a('0xf5')]=[];var _0x5d9db3=firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0x13c'));_0x5d9db3['once'](_0x573a('0xbf'))[_0x573a('0xf6')](function(_0x11a7e6){if(_0x11a7e6[_0x573a('0xdb')]()!=null){_0x11a7e6[_0x573a('0x1c0')](function(_0x48621b){var _0x58934f=_0x48621b[_0x573a('0xdb')]();var _0x227636=_0x48621b[_0x573a('0xdb')]()[_0x573a('0x11b')]['trim']();var _0x47f71b=_0x227636[_0x573a('0x3c')](_0x227636['indexOf']('\x20')+0x1,_0x227636[_0x573a('0x57')])['trim']();var _0xf292f9=_0x48621b['val']()[_0x573a('0x97')]+'--'+_0x48621b[_0x573a('0xdb')]()[_0x573a('0x11b')];var _0x413f0d=_0x48621b[_0x573a('0xdb')]()[_0x573a('0x11b')]+'--'+_0x48621b[_0x573a('0xdb')]()[_0x573a('0x97')];var _0x17974b=_0x47f71b+'--'+_0x48621b['val']()[_0x573a('0x97')];var _0x573d91=_0x48621b[_0x573a('0xdb')]()[_0x573a('0x97')]+'--'+_0x48621b[_0x573a('0xdb')]()[_0x573a('0x9f')];_0x582574['autoCompleteLinkedArray'][_0x573a('0x79')](_0x573d91);localStorage[_0x573a('0xde')](_0x48621b[_0x573a('0xdb')]()[_0x573a('0x97')],_0x48621b[_0x573a('0xdb')]()[_0x573a('0x97')]);localStorage[_0x573a('0xde')](_0x48621b[_0x573a('0xdb')]()['nameSatsangi'],_0x48621b[_0x573a('0xdb')]()[_0x573a('0x97')]);localStorage[_0x573a('0xde')](_0x573a('0x37')+_0x48621b[_0x573a('0xdb')]()[_0x573a('0x37')],JSON[_0x573a('0x2')](_0x48621b[_0x573a('0xdb')]()));localStorage[_0x573a('0xde')](_0x47f71b,_0x227636);_0x582574[_0x573a('0x15b')][_0x573a('0x79')](_0xf292f9);_0x582574[_0x573a('0x1b7')][_0x573a('0x79')](_0x17974b);});}});setTimeout(function(){_0x582574[_0x573a('0x11c')]();console[_0x573a('0xfb')]('fetching\x20the\x20autocomplete\x20data');},0x7d0);function _0x132fd2(_0x52cd95,_0x2d45d8){var _0xe60210;_0x52cd95['addEventListener'](_0x573a('0x30'),function(_0x5aff93){var _0x391bda,_0x441ae8,_0x20f571,_0x5b9be1=this[_0x573a('0xbf')];_0x5cba72();if(!_0x5b9be1){return![];}_0xe60210=-0x1;_0x391bda=document[_0x573a('0xea')](_0x573a('0xb6'));_0x391bda['setAttribute']('id',this['id']+_0x573a('0x191'));_0x391bda[_0x573a('0x83')]('class',_0x573a('0x119'));this[_0x573a('0x3')][_0x573a('0x167')](_0x391bda);for(_0x20f571=0x0;_0x20f571<_0x2d45d8['length'];_0x20f571++){if(_0x2d45d8[_0x20f571][_0x573a('0x3f')]()[_0x573a('0x1ab')](_0x5b9be1[_0x573a('0x3f')]())){_0x441ae8=document[_0x573a('0xea')](_0x573a('0xb6'));_0x441ae8[_0x573a('0x1ca')]=_0x573a('0x72')+_0x2d45d8[_0x20f571][_0x573a('0x22')](0x0,_0x5b9be1[_0x573a('0x57')])+_0x573a('0x1f5');_0x441ae8[_0x573a('0x1ca')]+=_0x2d45d8[_0x20f571][_0x573a('0x22')](_0x5b9be1[_0x573a('0x57')]);_0x441ae8[_0x573a('0x1ca')]+=_0x573a('0xc1')+_0x2d45d8[_0x20f571]+'\x27>';_0x441ae8[_0x573a('0x26')](_0x573a('0x1b3'),function(_0x21f7ae){_0x52cd95[_0x573a('0xbf')]=this[_0x573a('0x1e7')](_0x573a('0x30'))[0x0][_0x573a('0xbf')];var _0x340a7f=localStorage['getItem'](_0x582574[_0x573a('0x55')](_0x52cd95['value']));_0x582574['searchAttendanceGrid']=_0x340a7f;_0x582574[_0x573a('0x1cb')]=_0x582574[_0x573a('0x1f6')];_0x5cba72();});_0x391bda[_0x573a('0x167')](_0x441ae8);}}});_0x52cd95['addEventListener'](_0x573a('0x1ff'),function(_0x43aa99){var _0x2f1298=document['getElementById'](this['id']+'autocomplete-list');if(_0x2f1298)_0x2f1298=_0x2f1298[_0x573a('0x1e7')](_0x573a('0xdc'));if(_0x43aa99[_0x573a('0xc')]==0x28){_0xe60210++;_0x501341(_0x2f1298);}else if(_0x43aa99[_0x573a('0xc')]==0x26){_0xe60210--;_0x501341(_0x2f1298);}else if(_0x43aa99['keyCode']==0xd){if(_0xe60210>-0x1){if(_0x2f1298)_0x2f1298[_0xe60210][_0x573a('0x1b3')]();}}});function _0x501341(_0x55c664){if(!_0x55c664)return![];_0x330663(_0x55c664);if(_0xe60210>=_0x55c664[_0x573a('0x57')])_0xe60210=0x0;if(_0xe60210<0x0)_0xe60210=_0x55c664[_0x573a('0x57')]-0x1;_0x55c664[_0xe60210][_0x573a('0x5a')][_0x573a('0x58')](_0x573a('0x1a0'));}function _0x330663(_0x1e26fe){for(var _0x502411=0x0;_0x502411<_0x1e26fe['length'];_0x502411++){_0x1e26fe[_0x502411]['classList'][_0x573a('0x1d4')](_0x573a('0x1a0'));}}function _0x5cba72(_0x5639d4){console['log']('Here\x20maddy...');var _0x52dae6=document[_0x573a('0x19b')]('autocomplete-items');for(var _0x47e47b=0x0;_0x47e47b<_0x52dae6[_0x573a('0x57')];_0x47e47b++){if(_0x5639d4!=_0x52dae6[_0x47e47b]&&_0x5639d4!=_0x52cd95){_0x52dae6[_0x47e47b][_0x573a('0x3')][_0x573a('0x21c')](_0x52dae6[_0x47e47b]);}}}document[_0x573a('0x26')](_0x573a('0x1b3'),function(_0x1c96a6){_0x5cba72(_0x1c96a6[_0x573a('0x171')]);});document[_0x573a('0x26')](_0x573a('0x19c'),function(_0x3973cd){_0x5cba72(_0x3973cd[_0x573a('0x171')]);});}var _0x1557ec=_0x582574[_0x573a('0x15b')];var _0x1af5f8=_0x582574[_0x573a('0x1b7')];var _0x59e624=_0x582574[_0x573a('0xf5')];_0x132fd2(document[_0x573a('0x138')](_0x573a('0x181')),_0x1557ec);_0x132fd2(document[_0x573a('0x138')]('searchTextBoxFirstNames'),_0x1af5f8);_0x132fd2(document[_0x573a('0x138')](_0x573a('0x14c')),_0x1557ec);_0x132fd2(document[_0x573a('0x138')]('barcodeInptTxtBx'),_0x1557ec);_0x582574[_0x573a('0x29')]=function(){_0x582574['toggleMainGrid']=!_0x582574[_0x573a('0xad')];};_0x582574[_0x573a('0x1dc')]=function(){_0x582574['toggleVirtualGrid']=!_0x582574[_0x573a('0xd6')];};_0x582574[_0x573a('0xfc')]=function(){_0x582574['toggleAttGrid']=!_0x582574[_0x573a('0x152')];};_0x582574[_0x573a('0x22c')]={'attendanceStatus':_0x573a('0xef')};_0x1b9e71(function(){_0x582574['currentLevelUser']=_0x1c13b9[_0x573a('0x43')]();_0x5cab0f['loggedInAs']=_0x582574[_0x573a('0x20f')][_0x573a('0x17c')];if(_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x42')||_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x1a7')){_0x5cab0f[_0x573a('0x21')]=!![];}else if(_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0xd9')||_0x582574[_0x573a('0x20f')]['email']===_0x573a('0x1b0')||_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x1d9')||_0x582574['currentLevelUser'][_0x573a('0x17c')]==='level2@ams.com'||_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x146')){_0x5cab0f[_0x573a('0x10e')]=!![];}else if(_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x16f')||_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x208')||_0x582574['currentLevelUser'][_0x573a('0x17c')]===_0x573a('0xcd')||_0x582574['currentLevelUser'][_0x573a('0x17c')]===_0x573a('0x101')||_0x582574[_0x573a('0x20f')][_0x573a('0x17c')]===_0x573a('0x1c3')||_0x582574['currentLevelUser']['email']===_0x573a('0x216')||_0x582574[_0x573a('0x20f')]['email']===_0x573a('0x1d6')||_0x582574[_0x573a('0x20f')]['email']==='ankitadei@gmail.com'){_0x5cab0f[_0x573a('0x222')]=!![];}},0x7d0);_0x582574[_0x573a('0x224')]={'value':''};_0x582574[_0x573a('0x70')]=function(){_0x582574[_0x573a('0xe5')]=firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0x215'));return _0x582574[_0x573a('0xe5')];};_0x582574[_0x573a('0x1aa')]=function(_0x1f47a8,_0x3a8a99){if(_0x3a8a99){_0x582574[_0x573a('0xe5')][_0x573a('0x197')](_0x1f47a8[_0x573a('0x160')])[_0x573a('0x197')](_0x1f47a8[_0x573a('0x4b')])[_0x573a('0x197')](_0x1f47a8[_0x573a('0x97')])[_0x573a('0x1d4')]();_0x582574[_0x573a('0xe5')]['child'](_0x1f47a8[_0x573a('0x4b')])[_0x573a('0x197')](_0x1f47a8[_0x573a('0x97')])[_0x573a('0x197')](_0x1f47a8[_0x573a('0x160')])[_0x573a('0x1d4')]();_0x1b9e71(function(){_0x582574[_0x573a('0x50')](_0x1f47a8[_0x573a('0x4b')],_0x1f47a8[_0x573a('0x97')]);_0x582574[_0x573a('0x217')]();},0x96);return;}else{var _0x1396e8=_0x582574[_0x573a('0x15a')];var _0x14ca78=_0x582574[_0x573a('0x1cc')];_0x582574[_0x573a('0xe5')][_0x573a('0x197')](_0x14ca78)[_0x573a('0x197')](_0x1396e8)['child'](_0x1f47a8['branchCode'])[_0x573a('0x1d4')]();_0x582574[_0x573a('0xe5')]['child'](_0x1396e8)[_0x573a('0x197')](_0x1f47a8[_0x573a('0x97')])[_0x573a('0x197')](_0x14ca78)[_0x573a('0x1d4')]();}};_0x582574[_0x573a('0x40')]=function(){_0x582574[_0x573a('0x1ed')]=![];var _0x208096=localStorage[_0x573a('0x193')](localStorage[_0x573a('0x193')](_0x582574[_0x573a('0x1f6')]));if(_0x208096===null){_0x208096=_0x582574['searchAttendanceGrid'];}var _0x1e8c27=_0x582574[_0x573a('0x15a')];var _0x3d4fd4=_0x582574['attendanceForThisData'];_0x582574['frBrnchCode']=firebase['database']()[_0x573a('0xeb')](_0x573a('0x215'));_0x582574[_0x573a('0xe5')][_0x573a('0x197')](_0x3d4fd4)['child'](_0x1e8c27)['child'](_0x208096)['remove']();_0x582574[_0x573a('0xe5')]['child'](_0x1e8c27)[_0x573a('0x197')](_0x208096)[_0x573a('0x197')](_0x3d4fd4)[_0x573a('0x1d4')]();_0x582574[_0x573a('0x1f6')]='';_0x582574[_0x573a('0x1cb')]='';_0x582574['generateRefreshSummary']();};_0x582574[_0x573a('0x162')]=function(){_0x582574[_0x573a('0x132')]=[];_0x582574[_0x573a('0x122')]=[];_0x582574[_0x573a('0xe5')]=_0x582574['getDBReference']();_0x582574[_0x573a('0xe5')]['child'](_0x582574[_0x573a('0x1cc')])[_0x573a('0x197')](_0x582574[_0x573a('0x15a')])['on']('value',function(_0x2fcc6e){if(_0x2fcc6e[_0x573a('0xdb')]()!=null){_0x2fcc6e[_0x573a('0x1c0')](function(_0x5e9add){_0x582574[_0x573a('0xc6')]=_0x5e9add[_0x573a('0xdb')]();_0x582574[_0x573a('0x132')][_0x573a('0x79')](_0x5e9add['val']());_0x582574[_0x573a('0x122')][_0x573a('0x79')](_0x5e9add[_0x573a('0x2f')]);});}});};_0x582574[_0x573a('0x1c9')]=function(_0x5deb4a,_0x2b3334){_0x582574[_0x573a('0x61')]=[];_0x582574[_0x573a('0xa0')]=[];_0x582574[_0x573a('0x1d0')]=[];_0x582574[_0x573a('0x1a9')]=[];_0x582574[_0x573a('0x1f9')]=[];_0x582574[_0x573a('0x157')]=[];_0x582574[_0x573a('0x150')]=[];_0x582574['dateKeysForWeeklyCleaning']=[];_0x582574[_0x573a('0xf8')]=[];_0x582574[_0x573a('0x6c')]=[];_0x582574['dateKeysForHoliArti']=[];_0x582574[_0x573a('0x1f2')]=[];_0x582574['dateKeysForArti']=[];_0x582574['dateKeysForBhandara']=[];_0x582574[_0x573a('0x95')]=[];_0x582574[_0x573a('0x24')]=[];_0x582574[_0x573a('0x13a')]=[];_0x582574[_0x573a('0x6d')]=[];_0x582574[_0x573a('0xe5')]=_0x582574[_0x573a('0x70')]();_0x582574[_0x573a('0xe5')][_0x573a('0x197')](_0x5deb4a)['child'](_0x2b3334)['on'](_0x573a('0xbf'),function(_0x8ef614){if(_0x8ef614[_0x573a('0xdb')]()!=null){_0x8ef614[_0x573a('0x1c0')](function(_0x59814f){_0x582574[_0x573a('0xf2')]=_0x59814f[_0x573a('0x2f')];_0x582574[_0x573a('0xc6')]=_0x59814f[_0x573a('0xdb')]();if(_0x5deb4a==='E-Satsang'){_0x582574[_0x573a('0x6d')][_0x573a('0x79')](_0x59814f['key']);_0x582574[_0x573a('0x1ac')]=_0x582574[_0x573a('0x6d')]['length'];}if(_0x5deb4a==='Branch\x20Morning\x20Satsang'){_0x582574[_0x573a('0xa0')][_0x573a('0x79')](_0x59814f['key']);_0x582574[_0x573a('0x3a')]=_0x582574[_0x573a('0xa0')][_0x573a('0x57')];}if(_0x5deb4a==='Branch\x20Evening\x20Satsang'){_0x582574[_0x573a('0x1d0')][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x6a')]=_0x582574[_0x573a('0x1d0')][_0x573a('0x57')];}if(_0x5deb4a==='Branch\x20Special\x20Satsang'){_0x582574['dateKeysForBhandara'][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x41')]=_0x582574[_0x573a('0x3b')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0xa')){_0x582574[_0x573a('0x6f')]['push'](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x51')]=_0x582574['dateKeysForAarti'][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x174')){_0x582574[_0x573a('0xfe')]['push'](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x82')]=_0x582574[_0x573a('0xfe')][_0x573a('0x57')];}if(_0x5deb4a==='Windup'){_0x582574[_0x573a('0x11')][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x141')]=_0x582574[_0x573a('0x11')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x88')){_0x582574[_0x573a('0x34')][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x183')]=_0x582574[_0x573a('0x34')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x32')){_0x582574[_0x573a('0x4')][_0x573a('0x79')](_0x59814f['key']);_0x582574[_0x573a('0xb3')]=_0x582574['dateKeysForDailySatsangMorning'][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x77')){_0x582574['dateKeysForDailySatsangEvening']['push'](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x1ae')]=_0x582574[_0x573a('0x15d')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0xc5')){_0x582574[_0x573a('0x13a')][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x148')]=_0x582574['dateKeysForNightDuty'][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x196')){_0x582574[_0x573a('0x15')]['push'](_0x59814f[_0x573a('0x2f')]);_0x582574['HoliBhandaraPresentsFrThisBrCode']=_0x582574[_0x573a('0x15')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x1e4')){_0x582574['dateKeysForHelpdeskESatsang'][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x9e')]=_0x582574['dateKeysForHelpdeskESatsang'][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x1d5')){_0x582574[_0x573a('0x169')][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x139')]=_0x582574[_0x573a('0x169')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x1b9')){_0x582574[_0x573a('0x18')]['push'](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x9d')]=_0x582574[_0x573a('0x18')][_0x573a('0x57')];}if(_0x5deb4a==='Bag\x20Unit'){_0x582574[_0x573a('0x169')]['push'](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0x81')]=_0x582574[_0x573a('0x169')][_0x573a('0x57')];}if(_0x5deb4a===_0x573a('0x1fa')){_0x582574[_0x573a('0x18')][_0x573a('0x79')](_0x59814f[_0x573a('0x2f')]);_0x582574[_0x573a('0xc4')]=_0x582574[_0x573a('0x18')][_0x573a('0x57')];}});}else if(_0x5deb4a===_0x573a('0x176')){_0x582574['ESatsangPresentsFrThisBrCode']=0x0;}else if(_0x5deb4a===_0x573a('0xdf')){_0x582574[_0x573a('0x3a')]=0x0;}else if(_0x5deb4a==='Branch\x20Evening\x20Satsang'){_0x582574[_0x573a('0x6a')]=0x0;}else if(_0x5deb4a===_0x573a('0x20d')){_0x582574[_0x573a('0x41')]=0x0;}else if(_0x5deb4a===_0x573a('0xa')){_0x582574[_0x573a('0x51')]=0x0;}else if(_0x5deb4a===_0x573a('0x174')){_0x582574[_0x573a('0x82')]=0x0;}else if(_0x5deb4a===_0x573a('0x214')){_0x582574[_0x573a('0x141')]=0x0;}else if(_0x5deb4a===_0x573a('0x88')){_0x582574['WeeklyCleaningPresentsFrThisBrCode']=0x0;}else if(_0x5deb4a===_0x573a('0x32')){_0x582574[_0x573a('0xb3')]=0x0;}else if(_0x5deb4a===_0x573a('0x77')){_0x582574[_0x573a('0x1ae')]=0x0;}else if(_0x5deb4a===_0x573a('0xc5')){_0x582574['HoliArtiPresentsFrThisBrCode']=0x0;}else if(_0x5deb4a===_0x573a('0x196')){_0x582574[_0x573a('0x44')]=0x0;}else if(_0x5deb4a==='Arti'){_0x582574[_0x573a('0x9e')]=0x0;}else if(_0x5deb4a===_0x573a('0x1d5')){_0x582574[_0x573a('0x139')]=0x0;}else if(_0x5deb4a===_0x573a('0x1b9')){_0x582574[_0x573a('0x9d')]=0x0;}else if(_0x5deb4a===_0x573a('0x7a')){_0x582574[_0x573a('0x81')]=0x0;}else if(_0x5deb4a===_0x573a('0x1fa')){_0x582574['NightDutyPresentsFrThisBrCode']=0x0;}else{}});};_0x582574[_0x573a('0x56')]={'zValue':_0x573a('0x176'),'oneValue':'Branch\x20Morning\x20Satsang','twoValue':'Branch\x20Evening\x20Satsang','threeValue':_0x573a('0x20d'),'fourValue':_0x573a('0xa'),'fiveValue':_0x573a('0x174'),'sixValue':_0x573a('0x214'),'sevenValue':_0x573a('0x88'),'eightValue':'Basant\x20Arti','nineValue':'Basant\x20Bhandara','tenValue':_0x573a('0xc5'),'elevenValue':_0x573a('0x196'),'twelveValue':_0x573a('0x1e4'),'thirteenValue':_0x573a('0x1d5'),'fourteenValue':_0x573a('0x1b9'),'fifteenValue':'Bag\x20Unit','sixteenValue':_0x573a('0x1fa')};_0x582574[_0x573a('0x50')]=function(_0x3ed56a,_0x35bcb8){_0x582574[_0x573a('0xec')]=_0x3ed56a;_0x582574[_0x573a('0x1da')]=[];_0x582574[_0x573a('0x206')]=[];_0x582574[_0x573a('0xe5')]=_0x582574[_0x573a('0x70')]();_0x582574[_0x573a('0xe5')][_0x573a('0x197')](_0x3ed56a)[_0x573a('0x197')](_0x35bcb8)[_0x573a('0xda')](_0x573a('0xb9'))[_0x573a('0x100')](_0x582574[_0x573a('0x75')])['on'](_0x573a('0xbf'),function(_0x507c5b){if(_0x507c5b[_0x573a('0xdb')]()!=null){_0x507c5b[_0x573a('0x1c0')](function(_0x13b845){_0x582574[_0x573a('0xf2')]=_0x13b845[_0x573a('0x2f')];_0x582574['childData']=_0x13b845[_0x573a('0xdb')]();_0x582574[_0x573a('0x1da')][_0x573a('0x79')](_0x13b845[_0x573a('0xdb')]());_0x582574[_0x573a('0x206')][_0x573a('0x79')](_0x13b845[_0x573a('0x2f')]);});}});_0x582574[_0x573a('0x1c9')](_0x573a('0x176'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0xdf'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')]('Branch\x20Evening\x20Satsang',_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0x20d'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0xa'),_0x582574['branchCodeSelected']);_0x582574[_0x573a('0x1c9')](_0x573a('0x174'),_0x582574[_0x573a('0x1fe')]);_0x582574['loadDetailsPerActivityAndBrCd'](_0x573a('0x214'),_0x582574['branchCodeSelected']);_0x582574[_0x573a('0x1c9')]('Weekly\x20Cleaning',_0x582574['branchCodeSelected']);_0x582574[_0x573a('0x1c9')](_0x573a('0x32'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')]('Basant\x20Bhandara',_0x582574['branchCodeSelected']);_0x582574['loadDetailsPerActivityAndBrCd'](_0x573a('0xc5'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0x196'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0x1e4'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0x1d5'),_0x582574[_0x573a('0x1fe')]);_0x582574['loadDetailsPerActivityAndBrCd'](_0x573a('0x1b9'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0x7a'),_0x582574[_0x573a('0x1fe')]);_0x582574[_0x573a('0x1c9')](_0x573a('0x1fa'),_0x582574[_0x573a('0x1fe')]);};_0x582574[_0x573a('0x123')]=function(_0x250f1f,_0x14edc3,_0x4310c1){_0x582574['datesPresentArray']=[];if(_0x4310c1){_0x582574[_0x573a('0x20c')]=_0x250f1f[_0x573a('0x11b')];_0x582574[_0x573a('0x1fe')]=_0x250f1f[_0x573a('0x97')];_0x1b9e71(function(){_0x582574['loadDetailsPerBrCd'](_0x582574[_0x573a('0x15a')],_0x250f1f[_0x573a('0x97')]);},0xfa);}};_0x582574[_0x573a('0x1f3')]=['Special\x20Cleaning','Special\x20Satsang',_0x573a('0x176'),'Branch\x20Morning\x20Satsang',_0x573a('0x9b'),_0x573a('0x20d'),_0x573a('0xa'),'Evening\x20Cleaning',_0x573a('0x214'),_0x573a('0x88'),'Basant\x20Arti',_0x573a('0x77'),_0x573a('0xc5'),_0x573a('0x196'),'Arti',_0x573a('0x1d5'),'Copy\x20Unit','Bag\x20Unit','Night\x20Duty',_0x573a('0x1d1')];_0x582574[_0x573a('0xf9')]=['Select','Last\x201\x20month',_0x573a('0x142'),'Last\x203\x20months',_0x573a('0x184')];_0x582574[_0x573a('0x38')]=_0x573a('0x1d1');_0x5cab0f[_0x573a('0xe7')]=_0x573a('0x1e4');_0x582574[_0x573a('0xba')]=_0x137b4b(_0x573a('0x21d'))(new Date(),_0x573a('0x163'));_0x582574[_0x573a('0x219')]=new Date()[_0x573a('0xab')]();_0x582574[_0x573a('0x205')]=_0x137b4b(_0x573a('0x21d'))(new Date(),_0x573a('0x163'));_0x582574[_0x573a('0x14')]=new Date();_0x5cab0f[_0x573a('0x13b')]=!![];_0x5cab0f['isUserMarkedPresent']=![];_0x5cab0f[_0x573a('0x124')]=![];_0x582574[_0x573a('0x1cc')]=_0x137b4b(_0x573a('0x21d'))(_0x582574[_0x573a('0xba')],_0x573a('0x1a4'));_0x5cab0f[_0x573a('0xc7')]=_0x137b4b(_0x573a('0x21d'))(_0x582574[_0x573a('0xba')],_0x573a('0x1a4'));_0x582574[_0x573a('0x1ed')]=![];_0x582574[_0x573a('0x75')]=0x64;_0x582574[_0x573a('0x1ad')]=firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0xed'));_0x582574[_0x573a('0x1ad')]['on'](_0x573a('0x1d8'),function(_0x4f5fae){});_0x582574[_0x573a('0x1ad')]['on'](_0x573a('0x3d'),function(_0x4a1ebb){});_0x582574[_0x573a('0x47')]=function(){_0x582574['satsangiUsers']=firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0xe1'));_0x582574['satsangiUsers']['on'](_0x573a('0xbf'),function(_0x4c20b5){if(_0x4c20b5[_0x573a('0xdb')]()!=null){_0x4c20b5[_0x573a('0x1c0')](function(_0x4ab543){_0x582574[_0x573a('0x39')](_0x4ab543[_0x573a('0xdb')]());});}});};_0x582574['toSelectRecord']='';_0x582574['getGridDataObjectForSelection']=function(_0x5e74ef){var _0x2a2e66=firebase[_0x573a('0x229')]()['ref']('satsangiUsers');_0x2a2e66[_0x573a('0xc0')](_0x573a('0xbf'))[_0x573a('0xf6')](function(_0x6efbb3){if(_0x6efbb3[_0x573a('0xdb')]()!=null){_0x6efbb3['forEach'](function(_0x1de767){var _0x4d56d8=_0x1de767['val']();if(_0x4d56d8[_0x573a('0x97')]===_0x5e74ef){_0x582574[_0x573a('0x6')]=_0x4d56d8;}});_0x582574[_0x573a('0x21e')](_0x582574[_0x573a('0x6')]['uid'],!![],_0x573a('0x1c5'),_0x573a('0x22b'),_0x582574[_0x573a('0x6')]['branchCode'],_0x582574[_0x573a('0x6')][_0x573a('0x9f')],_0x582574['GridchildData'][_0x573a('0x19d')],_0x582574[_0x573a('0x6')][_0x573a('0x105')],_0x582574['GridchildData'][_0x573a('0x172')],0x7e4-_0x582574[_0x573a('0x6')][_0x573a('0x172')],_0x582574['GridchildData'][_0x573a('0x1cf')],_0x582574[_0x573a('0x6')][_0x573a('0xfa')],_0x582574['GridchildData'][_0x573a('0x20a')],_0x582574[_0x573a('0x6')][_0x573a('0x21f')]);}});};_0x582574[_0x573a('0xf3')]=function(_0x246821){if(_0x246821[_0x573a('0x37')]!=null&&document[_0x573a('0x138')](_0x246821[_0x573a('0x37')])!=null){document[_0x573a('0x138')](_0x246821['uid'])['checked']=!![];if(_0x582574['gridApi']!=undefined){}}};_0x582574[_0x573a('0x39')]=function(_0x4e1d05){if(_0x4e1d05['uid']!=null&&document[_0x573a('0x138')](_0x4e1d05[_0x573a('0x37')])!=null){document['getElementById'](_0x4e1d05[_0x573a('0x37')])[_0x573a('0x4f')]=![];}};_0x582574[_0x573a('0x4a')]=function(_0x53f485,_0x425ef7){var _0x1ff7e1=firebase[_0x573a('0x229')]()['ref'](_0x573a('0x215'))[_0x573a('0x197')](_0x53f485)[_0x573a('0x197')](_0x425ef7);_0x1ff7e1['on'](_0x573a('0xbf'),function(_0x5626be){if(_0x5626be[_0x573a('0xdb')]()!=null){_0x5626be['forEach'](function(_0x4bff89){var _0x191a9c=_0x4bff89[_0x573a('0xdb')]();if(_0x191a9c[_0x573a('0x37')]!=null){_0x582574[_0x573a('0xf3')](_0x191a9c);}});}else{_0x582574[_0x573a('0x47')](_0x53f485);}});};_0x582574['checkIfTheuserisAlreadyMarkedPresent']=function(_0x294d15,_0x5213ff){if(_0x5213ff===null){_0x582574['satsangiUsersAttendance']=firebase['database']()[_0x573a('0xeb')](_0x573a('0xed')+_0x5213ff);}else{_0x582574['satsangiUsersAttendance']=firebase[_0x573a('0x229')]()[_0x573a('0xeb')]('satsangiUsers-attendance/');}_0x582574['satsangiUsersAttendance']['on'](_0x573a('0xbf'),function(_0x18e84b){if(_0x18e84b[_0x573a('0xdb')]()!=null){_0x18e84b[_0x573a('0x1c0')](function(_0x46e88a){var _0x263227=_0x46e88a[_0x573a('0xdb')]();if(_0x46e88a[_0x573a('0x2f')]===_0x294d15){return!![];}else{return![];}});}});};function _0x5d65d6(_0x445f9b,_0x5905d0){var _0xcdcd73=firebase[_0x573a('0x229')]()['ref']()[_0x573a('0x197')](_0x445f9b);var _0x4afd57=new _0x35b0b1(_0xcdcd73);_0x582574[_0x573a('0xff')];_0x4afd57[_0x573a('0x10f')]()[_0x573a('0xf6')](function(){if(_0x4afd57[_0x573a('0x92')]==null||_0x4afd57[_0x573a('0x92')]===null||_0x4afd57['$value']===_0x573a('0xac')){_0x582574[_0x573a('0xff')]=0x0;}else{_0x582574[_0x573a('0xff')]=_0x4afd57[_0x573a('0x92')];}if(_0x4afd57[_0x573a('0x92')]==NaN){_0x4afd57[_0x573a('0x92')]=0x1;_0x4afd57[_0x573a('0x92')]=_0x4afd57['$value'];}if(_0x5905d0){_0x4afd57[_0x573a('0x92')]=_0x582574[_0x573a('0xff')]+0x1;_0x582574[_0x573a('0xff')]=_0x4afd57[_0x573a('0x92')];_0x4afd57[_0x573a('0x1ba')]();}});}_0x5d65d6(_0x582574[_0x573a('0x1cc')],![]);function _0x2279eb(_0x2284ee,_0x1e9d5f,_0x5024ee,_0x224196,_0x26741c){var _0x17df37={'indexForRS':_0x2284ee,'index':_0x1e9d5f,'uid':_0x5024ee,'activityName':_0x26741c};var _0x3bf192=firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()['child'](_0x573a('0x215'))[_0x573a('0x79')]()['key'];var _0x3b3c5b={};_0x3b3c5b[_0x573a('0x1c')+_0x224196+'/'+_0x5024ee]=_0x17df37;if(_0x582574[_0x573a('0x16')](_0x5024ee,_0x224196)){return;}else{return firebase['database']()[_0x573a('0xeb')]()[_0x573a('0x22a')](_0x3b3c5b);}}function _0x5e88a7(_0x1f26f5,_0x2bcc99,_0x1bcfd2,_0x4c3b09,_0x165170,_0x2f92be,_0x2b15fb,_0xdc7323,_0x50494c,_0x337b98,_0x5d4765,_0x4db136,_0x11beb8,_0x37bf2d,_0x8d1315,_0x245486,_0x218e6f){if(_0x2bcc99===undefined){_0x2bcc99='-';}var _0x6fa34e={'suscheme':_0x218e6f,'gender':_0x337b98!==undefined?_0x337b98:_0x573a('0x145'),'category':_0x5d4765!==undefined?_0x5d4765:_0x573a('0xc8'),'dobyear':_0x4db136!==undefined?_0x4db136:_0x573a('0x94'),'age':_0x11beb8!==undefined?_0x11beb8:_0x573a('0x94'),'branchName':_0x37bf2d!==undefined?_0x37bf2d:_0x573a('0x177'),'districtName':_0x8d1315!==undefined?_0x8d1315:'MP','regionName':_0x245486!==undefined?_0x245486:'MP','linked':_0x2bcc99,'childAtts':_0x1f26f5,'indexForRS':_0x4c3b09,'index':_0x165170,'uid':_0x2f92be,'activityName':_0xdc7323,'sortDate':new Date()[_0x573a('0xab')]()*-0x1,'branchCode':_0x50494c,'nameSatsangi':_0x1bcfd2,'datePresent':_0x2b15fb};var _0x45dd74=firebase['database']()['ref']()[_0x573a('0x197')](_0x573a('0x215'))[_0x573a('0x79')]()[_0x573a('0x2f')];var _0x3ea82a={};_0x3ea82a[_0x573a('0x1c')+_0x2b15fb+'/'+_0xdc7323+'/'+_0x50494c]=_0x6fa34e;_0x582574[_0x573a('0x1f6')]='';if(_0x582574[_0x573a('0x16')](_0x2f92be,_0x2b15fb)){return;}else{var _0x564a8d=firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()[_0x573a('0x22a')](_0x3ea82a);_0x582574[_0x573a('0x211')]();_0x582574[_0x573a('0x68')]=![];_0x582574[_0x573a('0x87')]={};_0x582574[_0x573a('0x223')][_0x573a('0x2b')][_0x573a('0x1bb')]();_0x582574['barCode']='';return _0x564a8d;}}function _0x5964fc(_0x377415,_0x590e11,_0x9c0ece,_0x3bab78,_0x25a729,_0x278534,_0x3298ae,_0x558fb0,_0x1e70fe,_0x25599a,_0xcec690,_0x4e8a8d,_0x332dba,_0x1f4753,_0x592dc9,_0x44e529,_0xf91715){if(_0x590e11===undefined){_0x590e11='-';}var _0x1f020e={'suscheme':_0xf91715!==undefined?_0xf91715:'na','gender':_0x25599a!==undefined?_0x25599a:'update\x20gender','category':_0xcec690!==undefined?_0xcec690:_0x573a('0xc8'),'dobyear':_0x4e8a8d!==undefined?_0x4e8a8d:'update\x20dobyear','age':_0x332dba!==undefined?_0x332dba:_0x573a('0x94'),'branchName':_0x1f4753!==undefined?_0x1f4753:_0x573a('0x177'),'districtName':_0x592dc9!==undefined?_0x592dc9:'MP','regionName':_0x44e529!==undefined?_0x44e529:'MP','linked':_0x590e11,'childAtts':_0x377415,'indexForRS':_0x9c0ece,'index':_0x3bab78,'uid':_0x25a729,'datePresent':_0x278534,'activityName':_0x3298ae,'branchCode':_0x558fb0,'nameSatsangi':_0x1e70fe,'sortDate':new Date()[_0x573a('0xab')]()*-0x1};var _0x221fb1=firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()[_0x573a('0x197')](_0x573a('0x215'))[_0x573a('0x79')]()[_0x573a('0x2f')];var _0xb96b44={};_0xb96b44['/satsangiUsers-attendance/'+_0x3298ae+'/'+_0x558fb0+'/'+_0x278534]=_0x1f020e;if(_0x582574['checkIfTheuserisAlreadyMarkedPresent'](_0x25a729,null)){return;}else{return firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()[_0x573a('0x22a')](_0xb96b44);}_0x582574[_0x573a('0x155')]();}function _0x2a9ac9(_0x270927,_0x249162){var _0x4f18c3={'datePresent':_0x582574[_0x573a('0x1cc')],'activity':_0x582574[_0x573a('0x15a')],'branchCode':_0x270927,'uid':_0x249162};var _0x3b1b2f=firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()['child'](_0x573a('0x215'))[_0x573a('0x79')]()[_0x573a('0x2f')];var _0xcfaa67={};_0xcfaa67[_0x573a('0x1c')+_0x270927+'/'+_0x582574['attendanceForThisData']]=_0x4f18c3;return firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()[_0x573a('0x22a')](_0xcfaa67);}_0x582574[_0x573a('0x12c')]=function(){_0x5cab0f[_0x573a('0xe7')]=_0x582574[_0x573a('0x15a')];_0x582574[_0x573a('0x217')]();_0x582574[_0x573a('0x1ed')]=![];_0x582574[_0x573a('0x90')]();_0x582574[_0x573a('0x182')]();_0x582574[_0x573a('0x85')]();_0x582574[_0x573a('0x155')]();};_0x582574['changeFilterSel']=function(){if(_0x582574[_0x573a('0x38')]==='Last\x201\x20month'){_0x582574['limitToValue']=0x4;}else if(_0x582574['selectedfilterSel']===_0x573a('0x142')){_0x582574[_0x573a('0x75')]=0x8;}else if(_0x582574[_0x573a('0x38')]==='Last\x203\x20months'){_0x582574['limitToValue']=0xc;}else if(_0x582574[_0x573a('0x38')]==='Last\x206\x20months'){_0x582574[_0x573a('0x75')]=0x18;}else{_0x582574[_0x573a('0x75')]=0x64;}_0x582574[_0x573a('0x18b')]=[];_0x582574['namesOfActivity']['map'](function(_0x4d0837){_0x582574[_0x573a('0x50')](_0x4d0837,_0x582574[_0x573a('0x1fe')]);var _0x51a633={'activityName':_0x4d0837,'valueNumber':_0x582574['dateKeys'][_0x573a('0x57')]};_0x582574[_0x573a('0x18b')]['push'](_0x51a633);});};Date['prototype'][_0x573a('0xcb')]=function(){var _0x50fdcd=new Date(this[_0x573a('0xab')]());var _0x520e86=_0x50fdcd['getDate']()-_0x50fdcd['getDay']()+0x1;if(_0x50fdcd[_0x573a('0x18d')]()==0x0)_0x520e86-=0x7;_0x520e86+=0x7;return new Date(_0x50fdcd['setDate'](_0x520e86));};Date[_0x573a('0x67')][_0x573a('0xfd')]=function(){var _0x326020=this['getNextWeekMonday']();return new Date(_0x326020[_0x573a('0x1bc')](_0x326020[_0x573a('0x98')]()+0x6));};var _0x14d93b=new Date();_0x582574[_0x573a('0x3e')]=_0x14d93b[_0x573a('0xcb')]()[_0x573a('0x13e')]()[_0x573a('0x3c')](0x0,0xa);_0x582574['nextWeekSunday']=_0x14d93b[_0x573a('0xfd')]()[_0x573a('0x13e')]()[_0x573a('0x3c')](0x0,0xa);_0x582574[_0x573a('0x212')]=function(_0x22f7fc){_0x22f7fc[_0x573a('0x12b')]();_0x22f7fc['stopPropagation']();_0x582574[_0x573a('0xd2')]=!![];};_0x582574[_0x573a('0x8c')]=function(_0x4eb649){_0x4eb649[_0x573a('0x12b')]();_0x4eb649[_0x573a('0x15f')]();_0x582574[_0x573a('0x19f')]=!![];};_0x582574['dateOptions']={'year-format':'yy','show-weeks':![]};_0x582574[_0x573a('0x65')]=function(_0x1a49fe){_0x582574[_0x573a('0x1ed')]=![];_0x582574[_0x573a('0x90')]();_0x582574['gridApi'][_0x573a('0x2b')][_0x573a('0x1bb')]();_0x582574[_0x573a('0x1cc')]=_0x137b4b(_0x573a('0x21d'))(_0x1a49fe,'dd-MMMM-yyyy');_0x582574['attendanceForThisDataGlobal']=_0x137b4b(_0x573a('0x21d'))(_0x1a49fe,_0x573a('0x163'));_0x582574[_0x573a('0x219')]=_0x1a49fe[_0x573a('0xab')]();_0x582574['showTodaysCountPresent']=![];_0x582574['showTodaysCountForCopy']();_0x582574['getData1']();_0x582574[_0x573a('0x85')]();_0x582574[_0x573a('0x4a')](_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')]);_0x582574[_0x573a('0x111')]();_0x582574[_0x573a('0x155')]();};_0x582574[_0x573a('0x17')]=function(_0x29885a){var _0x50a161=_0x137b4b(_0x573a('0x21d'))(_0x582574['tdt'],_0x573a('0x1a4'));_0x582574[_0x573a('0x15c')]=_0x50a161;_0x582574[_0x573a('0x155')]();};_0x582574[_0x573a('0x1a3')]=function(){var _0x15c580=_0x582574[_0x573a('0x223')][_0x573a('0x2d')];var _0x199af8=_0x354216['ALL'];var _0x3f9054=_0x354216[_0x573a('0x1bd')];_0x218465[_0x573a('0x84')](_0x15c580,_0x199af8,_0x3f9054);};function _0x5afb1f(_0x492fa2,_0xe6481f,_0x3312a5,_0x403eb0,_0x2bcf87){var _0x5e875d={'uid':_0x492fa2,'nameSatsangi':_0x2bcf87,'branchCode':_0x403eb0,'dateValue':_0xe6481f,'deps':_0x3312a5};var _0x427fcb=firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()['child'](_0x573a('0x215'))[_0x573a('0x79')]()[_0x573a('0x2f')];var _0x5679e6={};_0x5679e6[_0x573a('0x46')+_0x492fa2]=_0x5e875d;return firebase[_0x573a('0x229')]()[_0x573a('0xeb')]()[_0x573a('0x22a')](_0x5679e6);}_0x582574[_0x573a('0x8f')]=function(_0x190b4d){_0x5afb1f(_0x190b4d[_0x573a('0x37')],_0x582574[_0x573a('0x1cc')],_0x190b4d[_0x573a('0x9f')],_0x190b4d[_0x573a('0x97')],_0x190b4d[_0x573a('0x11b')]);};_0x582574[_0x573a('0x129')]=function(){var _0x47a7f0=_0x582574[_0x573a('0x223')]['grid'];var _0x56a20a=_0x354216[_0x573a('0x1bd')];var _0x2dceb3=_0x354216[_0x573a('0x1bd')];_0x218465[_0x573a('0x4d')](_0x47a7f0,_0x56a20a,_0x2dceb3);};_0x582574[_0x573a('0x1a1')]=[{'name':'branchCode','enableCellEdit':![],'width':0x6e,'cellTemplate':'<div>'+'\x20\x20<a\x20id=\x22\x22\x20class=\x22branchCodeLinkSty\x22\x20ng-click=\x22grid.appScope.openDetails(row.entity,row.entity.uid,true)\x22\x20href=\x22\x22>{{row.entity.branchCode}}</a>'+_0x573a('0xb7'),'headerCellClass':_0x573a('0x170'),'field':_0x573a('0x97'),'enableFiltering':!![],'enableHiding':![]},{'name':_0x573a('0x19a'),'enableCellEdit':!![],'headerCellClass':_0x573a('0x1b6'),'field':_0x573a('0x11b'),'enableFiltering':!![],'enableHiding':![]},{'name':'uid','enableCellEdit':!![],'field':_0x573a('0x37'),'headerCellClass':_0x573a('0x1b6'),'enableFiltering':![],'enableHiding':![]}];_0x582574[_0x573a('0x106')]=[{'name':'Name','visible':!![],'width':0xc8,'headerCellClass':_0x573a('0x1b6'),'field':_0x573a('0x11b'),'enableFiltering':!![]},{'name':'Unique\x20ID','visible':!![],'headerCellClass':'blue','field':_0x573a('0x97'),'enableFiltering':!![]},{'name':_0x573a('0xa5'),'filter':{'term':_0x573a('0x1c8'),'flags':{'caseSensitive':!![]},'type':_0x23cd7b[_0x573a('0x5c')]['SELECT'],'selectOptions':[{'value':_0x573a('0x1c8'),'label':'Male'},{'value':_0x573a('0x140'),'label':_0x573a('0x140')}],'cellFilter':function(){var _0x5b5602={'Male':_0x573a('0x1c8'),'Female':'Female'};return function(_0x4a2e2c){if(!_0x4a2e2c){return'';}else{return _0x5b5602[_0x4a2e2c];}};}},'headerCellClass':'blue','field':_0x573a('0x19d'),'enableFiltering':!![]},{'name':_0x573a('0x175'),'filter':{'term':_0x573a('0xa7'),'type':_0x23cd7b['filter'][_0x573a('0xa4')],'selectOptions':[{'value':'Initiated','label':_0x573a('0xa7')},{'value':_0x573a('0x1a6'),'label':_0x573a('0x1a6')},{'value':_0x573a('0xd1'),'label':_0x573a('0xd1')},{'value':_0x573a('0x1af'),'label':_0x573a('0x1af')}],'cellFilter':function(){var _0x3a2e9c={'Initiated':_0x573a('0xa7'),'Jigyasu':_0x573a('0x1a6'),'Children\x20below\x2018':_0x573a('0xd1'),'Other':_0x573a('0x1af')};return function(_0xecd624){if(!_0xecd624){return'';}else{return _0x3a2e9c[_0xecd624];}};}},'headerCellClass':_0x573a('0x1b6'),'field':_0x573a('0x105'),'enableFiltering':!![]}];_0x582574[_0x573a('0xcc')]={'enableFiltering':!![],'enableGridMenu':!![],'enableRowSelection':!![],'enableSorting':![],'selectionRowHeaderWidth':0x23,'rowHeight':0x23,'paginationPageSizes':[0x5,0xa,0x14],'paginationPageSize':0x5,'columnDefs':_0x582574[_0x573a('0x106')]};_0x582574[_0x573a('0xcc')][_0x573a('0x33')]=![];_0x582574[_0x573a('0x182')]=function(){_0x582574[_0x573a('0x18a')]=[];var _0x1ca4b7=_0x582574[_0x573a('0x15a')];var _0x262672=_0x582574[_0x573a('0x1cc')];var _0x3cf3f4=firebase[_0x573a('0x229')]()[_0x573a('0xeb')](_0x573a('0x215'))[_0x573a('0x197')](_0x262672)[_0x573a('0x197')](_0x1ca4b7)[_0x573a('0xda')](_0x573a('0xb9'));_0x582574[_0x573a('0x18a')]=_0x105bd4(_0x3cf3f4);_0x582574[_0x573a('0x18a')][_0x573a('0x10f')]();_[_0x573a('0x14d')](_0x582574[_0x573a('0x18a')],_0x573a('0xb9'));};_0x582574[_0x573a('0x85')]=function(){_0x582574['gridOptions1'][_0x573a('0xa6')]=_0x582574[_0x573a('0x18a')];};_0x582574[_0x573a('0xdd')]={'enableFiltering':!![],'enableGridMenu':!![],'enableRowSelection':!![],'enableSorting':!![],'exporterCsvFilename':_0x573a('0xe0'),'exporterCsvLinkElement':angular[_0x573a('0x1df')](document[_0x573a('0x179')]('.custom-csv-link-location')),'selectionRowHeaderWidth':0x23,'rowHeight':0x23,'paginationPageSizes':[0x5,0xa,0x14],'paginationPageSize':0x14,'columnDefs':_0x582574['columns']};_0x582574[_0x573a('0xdd')][_0x573a('0x33')]=![];_0x582574[_0x573a('0x1b')]=!![];_0x582574[_0x573a('0x155')]=function(){var _0x33627f=!![];setTimeout(function(){_0x582574[_0x573a('0x1ef')](_0x33627f);},0x3e8);};_0x582574[_0x573a('0x1ef')]=function(_0x5070e8){_0x582574[_0x573a('0x1b')]=_0x5070e8;if(!_0x5070e8){document[_0x573a('0x138')](_0x573a('0x7d'))['style']['display']=_0x573a('0xf7');}else{document[_0x573a('0x138')](_0x573a('0x7d'))['style'][_0x573a('0x5d')]='block';}_0x582574['indexInitiatedFemale']=0x0;_0x582574[_0x573a('0x13')]=0x0;_0x582574[_0x573a('0x1e9')]=0x0;_0x582574['countJigyasuFemale']=0x0;_0x582574[_0x573a('0x110')]=0x0;_0x582574[_0x573a('0x86')]=0x0;_0x582574[_0x573a('0x158')]=0x0;_0x582574[_0x573a('0x173')]=0x0;_0x582574[_0x573a('0x194')]=0x0;_0x582574[_0x573a('0x20b')]=0x0;_0x582574['countOtherAll']=0x0;_0x582574[_0x573a('0x143')]=0x0;_0x582574[_0x573a('0x1dd')]=0x0;_0x582574[_0x573a('0x192')]=0x0;_0x582574[_0x573a('0xc2')]=0x0;_0x582574['totalInitiated']=0x0;_0x582574[_0x573a('0x59')]=0x0;_0x582574['totalChildrenn']=0x0;_0x582574[_0x573a('0x201')]=0x0;_0x582574[_0x573a('0x71')]=0x0;_0x582574['initiatedOtherBrnchGents']=0x0;_0x582574['initiatedOtherBrnchLadies']=0x0;_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x3bc108,_0x5dcd2d){if(_0x3bc108[_0x573a('0x105')]===_0x573a('0xa7')&&_0x3bc108[_0x573a('0x19d')]===_0x573a('0x1c8')&&_0x3bc108[_0x573a('0x1cf')]==_0x573a('0x177')){_0x582574[_0x573a('0x201')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x553c9e,_0x225360){if(_0x553c9e[_0x573a('0x105')]===_0x573a('0xa7')&&_0x553c9e[_0x573a('0x19d')]===_0x573a('0x140')&&_0x553c9e[_0x573a('0x1cf')]==_0x573a('0x177')){_0x582574['initiatedThisBrnchLadies']++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0xe0b65a,_0xf5ec9e){if(_0xe0b65a[_0x573a('0x105')]===_0x573a('0xa7')&&_0xe0b65a[_0x573a('0x19d')]===_0x573a('0x1c8')&&_0xe0b65a['branchName']!==_0x573a('0x177')){_0x582574[_0x573a('0xaf')]++;}});_0x582574[_0x573a('0xcc')]['data'][_0x573a('0x96')](function(_0x4c8728,_0x2a0448){if(_0x4c8728[_0x573a('0x105')]===_0x573a('0xa7')&&_0x4c8728[_0x573a('0x19d')]===_0x573a('0x140')&&_0x4c8728[_0x573a('0x1cf')]!=='Pune'){_0x582574[_0x573a('0x1c7')]++;}});_0x582574['jigThisBrnchGents']=0x0;_0x582574[_0x573a('0x1b1')]=0x0;_0x582574['jigOtherBrnchGents']=0x0;_0x582574[_0x573a('0x0')]=0x0;_0x582574[_0x573a('0xcc')]['data'][_0x573a('0x96')](function(_0x4722ee,_0x24cb70){if(_0x4722ee['category']==_0x573a('0x1a6')&&_0x4722ee[_0x573a('0x19d')]==_0x573a('0x1c8')&&_0x4722ee[_0x573a('0x1cf')]==_0x573a('0x177')){_0x582574[_0x573a('0x16c')]++;}});_0x582574['gridOptions1']['data'][_0x573a('0x96')](function(_0xf6b2f,_0x267280){if(_0xf6b2f[_0x573a('0x105')]==_0x573a('0x1a6')&&_0xf6b2f[_0x573a('0x19d')]==_0x573a('0x140')&&_0xf6b2f[_0x573a('0x1cf')]==_0x573a('0x177')){_0x582574[_0x573a('0x1b1')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x5ab3e3,_0x202f05){if(_0x5ab3e3[_0x573a('0x105')]=='Jigyasu'&&_0x5ab3e3[_0x573a('0x19d')]==_0x573a('0x1c8')&&_0x5ab3e3[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574[_0x573a('0x11e')]++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x1d10ac,_0x2cd585){if(_0x1d10ac[_0x573a('0x105')]==_0x573a('0x1a6')&&_0x1d10ac['gender']==_0x573a('0x140')&&_0x1d10ac[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574[_0x573a('0x0')]++;}});_0x582574[_0x573a('0xf')]=0x0;_0x582574[_0x573a('0x6e')]=0x0;_0x582574[_0x573a('0x2a')]=0x0;_0x582574[_0x573a('0xca')]=0x0;_0x582574[_0x573a('0xcc')]['data']['map'](function(_0x1d609e,_0x2007a3){if(_0x1d609e[_0x573a('0x105')]!==_0x573a('0xd1')&&_0x1d609e[_0x573a('0x105')]!==_0x573a('0x11d')&&_0x1d609e[_0x573a('0x105')]!==_0x573a('0x1a6')&&_0x1d609e[_0x573a('0x105')]!==_0x573a('0xa7')&&_0x1d609e[_0x573a('0x19d')]===_0x573a('0x1c8')&&_0x1d609e[_0x573a('0x1cf')]===_0x573a('0x177')){_0x582574[_0x573a('0xf')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x326945,_0x254a31){if(_0x326945[_0x573a('0x105')]!=='Children\x20below\x2018'&&_0x326945[_0x573a('0x105')]!==_0x573a('0x11d')&&_0x326945[_0x573a('0x105')]!==_0x573a('0x1a6')&&_0x326945['category']!==_0x573a('0xa7')&&_0x326945[_0x573a('0x19d')]==='Female'&&_0x326945[_0x573a('0x1cf')]==='Pune'){_0x582574[_0x573a('0x6e')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x2c8ee4,_0x3bda9a){if(_0x2c8ee4[_0x573a('0x105')]!=='Children\x20below\x2018'&&_0x2c8ee4['category']!==_0x573a('0x11d')&&_0x2c8ee4['category']!==_0x573a('0x1a6')&&_0x2c8ee4[_0x573a('0x105')]!==_0x573a('0xa7')&&_0x2c8ee4['gender']==='Male'&&_0x2c8ee4[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574[_0x573a('0x2a')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x3d7f98,_0x3c6410){if(_0x3d7f98[_0x573a('0x105')]!==_0x573a('0xd1')&&_0x3d7f98[_0x573a('0x105')]!=='Children\x20below\x2015'&&_0x3d7f98[_0x573a('0x105')]!=='Jigyasu'&&_0x3d7f98[_0x573a('0x105')]!=='Initiated'&&_0x3d7f98[_0x573a('0x19d')]===_0x573a('0x140')&&_0x3d7f98[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574[_0x573a('0xca')]++;}});_0x582574[_0x573a('0x1e')]=0x0;_0x582574[_0x573a('0x116')]=0x0;_0x582574[_0x573a('0x12')]=0x0;_0x582574['ChildrnLesDnFtnOtherBrnchLadies']=0x0;_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x57bad8,_0x1eca78){if((_0x57bad8['category']===_0x573a('0xd1')||_0x57bad8[_0x573a('0x105')]===_0x573a('0x11d'))&&_0x57bad8['gender']==='Male'&&_0x57bad8[_0x573a('0x1cf')]==_0x573a('0x177')){_0x582574['ChildrnLesDnFtnThisBrnchGents']++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x48249a,_0x243721){if((_0x48249a[_0x573a('0x105')]===_0x573a('0xd1')||_0x48249a[_0x573a('0x105')]==='Children\x20below\x2015')&&_0x48249a[_0x573a('0x19d')]===_0x573a('0x140')&&_0x48249a[_0x573a('0x1cf')]==_0x573a('0x177')){_0x582574[_0x573a('0x116')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')]['map'](function(_0x4045b8,_0x549fd6){if((_0x4045b8[_0x573a('0x105')]===_0x573a('0xd1')||_0x4045b8[_0x573a('0x105')]===_0x573a('0x11d'))&&_0x4045b8[_0x573a('0x19d')]===_0x573a('0x1c8')&&_0x4045b8[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574[_0x573a('0x1e')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x21257e,_0x18a437){if((_0x21257e[_0x573a('0x105')]===_0x573a('0xd1')||_0x21257e[_0x573a('0x105')]===_0x573a('0x11d'))&&_0x21257e['gender']===_0x573a('0x140')&&_0x21257e[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574[_0x573a('0x116')]++;}});_0x582574[_0x573a('0x9c')]=0x0;_0x582574[_0x573a('0x1d')]=0x0;_0x582574[_0x573a('0x1e2')]=0x0;_0x582574['SntsuPh1OtherBrnchLadies']=0x0;_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0xa8ae44,_0x466be0){if(_0xa8ae44['suscheme']===_0x573a('0x195')&&_0xa8ae44[_0x573a('0x19d')]==_0x573a('0x1c8')&&_0xa8ae44['branchName']==_0x573a('0x177')){_0x582574[_0x573a('0x9c')]++;}});_0x582574[_0x573a('0xcc')]['data'][_0x573a('0x96')](function(_0x536840,_0x1af17a){if(_0x536840[_0x573a('0x21f')]===_0x573a('0x195')&&_0x536840['gender']==_0x573a('0x140')&&_0x536840['branchName']==_0x573a('0x177')){_0x582574[_0x573a('0x1d')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x284068,_0x1571a1){if(_0x284068['suscheme']===_0x573a('0x195')&&_0x284068[_0x573a('0x19d')]==_0x573a('0x1c8')&&_0x284068['branchName']!==_0x573a('0x177')){_0x582574[_0x573a('0x1e2')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')]['map'](function(_0x525828,_0x3a7c0e){if(_0x525828[_0x573a('0x21f')]===_0x573a('0x195')&&_0x525828[_0x573a('0x19d')]==_0x573a('0x140')&&_0x525828[_0x573a('0x1cf')]!==_0x573a('0x177')){_0x582574['SntsuPh1OtherBrnchLadies']++;}});_0x582574['SntsuPh2ThisBrnchGents']=0x0;_0x582574[_0x573a('0x200')]=0x0;_0x582574[_0x573a('0x7')]=0x0;_0x582574[_0x573a('0xa1')]=0x0;_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x1bd1f4,_0x305020){if(_0x1bd1f4[_0x573a('0x21f')]===_0x573a('0x1e6')&&_0x1bd1f4['gender']==_0x573a('0x1c8')&&_0x1bd1f4['branchName']==_0x573a('0x177')){_0x582574['SntsuPh2ThisBrnchGents']++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x3a5e52,_0x232fbf){if(_0x3a5e52[_0x573a('0x21f')]===_0x573a('0x1e6')&&_0x3a5e52[_0x573a('0x19d')]==_0x573a('0x140')&&_0x3a5e52['branchName']==_0x573a('0x177')){_0x582574[_0x573a('0x200')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x303f8d,_0x25663b){if(_0x303f8d[_0x573a('0x21f')]===_0x573a('0x1e6')&&_0x303f8d[_0x573a('0x19d')]==_0x573a('0x1c8')&&_0x303f8d['branchName']!==_0x573a('0x177')){_0x582574['SntsuPh2OtherBrnchGents']++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x7cf069,_0x4fbdb8){if(_0x7cf069[_0x573a('0x21f')]===_0x573a('0x1e6')&&_0x7cf069['gender']==_0x573a('0x140')&&_0x7cf069['branchName']!==_0x573a('0x177')){_0x582574['SntsuPh2OtherBrnchLadies']++;}});_0x582574[_0x573a('0x17d')]=_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x57')];_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0xabff14,_0x36b065){if(_0xabff14[_0x573a('0x105')]===_0x573a('0xa7')&&_0xabff14[_0x573a('0x19d')]===_0x573a('0x140')){_0x582574['indexInitiatedFemale']++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x11b906,_0x14488d){if(_0x11b906[_0x573a('0x105')]==='Initiated'&&_0x11b906[_0x573a('0x19d')]===_0x573a('0x1c8')){_0x582574[_0x573a('0x13')]++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x4c5cd6,_0x2769d7){if(_0x4c5cd6[_0x573a('0x105')]==='Jigyasu'&&_0x4c5cd6[_0x573a('0x19d')]==='Female'){_0x582574[_0x573a('0x5b')]++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x1f4a99,_0x3854de){if(_0x1f4a99[_0x573a('0x105')]===_0x573a('0x1a6')&&_0x1f4a99[_0x573a('0x19d')]==='Male'){_0x582574[_0x573a('0x1e9')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x1eb54f,_0x3cb728){if((_0x1eb54f[_0x573a('0x105')]===_0x573a('0xd1')||_0x1eb54f[_0x573a('0x105')]===_0x573a('0x11d'))&&_0x1eb54f['gender']===_0x573a('0x140')){_0x582574[_0x573a('0x86')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')]['map'](function(_0x9bd3de,_0x443717){if(_0x9bd3de[_0x573a('0x21f')]==='phase_1'){_0x582574[_0x573a('0x158')]++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x4bd0b6,_0x1e1d9c){if((_0x4bd0b6['category']===_0x573a('0xd1')||_0x4bd0b6[_0x573a('0x105')]===_0x573a('0x11d'))&&_0x4bd0b6['suscheme']===_0x573a('0x1e6')){_0x582574['countSUSchemePhase2']++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x17862a,_0x5abcee){if(_0x17862a[_0x573a('0x21f')]===_0x573a('0x195')&&_0x17862a[_0x573a('0x19d')]==_0x573a('0x1c8')){_0x582574['countSUSchemePhase1Male']++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x4b4d67,_0x2df168){if(_0x4b4d67['suscheme']===_0x573a('0x195')&&_0x4b4d67[_0x573a('0x19d')]==_0x573a('0x140')){_0x582574['countSUSchemePhase1Female']++;}});_0x582574[_0x573a('0xcc')]['data'][_0x573a('0x96')](function(_0x3e0d31,_0x386e2a){if(_0x3e0d31['gender']==_0x573a('0x1c8')&&_0x3e0d31[_0x573a('0x21f')]===_0x573a('0x1e6')){_0x582574['countSUSchemePhase2Male']++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')]['map'](function(_0x1b4930,_0x3da6ea){if(_0x1b4930['gender']==_0x573a('0x140')&&_0x1b4930[_0x573a('0x21f')]===_0x573a('0x1e6')){_0x582574[_0x573a('0xc2')]++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x11e97f,_0x508228){if((_0x11e97f[_0x573a('0x105')]===_0x573a('0xd1')||_0x11e97f[_0x573a('0x105')]===_0x573a('0x11d'))&&_0x11e97f[_0x573a('0x19d')]===_0x573a('0x1c8')){_0x582574['countChildrenbelow18Male']++;}});_0x582574['gridOptions1'][_0x573a('0xa6')]['map'](function(_0x97c902,_0x13863d){if(_0x97c902[_0x573a('0x105')]===_0x573a('0xa7')){_0x582574[_0x573a('0x66')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x2869c0,_0x143cf5){if(_0x2869c0['category']===_0x573a('0x1a6')){_0x582574['totalJigyasu']++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x314a8a,_0x24ab1d){if(_0x314a8a[_0x573a('0x105')]==='Children\x20below\x2018'){_0x582574[_0x573a('0x125')]++;}});_0x582574[_0x573a('0xcc')][_0x573a('0xa6')][_0x573a('0x96')](function(_0x56190a,_0x19ff6f){if(_0x56190a[_0x573a('0x105')]==='Other'&&_0x56190a[_0x573a('0x19d')]==='Male'){_0x582574[_0x573a('0x194')]++;}});_0x582574[_0x573a('0xcc')]['data'][_0x573a('0x96')](function(_0x444ed9,_0xc73132){if(_0x444ed9[_0x573a('0x105')]==='Other'&&_0x444ed9['gender']===_0x573a('0x140')){_0x582574[_0x573a('0x20b')]++;}});_0x582574['gridOptions1'][_0x573a('0xa6')][_0x573a('0x96')](function(_0x413a5f,_0x4edae9){if(_0x413a5f[_0x573a('0x105')]===_0x573a('0x1af')){_0x582574[_0x573a('0x1f8')]++;}});};_0x582574['clearFiltersTDS']=function(){_0x582574[_0x573a('0x17e')]['grid'][_0x573a('0xa8')]();};_0x582574[_0x573a('0xcc')][_0x573a('0x10a')]=function(_0xbf8864){_0x582574[_0x573a('0x17e')]=_0xbf8864;setTimeout(function(){_0x582574[_0x573a('0x36')]();},0x3e8);_0x582574[_0x573a('0x17e')][_0x573a('0x2d')][_0x573a('0xa8')]();_0x582574['gridApi1'][_0x573a('0x227')]['on'][_0x573a('0x13f')](_0x582574,function(){var _0x2ce6a1=_0x582574[_0x573a('0x17e')]['grid']['columns'];});_0x46abd8(function(){_0x582574[_0x573a('0x7c')][_0x573a('0x2c')]=_0x582574[_0x573a('0x17e')][_0x573a('0x2d')][_0x573a('0x165')]['totalItems'];},0xbb8);};_0x582574[_0x573a('0xdd')]['onRegisterApi']=function(_0x5ce163){_0x582574[_0x573a('0x223')]=_0x5ce163;_0x582574[_0x573a('0x223')][_0x573a('0x2d')][_0x573a('0xa8')]();_0x582574[_0x573a('0x223')][_0x573a('0x4e')]['on'][_0x573a('0xbe')](_0x582574,function(_0x965514,_0x55c86a){if(_0x5cab0f['levelTwoUserLoggedIn']){_0x582574['gridApi'][_0x573a('0x1b4')]=![];_0x582574[_0x573a('0x147')]=!![];_0x1b9e71(function(){_0x582574['showPrivilageError']=![];},0x1c2);var _0x2f694e=_0x477df3[_0x573a('0x1b8')]();_0x2f694e[_0x573a('0xa9')]();return;}});_0x582574['gridApi'][_0x573a('0x4e')]['on']['afterCellEdit'](_0x582574,function(_0xc4c768,_0x4efbf2,_0x223536,_0x527c38){if(_0x5cab0f[_0x573a('0x21')]){_0x582574[_0x573a('0x8f')](_0xc4c768);var _0x2300c1=_0x477df3[_0x573a('0x1b8')]();_0x582574['gridApi'][_0x573a('0x1ee')][_0x573a('0x7e')](_0xc4c768,_0x2300c1[_0x573a('0x161')]);_0x2300c1['resolve']();}else{_0x582574[_0x573a('0x147')]=!![];_0x1b9e71(function(){_0x582574[_0x573a('0x147')]=![];},0x1ea);var _0x2300c1=_0x477df3[_0x573a('0x1b8')]();_0x2300c1[_0x573a('0xa9')]();}});_0x582574[_0x573a('0x223')][_0x573a('0x227')]['on'][_0x573a('0x9')](_0x582574,function(_0x5a50bc,_0x443f17){_0x582574[_0x573a('0x217')]();_0x582574[_0x573a('0x1ed')]=![];_0x582574[_0x573a('0x90')]();_0x1b9e71(function(){document[_0x573a('0x138')]('checkAttendanceButtonId')[_0x573a('0x1b3')]();},0x104);});_0x5ce163[_0x573a('0x2b')]['on'][_0x573a('0x109')](_0x582574,function(_0x54c709){_0x582574[_0x573a('0x68')]=!![];_0x582574[_0x573a('0x87')]=_0x54c709['entity'];});};_0x582574[_0x573a('0x1cd')]=![];_0x582574['markAbsent']=function(_0x31bc30){};_0x582574[_0x573a('0x1ec')]=function(){_0x582574[_0x573a('0x225')]=_0x582574[_0x573a('0x223')]['core']['getVisibleRows'](_0x582574[_0x573a('0x223')][_0x573a('0x2d')]);_0x582574['gridApi'][_0x573a('0x2b')][_0x573a('0xe2')](_0x582574[_0x573a('0x225')][0x0][_0x573a('0x25')]);_0x582574[_0x573a('0x1a')]();_0x582574[_0x573a('0x217')]();};_0x582574[_0x573a('0x55')]=function(_0x577672){var _0x547077=_0x577672[_0x573a('0x35')]('--');var _0x28041d=_0x577672[_0x573a('0x3c')](0x0,_0x547077);var _0x11ac74=localStorage[_0x573a('0x193')](_0x28041d);_0x582574[_0x573a('0xa3')]=localStorage[_0x573a('0x193')](_0x11ac74);return _0x11ac74;};_0x582574[_0x573a('0x1a')]=function(){_0x582574['gridApi'][_0x573a('0x2d')][_0x573a('0xa8')]();};var _0x5f01d1=document['getElementById']('searchTextBox');var _0x5bf6c5=document[_0x573a('0x138')](_0x573a('0x14c'));var _0xd0068e=document[_0x573a('0x138')](_0x573a('0xe8'));_0x5bf6c5[_0x573a('0x26')]('keyup',function(_0x5e8317){_0x5e8317[_0x573a('0x12b')]();if(_0x5e8317[_0x573a('0xc')]===0xd){_0x582574['refreshData'](_0x582574[_0x573a('0x55')](_0x582574[_0x573a('0x1cb')]));_0x582574[_0x573a('0x1cb')]='';}});_0x5f01d1[_0x573a('0x26')](_0x573a('0xaa'),function(_0x10ae82){_0x10ae82['preventDefault']();if(_0x10ae82[_0x573a('0xc')]===0xd){_0x582574[_0x573a('0xbd')](_0x582574['getTheExtractedBranchCode'](_0x582574[_0x573a('0x1f6')]));_0x582574[_0x573a('0x1f6')]='';}});_0xd0068e[_0x573a('0x26')](_0x573a('0xaa'),function(_0x3c24f4){_0x3c24f4[_0x573a('0x12b')]();if(_0x3c24f4[_0x573a('0xc')]===0xd){_0x582574['refreshData'](_0x582574[_0x573a('0x55')](_0x582574[_0x573a('0x1f6')]));_0x582574[_0x573a('0x1f6')]='';}});_0x582574[_0x573a('0x115')]=![];_0x582574[_0x573a('0x103')]=new Date()['getFullYear']()+'-'+(new Date()[_0x573a('0x14b')]()+0x1)+'-'+new Date()[_0x573a('0x98')]();_0x582574[_0x573a('0x21e')]=function(_0x7f535d,_0x54b32a,_0x1e9e4f,_0x5c6926,_0x12af25,_0x194465,_0x405f90,_0x2d30ab,_0x3c4b75,_0x55c45a,_0x197e18,_0x5388b4,_0x29a72e,_0x508435){_0x582574[_0x573a('0x1ed')]=![];_0x582574['$apply']();if(_0x582574[_0x573a('0x15a')]===_0x573a('0x1d1')){_0x582574[_0x573a('0x223')][_0x573a('0x2b')]['clearSelectedRows']();_0x582574[_0x573a('0x115')]=!![];_0x1b9e71(function(){_0x582574[_0x573a('0x115')]=![];_0x582574[_0x573a('0x1c2')]();},0x1ad);return;}if(_0x54b32a){_0x582574[_0x573a('0x115')]=![];var _0x590622=_0x582574[_0x573a('0x6')];_0x5964fc(0x0,_0x194465,_0x5c6926,_0x1e9e4f,_0x7f535d,_0x582574['attendanceForThisData'],_0x582574[_0x573a('0x15a')],_0x590622[_0x573a('0x97')],_0x590622[_0x573a('0x11b')],_0x590622[_0x573a('0x19d')],_0x590622[_0x573a('0x105')],_0x590622[_0x573a('0x172')],0x7e4-_0x590622[_0x573a('0x172')],_0x590622['branchName'],_0x590622[_0x573a('0xfa')],_0x590622[_0x573a('0x20a')],_0x590622[_0x573a('0x21f')]);_0x5e88a7(0x0,_0x194465,_0x590622[_0x573a('0x11b')],_0x5c6926,_0x1e9e4f,_0x7f535d,_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x590622['branchCode'],_0x590622[_0x573a('0x19d')],_0x590622[_0x573a('0x105')],_0x590622[_0x573a('0x172')],0x7e4-_0x590622[_0x573a('0x172')],_0x590622['branchName'],_0x590622['districtName'],_0x590622[_0x573a('0x20a')],_0x590622[_0x573a('0x21f')]);_0x582574[_0x573a('0x1ed')]=![];_0x1b9e71(function(){_0x582574['gridApi'][_0x573a('0x2b')][_0x573a('0x1bb')]();},0x2bc);}else{}};_0x1b9e71(function(){_0x5cab0f[_0x573a('0x13b')]=![];_0x5cab0f[_0x573a('0x52')]=!![];_0x582574[_0x573a('0x11a')]();_0x582574[_0x573a('0x8d')]();_0x582574[_0x573a('0x1c2')]();_0x582574[_0x573a('0x223')][_0x573a('0x227')]['on'][_0x573a('0x13f')](_0x582574,function(){_0x582574[_0x573a('0x225')]=_0x582574[_0x573a('0x223')][_0x573a('0x227')][_0x573a('0xf1')](_0x582574[_0x573a('0x223')][_0x573a('0x2d')]);if(_0x582574[_0x573a('0x225')][_0x573a('0x57')]===0x1){_0x582574[_0x573a('0x217')]();}var _0x53c391=this[_0x573a('0x2d')];_0x582574['showmarkAttendanceButton']=!![];_0x582574[_0x573a('0x4a')](_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')]);_0x582574['showTodaysCountPresent']=![];_0x582574[_0x573a('0x90')]();var _0xcc3533=document[_0x573a('0x138')](_0x573a('0x16b'));_0xcc3533[_0x573a('0x26')](_0x573a('0xaa'),function(_0x24463a){_0x24463a[_0x573a('0x12b')]();if(_0x24463a[_0x573a('0xc')]===0xd){_0x582574[_0x573a('0x1ec')]();_0x1b9e71(function(){_0x582574[_0x573a('0x217')]();},0x1e0);}});});_0x582574[_0x573a('0x223')][_0x573a('0x227')]['on'][_0x573a('0x63')](_0x582574,function(_0x34e524){_0x582574[_0x573a('0x113')]={'name':_0x34e524[_0x573a('0x7f')][_0x573a('0x8b')],'visible':_0x34e524[_0x573a('0x7f')]['visible']};});},0x3e8);_0x582574['message']={'nameSatsangi':'','branchCode':'','uid':'','activityName':'','dateValue':'','attendance':[]};_0x582574[_0x573a('0x1b2')]=_0x294e8c;_0x582574['getData']=function(){_0x582574[_0x573a('0x1b2')][_0x573a('0x10f')]();};_0x582574[_0x573a('0x6b')]=[];_0x582574[_0x573a('0x112')]=function(){firebase['database']()[_0x573a('0xeb')](_0x573a('0x13c'))['on'](_0x573a('0xbf'),function(_0x53ad21){if(_0x53ad21['val']()!=null){_0x53ad21[_0x573a('0x1c0')](function(_0x5a5f0f){_0x582574[_0x573a('0xc6')]=_0x5a5f0f['val']();_0x582574['allBranchCodeList'][_0x573a('0x79')](_0x582574[_0x573a('0xc6')][_0x573a('0x97')]);});}});};_0x582574[_0x573a('0x8d')]=function(){_0x582574[_0x573a('0xdd')][_0x573a('0xa6')]=_0x582574['messages'];_0x582574['checkAttendanceForTheInputOnDate'](_0x582574[_0x573a('0x1cc')],_0x582574['selectedNameOfActivity']);};firebase[_0x573a('0x1db')]()['onAuthStateChanged'](function(_0x271158){if(_0x271158){var _0x271158=firebase[_0x573a('0x1db')]()[_0x573a('0x134')];if(_0x271158!=null){_0x582574[_0x573a('0x11a')]();_0x582574[_0x573a('0x8d')]();}}else{return null;}});_0x582574[_0x573a('0xd')]=function(){_0x5960f1[_0x573a('0xd0')](_0x573a('0xbb'));};_0x582574[_0x573a('0x1f')]=function(){_0x5960f1[_0x573a('0xd0')](_0x573a('0xd3'));};_0x582574[_0x573a('0x151')]=function(){window[_0x573a('0x12e')](_0x573a('0x10'));};_0x582574['getAttendance']=function(){_0x582574[_0x573a('0x47')]();_0x582574[_0x573a('0x4a')](_0x582574[_0x573a('0x1cc')],_0x582574['selectedNameOfActivity']);_0x582574[_0x573a('0x1ed')]=!![];};_0x582574['getData']();_0x582574[_0x573a('0x8d')]();_0x582574[_0x573a('0x4a')](_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')]);_0x582574[_0x573a('0xbd')]=function(_0x4fab76){if(_0x582574[_0x573a('0x68')]){_0x5964fc(0x0,_0x582574['rowSelectedEntity'][_0x573a('0x9f')],'permanant','index',_0x582574['rowSelectedEntity'][_0x573a('0x37')],_0x582574['attendanceForThisData'],_0x582574[_0x573a('0x15a')],_0x582574[_0x573a('0x87')]['branchCode'],_0x582574[_0x573a('0x87')][_0x573a('0x11b')]);_0x5e88a7(0x0,_0x582574[_0x573a('0x87')]['deps'],_0x582574[_0x573a('0x87')][_0x573a('0x11b')],_0x573a('0x22b'),_0x573a('0x14a'),_0x582574[_0x573a('0x87')][_0x573a('0x37')],_0x582574[_0x573a('0x1cc')],_0x582574[_0x573a('0x15a')],_0x582574['rowSelectedEntity'][_0x573a('0x97')]);return;}_0x582574[_0x573a('0x155')]();if(localStorage[_0x573a('0x193')](_0x4fab76)!=null||localStorage[_0x573a('0x193')](_0x4fab76)!=undefined){var _0x488f8e=localStorage[_0x573a('0x193')](_0x4fab76);}else if(localStorage[_0x573a('0x193')](_0x582574[_0x573a('0x1f6')])!=null){var _0x488f8e=localStorage['getItem'](localStorage['getItem'](_0x582574['searchAttendanceGrid']));}if(_0x582574[_0x573a('0x1cb')]!=undefined||_0x582574[_0x573a('0x1f6')]!=undefined){_0x582574[_0x573a('0x31')](_0x4fab76);_0x582574[_0x573a('0x31')](_0x488f8e);}else{_0x582574['getData']();_0x582574[_0x573a('0x8d')]();_0x582574[_0x573a('0x217')]();}};_0x582574[_0x573a('0x228')]=function(_0x5e1379,_0x42829a){var _0x4f8727=-0x1;for(var _0x4db546=0x0;_0x4db546<_0x42829a['renderContainers']['body'][_0x573a('0x20')][_0x573a('0x57')];_0x4db546++){if(_0x5e1379['uid']===_0x42829a[_0x573a('0x54')][_0x573a('0xe')][_0x573a('0x20')][_0x4db546][_0x573a('0x37')]){_0x4f8727=_0x4db546;break;}}return _0x4f8727;};_0x1b9e71(function(){_0x582574[_0x573a('0x217')]();},0x1388);_0x582574[_0x573a('0x90')]=function(){_0x582574['showTodaysCountPresent']=!![];_0x582574[_0x573a('0x162')]();_0x582574[_0x573a('0x217')]();_0x582574[_0x573a('0x111')]();};function _0x5c2a4b(){var _0x27e8f6=[_0x573a('0x48'),_0x573a('0x19e'),'March',_0x573a('0xb'),'May',_0x573a('0x188'),_0x573a('0x89'),'August',_0x573a('0x17a'),_0x573a('0x1b5'),_0x573a('0x13d'),_0x573a('0x10c')];var _0x5269be=new Date();var _0x1c2e28=[];for(i=0x0;i<0x3;i++){_0x1c2e28[_0x573a('0x79')](_0x27e8f6[_0x5269be[_0x573a('0x14b')]()-i]+'-'+_0x5269be[_0x573a('0x187')]());}return _0x1c2e28;}}]);});
+define(['./module'], function (controllers) {
+    'use strict';
+    controllers.controller('markattendanceCtrl',['uiGridConstants', 'activitiesService', '$firebaseObject','$q','$location','$firebaseArray','$filter','uiGridExporterService', 'uiGridExporterConstants','AuthService','$rootScope', '$scope','$http','$log','$timeout',
+  'uiGridConstants','$templateCache', 
+  '$interval' , 'chatMessages',
+   function (uiGridConstants,activitiesService,$firebaseObject,$q,$location,$firebaseArray,$filter,uiGridExporterService,uiGridExporterConstants,AuthService,$rootScope,$scope,$http,$log,$timeout,$uiGridConstants,$templateCache,$interval,chatMessages){
+
+$scope.showUploadFile = false;
+
+
+
+
+$scope.uploadAttendance = function(){
+  console.log("uploadAttendance");
+  $scope.showUploadFile = !$scope.showUploadFile;
+
+}
+
+$scope.saveAttendanceOfflineToDB  = function(){
+
+console.log("....................");
+
+  var x = document.getElementById("myFile");
+  var txt = "";
+  if ('files' in x) {
+    if (x.files.length == 0) {
+      txt = "Select one or more files.";
+    } else {
+      for (var i = 0; i < x.files.length; i++) {
+        txt += "<br><strong>" + (i+1) + ". file</strong><br>";
+        var file = x.files[i];
+        if(file){
+
+          var reader = new FileReader();
+          reader.readAsText(file, "UTF-8");
+          reader.onload = function (evt) {
+                var data = evt.target.result;
+                var splitData = data.split(',');
+                splitData.map(function(d,i){
+                const userScaned = JSON.parse(localStorage.getItem('uid'+d.trim()));
+                writeNewPost(0,userScaned.deps,'indexForRS','index',userScaned.uid,$scope.attendanceForThisData,$scope.selectedNameOfActivity,userScaned.branchCode,userScaned.nameSatsangi);
+                addNewUIDForTodaysDateByBranchCode(0,userScaned.deps,userScaned.nameSatsangi,'indexForRS','index',userScaned.uid,$scope.attendanceForThisData,$scope.selectedNameOfActivity,userScaned.branchCode);
+
+                console.log(userScaned,"splitData",splitData);
+
+                })
+
+
+            }
+
+
+        }
+        
+        if ('name' in file) {
+          txt += "name: " + file.name + "<br>";
+        }
+        if ('size' in file) {
+          txt += "size: " + file.size + " bytes <br>";
+        }
+      }
+    }
+  } 
+  else {
+    if (x.value == "") {
+      txt += "Select one or more files.";
+    } else {
+      txt += "The files property is not supported by your browser!";
+      txt  += "<br>The path of the selected file: " + x.value; // If the browser does not support the files property, it will return the path of the selected file instead. 
+    }
+  }
+  document.getElementById("uploadedFile").innerHTML = txt;
+
+
+}
+$scope.showUploadFileFunction= function(){
+  
+}
+
+
+$scope.namesOfActivity =[];
+
+$scope.selectedNameOfActivity = "Select";
+
+ $scope.activitiesFromServer= activitiesService;
+ 
+$scope.getActivitiesData = function()
+  {
+    $scope.activitiesFromServer.$loaded();
+  }
+$scope.getActivitiesData();
+
+setTimeout(function(){
+    for(var i = 0 ; i < $scope.activitiesFromServer.length ; i++){
+            console.log($scope.activitiesFromServer[i].activityName)
+            // $scope.namesOfActivity = ["Stamp", "LTS","Star Track","Trainings","Scheduled meetings", "Survey" , "Townhall" , "Events","Select"];
+           // $scope.namesOfActivity.push($scope.activitiesFromServer[i].activityName);
+          
+          $scope.$apply();
+          }
+  },5000);
+
+
+// barCodeInput
+
+barCodeInput.addEventListener("keydown", function(e) {
+     
+       if (e.keyCode == 13) {
+        // console.log("barCode"+$scope.barCode)
+        // console.log(JSON.parse(localStorage.getItem('uid'+$scope.barCode)))
+        const userScaned = JSON.parse(localStorage.getItem('uid'+$scope.barCode));
+        console.log(userScaned,userScaned.gender,userScaned.nameSatsangi)
+        writeNewPost(0,userScaned.deps,'indexForRS','index',userScaned.uid,$scope.attendanceForThisData,$scope.selectedNameOfActivity,userScaned.branchCode,userScaned.nameSatsangi);
+        addNewUIDForTodaysDateByBranchCode(0,userScaned.deps,userScaned.nameSatsangi,'indexForRS','index',userScaned.uid,$scope.attendanceForThisData,$scope.selectedNameOfActivity,userScaned.branchCode);
+        $scope.barCode="";
+      }
+  });
+
+
+
+
+
+$scope.showCountDialog = function(){
+  // ngDialog.open({ template: 'templateId',scope: $scope });
+}
+
+  $scope.rowIsSelected = false;
+  $scope.rowSelectedEntity = {};
+  $scope.counter = 0;
+  $scope.totalItemsMarkAtt ={valueNumMarkAtt : 0};
+  $scope.decrementCounter = 0;
+  $scope.disableDecrementAttendanceFlag = {value:true};
+
+  $scope.markDepsAbsent = function(row){
+    $scope.showTodaysCountPresent = false;
+    if(row.childAtts-1 < 0){
+      return;
+    }
+    // console.log(row.childAtts-1);
+    $scope.decrementCounter = row.childAtts-1;
+    writeNewPost(row.childAtts-1,row.linked,row.indexForRS,row.index,row.$id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,row.branchCode,row.nameSatsangi);
+    addNewUIDForTodaysDateByBranchCode(row.childAtts-1,row.linked,row.nameSatsangi,row.indexForRS,row.index,row.$id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,row.branchCode);
+    $scope.decrementCounter = 0;
+    // $scope.$apply();
+  }
+
+  $scope.markPlusPresents = function (row) {
+    $scope.showTodaysCountPresent = false;
+    // console.log(row.childAtts);
+    // return;
+    if(row.childAtts == undefined){
+      console.log(row.childAtts);
+      $scope.counter = 0;
+      $scope.counter = $scope.counter + 1;
+    }
+    else{
+      $scope.counter = row.childAtts+1;
+    }
+    
+    // console.log(JSON.stringify(row));
+    
+    // console.log($scope.counter);
+    writeNewPost($scope.counter,row.linked,row.indexForRS,row.index,row.$id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,row.branchCode,row.nameSatsangi);
+    addNewUIDForTodaysDateByBranchCode($scope.counter,row.linked,row.nameSatsangi,row.indexForRS,row.index,row.$id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,row.branchCode);
+    // alert("hi"+row);
+    
+    // $scope.$apply();
+   
+  };
+
+$scope.addNwRc = function(linked,name,branchCode){
+
+$('<tr class="anim highlight"><td><b>'+branchCode+'</b></td><td>'+name+'</td><td><b>'+linked+'</b></td></tr>')
+    .hide()
+    .prependTo('table tbody')
+    .fadeIn("slow")
+    .addClass('normal');
+
+    $scope.reset();
+}
+
+
+$scope.showPrivilageError = false;
+$scope.toggleMainGrid = false;
+$scope.toggleAttGrid = true;
+$scope.toggleVirtualGrid = true;
+$scope.toggleToolButton  = false;
+$scope.toggleExceptionDiv = false;
+
+
+$scope.exception = {text:""};
+
+$scope.addException = function(){
+  var exceptionPost = {
+    exception:$scope.exception.text
+  }
+   firebase.database().ref('exceptions/' + new Date()).set(exceptionPost);
+$scope.exception.text = "";
+};
+ 
+$scope.showHideExceptionDiv = function(){
+  $scope.toggleExceptionDiv  = !$scope.toggleExceptionDiv;
+}
+
+$scope.showHideToggleGridButtons = function(){
+  $scope.toggleToolButton  = !$scope.toggleToolButton;
+}
+
+$scope.reset = function(){
+  $scope.searchAttendanceGrid = "0";
+  $scope.searchAttendanceGridName = "";
+}
+
+$scope.autoCompleteArrray = [];
+$scope.autoCompleteArrayNames = [];
+$scope.autoCompleteLinkedArray = [];
+
+var ref = firebase.database().ref("satsangiUsers");
+ref.once("value")
+  .then(function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    var childData = childSnapshot.val();
+    var originalName = childSnapshot.val().nameSatsangi.trim();
+    
+    var trimmedName = originalName.substring(originalName.indexOf(" ")+1,originalName.length).trim();
+
+    // console.log(trimmedName);
+    var strToPush = childSnapshot.val().branchCode+"--"+childSnapshot.val().nameSatsangi;
+    var strNamesFirstToPush = childSnapshot.val().nameSatsangi+"--"+childSnapshot.val().branchCode;
+    var strNamesFirstToPushTrimmed = trimmedName+"--"+childSnapshot.val().branchCode;
+    var strLinked = childSnapshot.val().branchCode+"--"+childSnapshot.val().deps;
+    $scope.autoCompleteLinkedArray.push(strLinked);
+    // console.log(strLinked);
+    localStorage.setItem(childSnapshot.val().branchCode, childSnapshot.val().branchCode);
+    localStorage.setItem(childSnapshot.val().nameSatsangi, childSnapshot.val().branchCode);
+    // console.log('uid'+''+childSnapshot.val().uid, childSnapshot.val())
+    localStorage.setItem('uid'+childSnapshot.val().uid, JSON.stringify(childSnapshot.val()));
+    console.log(JSON.parse(localStorage.getItem('uid'+childSnapshot.val().uid)))
+    
+    localStorage.setItem(trimmedName,originalName);
+    $scope.autoCompleteArrray.push(strToPush);
+    // $scope.autoCompleteArrayNames.push(strNamesFirstToPush);
+    $scope.autoCompleteArrayNames.push(strNamesFirstToPushTrimmed);
+    // console.log($scope.autoCompleteArrayNames)
+    });
+  }
+
+  });
+
+function autocomplete(inp, arr) {
+  /*the autocomplete function takes two arguments,
+  the text field element and an array of possible autocompleted values:*/
+  var currentFocus;
+  /*execute a function when someone writes in the text field:*/
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      /*close any already open lists of autocompleted values*/
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      /*create a DIV element that will contain the items (values):*/
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+      /*append the DIV element as a child of the autocomplete container:*/
+      this.parentNode.appendChild(a);
+      /*for each item in the array...*/
+      for (i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+        /*check if the item starts with the same letters as the text field value:*/
+        // if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          if(arr[i].toUpperCase().includes(val.toUpperCase())){
+
+          /*create a DIV element for each matching element:*/
+          b = document.createElement("DIV");
+          /*make the matching letters bold:*/
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          /*insert a input field that will hold the current array item's value:*/
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          /*execute a function when someone clicks on the item value (DIV element):*/
+          b.addEventListener("click", function(e) {
+            
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
+              (or any other open lists of autocompleted values:*/
+              // console.log(inp.value)
+              // console.log($scope.getTheExtractedBranchCode(inp.value));
+
+              var getOriginalName = localStorage.getItem($scope.getTheExtractedBranchCode(inp.value));
+              // console.log("getOriginalName"+getOriginalName)
+              // var actualExtract= $scope.getTheExtractedBranchCode(getOriginalName);
+              // console.log("hhhhhhhhhh"+actualExtract)
+              // $scope.searchAttendanceGrid = actualExtract;
+              console.log(getOriginalName+"-------------------------------------------------------------------------->")
+              $scope.searchAttendanceGrid = getOriginalName;
+              $scope.searchAttendanceGridName=$scope.searchAttendanceGrid;
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+  /*execute a function presses a key on the keyboard:*/
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        //e.preventDefault();
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click(); 
+          // console.log("entrance"+$scope.searchAttendanceGridName)
+          // console.log("entrance"+localStorage.getItem($scope.searchAttendanceGridName))
+
+        }
+      }
+  });
+  function addActive(x) {
+    /*a function to classify an item as "active":*/
+    if (!x) return false;
+    /*start by removing the "active" class on all items:*/
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    /*add class "autocomplete-active":*/
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    /*a function to remove the "active" class from all autocomplete items:*/
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+    /*close all autocomplete lists in the document,
+    except the one passed as an argument:*/
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+  /*execute a function when someone clicks in the document:*/
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+      });
+}
+//--
+var dataAutoComplete = $scope.autoCompleteArrray;
+var dataAutoCompleteNamesFrst = $scope.autoCompleteArrayNames;
+var linkedAutoComplete = $scope.autoCompleteLinkedArray;
+
+autocomplete(document.getElementById("searchTextBox"), dataAutoComplete);
+// autocomplete(document.getElementById("searchTextBoxFirstNames"), dataAutoCompleteNamesFrst);
+autocomplete(document.getElementById("searchTextBoxFirstNames"), dataAutoComplete);
+
+autocomplete(document.getElementById("searchLinkedId"), linkedAutoComplete);
+
+$scope.showHideMainGrid = function(){
+  $scope.toggleMainGrid = !$scope.toggleMainGrid;
+}
+
+$scope.showHideVirtualGrid = function(){
+  $scope.toggleVirtualGrid = !$scope.toggleVirtualGrid;
+}
+
+$scope.showHideAttGrid = function(){
+  $scope.toggleAttGrid = !$scope.toggleAttGrid;
+}
+
+
+$scope.userAttendanceLabel = {
+          attendanceStatus:"PRESENT"
+        };
+
+$timeout(function () {
+      $scope.currentLevelUser = AuthService.resolveUser();
+      $rootScope.loggedInAs = $scope.currentLevelUser.email;
+
+      if($scope.currentLevelUser.email==="level1@ams.com" || $scope.currentLevelUser.email==="satsangi@ams.com")
+      {
+        $rootScope.levelOneUserLoggedIn = true;
+      }
+       else if($scope.currentLevelUser.email==="level2@gmail.com" || $scope.currentLevelUser.email==="admin@ams.com" || $scope.currentLevelUser.email==="mukesh.dei90@gmail.com" || $scope.currentLevelUser.email==="level2@ams.com" || $scope.currentLevelUser.email==="hrsa03gurgaon@gmail.com")
+      {
+        $rootScope.levelTwoUserLoggedIn = true;
+      }
+      else if($scope.currentLevelUser.email==="ggauravkapoor81@gmail.com" || $scope.currentLevelUser.email==="ritukhanna77@gmail.com" || $scope.currentLevelUser.email==="kavya.rawat108@gmail.com" || $scope.currentLevelUser.email==="lpsharma9@yahoo.co.in" || $scope.currentLevelUser.email==="seth.shubhangi28@gmail.com"|| $scope.currentLevelUser.email==="level3@ams.com" || $scope.currentLevelUser.email==="bshubhanka@gmail.com" || $scope.currentLevelUser.email==="ankitadei@gmail.com")
+      {
+        $rootScope.levelThreeUserLoggedIn = true;
+      }
+    }, 2000);
+
+
+$scope.searchfrbc ={value:""}
+
+$scope.getDBReference = function(){
+$scope.frBrnchCode = firebase.database().ref('satsangiUsers-attendance');
+return $scope.frBrnchCode;
+}
+
+$scope.removeData = function(data,toLoadPopUpsTimeFunc){
+  if(toLoadPopUpsTimeFunc)
+  {
+   
+   $scope.frBrnchCode.child(data.datePresent).child(data.activityName).child(data.branchCode).remove();
+   $scope.frBrnchCode.child(data.activityName).child(data.branchCode).child(data.datePresent).remove();
+   $timeout(function () {
+      $scope.loadDetailsPerBrCd(data.activityName,data.branchCode);
+      $scope.getAttendance();
+   }, 150);
+    return;
+
+  }
+  else
+  {
+  var activityS = $scope.selectedNameOfActivity;
+  var dateS =$scope.attendanceForThisData;
+  $scope.frBrnchCode.child(dateS).child(activityS).child(data.branchCode).remove();
+  $scope.frBrnchCode.child(activityS).child(data.branchCode).child(dateS).remove();
+  }
+}
+
+$scope.deleteData = function(){
+  $scope.showTodaysCountPresent = false;
+  // $scope.$apply();
+  // console.log("branchCode1..... :"+$scope.immediateBranchCode)
+  var branchCode = localStorage.getItem(localStorage.getItem($scope.searchAttendanceGrid));
+  // console.log("branchCode... :"+branchCode)
+  var activityS = $scope.selectedNameOfActivity;
+  var dateS =$scope.attendanceForThisData;
+  $scope.frBrnchCode.child(dateS).child(activityS).child(branchCode).remove();
+  $scope.frBrnchCode.child(activityS).child(branchCode).child(dateS).remove();
+
+  $scope.searchAttendanceGrid = "";
+  $scope.searchAttendanceGridName = "";
+  // $scope.getAttendance();
+
+// $('#virtualTable tbody').remove();
+}
+
+$scope.loadCountForToday = function(){
+
+$scope.countForTodayLoad = [];
+$scope.dateKeysCountNumber = [];
+$scope.frBrnchCode = $scope.getDBReference();
+$scope.frBrnchCode.child($scope.attendanceForThisData).child($scope.selectedNameOfActivity).on('value', function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    $scope.childData = childSnapshot.val();
+    $scope.countForTodayLoad.push(childSnapshot.val());
+    $scope.dateKeysCountNumber.push(childSnapshot.key);
+    
+    }); 
+  }
+});
+
+}
+
+$scope.loadDetailsPerActivityAndBrCd = function(activityName,branchCode){
+$scope.eSatsangDatesPrsentNumber = [];
+$scope.dateKeysForBranchMorningSatsang = [];
+$scope.dateKeysForBranchEveningSatsang = [];
+$scope.dateKeysForBranchSpecialSatsang = [];
+$scope.dateKeysForMorningCleaning = [];
+$scope.dateKeysForEveningCleaning = [];
+$scope.dateKeysForWindUp = [];
+$scope.dateKeysForWeeklyCleaning= [];
+$scope.dateKeysForBasantArti = [];
+$scope.dateKeysForBasantBhandara =[];
+$scope.dateKeysForHoliArti=[];
+$scope.dateKeysForHoliBhandara=[];
+$scope.dateKeysForArti=[];
+$scope.dateKeysForBhandara=[];
+$scope.dateKeysForCopyUnit= [];
+$scope.dateKeysForBagUnit=[];
+$scope.dateKeysForNightDuty= [];
+$scope.dateKeysForESatsang = [];
+
+$scope.frBrnchCode = $scope.getDBReference();
+$scope.frBrnchCode.child(activityName).child(branchCode).on('value', function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    $scope.childKey = childSnapshot.key;
+    $scope.childData = childSnapshot.val();
+    if(activityName === "E-Satsang")
+    {
+      $scope.dateKeysForESatsang.push(childSnapshot.key);
+      $scope.ESatsangPresentsFrThisBrCode = $scope.dateKeysForESatsang.length;
+    }
+    if(activityName === "Branch Morning Satsang")
+    {
+      $scope.dateKeysForBranchMorningSatsang.push(childSnapshot.key);
+      $scope.BranchMorningSatsangPresentsFrThisBrCode = $scope.dateKeysForBranchMorningSatsang.length;
+    }
+    if(activityName === "Branch Evening Satsang")
+    {
+      $scope.dateKeysForBranchEveningSatsang.push(childSnapshot.key);
+      $scope.BranchEveningSatsangPresentsFrThisBrCode = $scope.dateKeysForBranchEveningSatsang.length;
+    }
+
+    if(activityName === "Branch Special Satsang")
+    {
+      $scope.dateKeysForBhandara.push(childSnapshot.key);
+      $scope.BranchSpecialSatsangPresentsFrThisBrCode = $scope.dateKeysForBhandara.length;
+    }
+    if(activityName === "Morning Cleaning")
+    {
+      $scope.dateKeysForAarti.push(childSnapshot.key);
+      $scope.MorningCleaningPresentsFrThisBrCode = $scope.dateKeysForAarti.length;
+    }
+    if(activityName === "Evening Cleaning")
+    {
+      $scope.dateKeysForCleaningSewa.push(childSnapshot.key);
+      $scope.EveningCleaningPresentsFrThisBrCode = $scope.dateKeysForCleaningSewa.length;
+    }
+    if(activityName === "Windup")
+    {
+      $scope.dateKeysForMahilaAssociation.push(childSnapshot.key);
+      $scope.WindupPresentsFrThisBrCode = $scope.dateKeysForMahilaAssociation.length;
+    }
+
+    if(activityName === "Weekly Cleaning")
+    {
+      $scope.dateKeysForMedicalCamp.push(childSnapshot.key);
+      $scope.WeeklyCleaningPresentsFrThisBrCode = $scope.dateKeysForMedicalCamp.length;
+    }
+    if(activityName === "Basant Arti")
+    {
+      $scope.dateKeysForDailySatsangMorning.push(childSnapshot.key);
+      $scope.BasantArtiPresentsFrThisBrCode = $scope.dateKeysForDailySatsangMorning.length;
+    }
+    if(activityName === "Basant Bhandara")
+    {
+      $scope.dateKeysForDailySatsangEvening.push(childSnapshot.key);
+      $scope.BasantBhandaraEveningPresentsFrThisBrCode = $scope.dateKeysForDailySatsangEvening.length;
+    }
+    if(activityName === "Holi Arti")
+    {
+      $scope.dateKeysForNightDuty.push(childSnapshot.key);
+      $scope.HoliArtiPresentsFrThisBrCode = $scope.dateKeysForNightDuty.length;
+    }
+
+    if(activityName === "Holi Bhandara")
+    {
+      $scope.dateKeysForYouthPath.push(childSnapshot.key);
+      $scope.HoliBhandaraPresentsFrThisBrCode = $scope.dateKeysForYouthPath.length;
+    }
+    if(activityName === "Arti")
+    {
+      $scope.dateKeysForHelpdeskESatsang.push(childSnapshot.key);
+      $scope.ArtiPresentsFrThisBrCode = $scope.dateKeysForHelpdeskESatsang.length;
+    }
+
+    if(activityName === "Bhandara")
+    {
+      $scope.dateKeysForHelpdeskBhandara.push(childSnapshot.key);
+      $scope.BhandaraPresentsFrThisBrCode = $scope.dateKeysForHelpdeskBhandara.length;
+    }
+    if(activityName === "Copy Unit")
+    {
+      $scope.dateKeysForHelpdeskAarti.push(childSnapshot.key);
+      $scope.CopyUnitPresentsFrThisBrCode = $scope.dateKeysForHelpdeskAarti.length;
+    }
+
+    if(activityName === "Bag Unit")
+    {
+      $scope.dateKeysForHelpdeskBhandara.push(childSnapshot.key);
+      $scope.BagUnitPresentsFrThisBrCode = $scope.dateKeysForHelpdeskBhandara.length;
+    }
+    if(activityName === "Night Duty")
+    {
+      $scope.dateKeysForHelpdeskAarti.push(childSnapshot.key);
+      $scope.NightDutyPresentsFrThisBrCode = $scope.dateKeysForHelpdeskAarti.length;
+    }
+
+    });
+  }
+  //-------else if
+    else if(activityName === "E-Satsang")
+    {
+      $scope.ESatsangPresentsFrThisBrCode = 0;
+    }
+  else if(activityName === "Branch Morning Satsang")
+    {
+      $scope.BranchMorningSatsangPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Branch Evening Satsang")
+    {
+      $scope.BranchEveningSatsangPresentsFrThisBrCode = 0;
+    }
+
+    else if(activityName === "Branch Special Satsang")
+    {
+      $scope.BranchSpecialSatsangPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Morning Cleaning")
+    {
+      $scope.MorningCleaningPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Evening Cleaning")
+    {
+      $scope.EveningCleaningPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Windup")
+    {
+      $scope.WindupPresentsFrThisBrCode = 0;
+    }
+
+    else if(activityName === "Weekly Cleaning")
+    {
+      $scope.WeeklyCleaningPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Basant Arti")
+    {
+      
+      $scope.BasantArtiPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Basant Bhandara")
+    {
+      $scope.BasantBhandaraEveningPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Holi Arti")
+    {
+      $scope.HoliArtiPresentsFrThisBrCode = 0;
+    }
+
+    else if(activityName === "Holi Bhandara")
+    {
+      
+      $scope.HoliBhandaraPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Arti")
+    {
+      
+      $scope.ArtiPresentsFrThisBrCode = 0;
+    }
+
+    else if(activityName === "Bhandara")
+    {
+      
+      $scope.BhandaraPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Copy Unit")
+    {
+      
+      $scope.CopyUnitPresentsFrThisBrCode = 0;
+    }
+
+    else if(activityName === "Bag Unit")
+    {
+      
+      $scope.BagUnitPresentsFrThisBrCode = 0;
+    }
+    else if(activityName === "Night Duty")
+    {
+      
+      $scope.NightDutyPresentsFrThisBrCode = 0;
+    }
+  /*else if(activityName === "Branch Morning Satsang")
+  {
+    $scope.BranchMorningSatsangPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Bhandara")
+  {
+    $scope.bhandaraPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "E-Satsang")
+  {
+    $scope.ESatsangPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Branch Satsang")
+  {
+    $scope.BSatsangPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Cleaning Sewa")
+  {
+    $scope.CleaningSewaPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Mahila Association")
+  {
+    $scope.MahilaAssociationPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Medical Camp")
+  {
+    $scope.MedicalCampPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Daily Satsang Morning")
+  {
+    $scope.DailySatsangMorningPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Daily Satsang Evening")
+  {
+    $scope.DailySatsangEveningPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Night Duty")
+  {
+    $scope.NightDutyPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Youth Path")
+  {
+    $scope.YouthPathPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Helpdesk E-Satsang")
+  {
+    $scope.HelpdeskESatsangPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Helpdesk-Aarti")
+  {
+    $scope.HelpdeskAartiPresentsFrThisBrCode = 0;
+  }
+  else if(activityName === "Helpdesk Bhandara")
+  {
+    $scope.HelpdeskBhandaraPresentsFrThisBrCode = 0;
+  }*/
+  else
+  {}
+});
+
+}
+
+$scope.activityType = {
+  zValue:"E-Satsang",
+  oneValue:"Branch Morning Satsang",
+  twoValue:"Branch Evening Satsang",
+  threeValue:"Branch Special Satsang",
+  fourValue:"Morning Cleaning",
+  fiveValue:"Evening Cleaning",
+  sixValue:"Windup",
+  sevenValue:"Weekly Cleaning",
+  eightValue:"Basant Arti",
+  nineValue:"Basant Bhandara",
+  tenValue:"Holi Arti",
+  elevenValue:"Holi Bhandara",
+  twelveValue:"Arti",
+  thirteenValue:"Bhandara",
+  fourteenValue:"Copy Unit",
+  fifteenValue:"Bag Unit",
+  sixteenValue:"Night Duty"
+}
+
+
+$scope.loadDetailsPerBrCd = function(activityName,branchCode){
+$scope.currentSelectedActivityTypeForRightSideGrid = activityName;
+$scope.datesPresentArray = [];
+$scope.dateKeys = [];
+$scope.frBrnchCode = $scope.getDBReference();
+$scope.frBrnchCode.child(activityName).child(branchCode).orderByChild("sortDate").limitToLast($scope.limitToValue).on('value', function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    $scope.childKey = childSnapshot.key;
+    $scope.childData = childSnapshot.val();
+    $scope.datesPresentArray.push(childSnapshot.val());
+    $scope.dateKeys.push(childSnapshot.key);
+    });
+  }
+});
+$scope.loadDetailsPerActivityAndBrCd("E-Satsang",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Branch Morning Satsang",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Branch Evening Satsang",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Branch Special Satsang",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Morning Cleaning",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Evening Cleaning",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Windup",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Weekly Cleaning",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Basant Arti",$scope.branchCodeSelected);
+
+$scope.loadDetailsPerActivityAndBrCd("Basant Bhandara",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Holi Arti",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Holi Bhandara",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Arti",$scope.branchCodeSelected);
+
+$scope.loadDetailsPerActivityAndBrCd("Bhandara",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Copy Unit",$scope.branchCodeSelected);
+
+$scope.loadDetailsPerActivityAndBrCd("Bag Unit",$scope.branchCodeSelected);
+$scope.loadDetailsPerActivityAndBrCd("Night Duty",$scope.branchCodeSelected);
+
+
+}
+
+$scope.openDetails = function(row,id,toCallLoadMethod){
+$scope.datesPresentArray = [];
+    // $("#hider").fadeIn("slow");
+    // $('#popup_box').fadeIn("slow");
+  if(toCallLoadMethod){
+     $scope.nameSatsangiSelected = row.nameSatsangi;
+     $scope.branchCodeSelected = row.branchCode;
+      $timeout(function () {
+      $scope.loadDetailsPerBrCd($scope.selectedNameOfActivity,row.branchCode);
+    }, 250);
+   }
+}
+// $scope.namesOfActivity = ["E-Satsang", "Branch Satsang", "Bhandara","Aarti","Cleaning Sewa","Mahila Association","Medical Camp","Daily Satsang Morning","Daily Satsang Evening","Night Duty","Youth Path","Helpdesk E-Satsang","Helpdesk-Aarti","Helpdesk Bhandara" , "Select"];
+$scope.namesOfActivity =["Special Cleaning", "Special Satsang" , "E-Satsang","Branch Morning Satsang","Branch Evening Satsang","Branch Special Satsang","Morning Cleaning","Evening Cleaning","Windup","Weekly Cleaning","Basant Arti","Basant Bhandara","Holi Arti","Holi Bhandara","Arti","Bhandara","Copy Unit","Bag Unit","Night Duty","Select"];
+$scope.filtersSels = ["Select" , "Last 1 month" , "Last 2 months","Last 3 months" , "Last 6 months"];
+$scope.selectedfilterSel = "Select";
+// $scope.selectedNameOfActivity = "Select";
+// $rootScope.selectedNameOfActivityGlobal = "E-Satsang";
+$rootScope.selectedNameOfActivityGlobal = "Arti";
+$scope.fdt = $filter('date')(new Date() , 'dd-MMMM-yyyy');
+$scope.timeFromtheSelectedDate = new Date().getTime();
+$scope.tdt = $filter('date')(new Date() , 'dd-MMMM-yyyy');
+$scope.dtmax = new Date();
+$rootScope.isLoading = true;
+$rootScope.isUserMarkedPresent = false;
+$rootScope.isUserAlreadyMarkedPresent = false;
+$scope.attendanceForThisData = $filter('date')($scope.fdt , 'dd-MM-yyyy');
+$rootScope.attendanceForThisDataGlobal = $filter('date')($scope.fdt , 'dd-MM-yyyy');
+$scope.showTodaysCountPresent = false;
+$scope.limitToValue = 100;
+
+$scope.satsangiUsersAttendanceRef = firebase.database().ref('satsangiUsers-attendance/');
+$scope.satsangiUsersAttendanceRef.on('child_added', function(data) {
+});
+
+$scope.satsangiUsersAttendanceRef.on('child_changed', function(data) {
+});
+
+$scope.unCheckMarkedForThisDate = function(){
+$scope.satsangiUsers= firebase.database().ref('satsangiUsers/');
+$scope.satsangiUsers.on('value', function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    $scope.uncheckFirst(childSnapshot.val());
+  });
+  }
+});
+}
+
+$scope.toSelectRecord = "";
+$scope.getGridDataObjectForSelection = function(bc)
+{
+console.log("hiiiiiiiiiiiiiiiiiiii");
+var ref = firebase.database().ref("satsangiUsers");
+ref.once("value")
+  .then(function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    var childData = childSnapshot.val();
+    if(childData.branchCode === bc){
+      $scope.GridchildData = childData;
+
+      console.log("$scope.GridchildData ",$scope.GridchildData );
+    }
+    });
+    $scope.addAttendance($scope.GridchildData.uid,true,'indexOfSelectedRec','indexForRS',$scope.GridchildData.branchCode,$scope.GridchildData.deps ,$scope.GridchildData.gender , $scope.GridchildData.category , $scope.GridchildData.dobYear , 2019 - $scope.GridchildData.dobYear , $scope.GridchildData.branchName , $scope.GridchildData.districtName , $scope.GridchildData.regionName);
+    // console.log("$scope.GridchildData"+$scope.GridchildData)
+    // $scope.gridOptions1.data[0] = $scope.GridchildData;
+  }
+});
+}
+
+
+$scope.checkForMarkedPresent = function(childData){
+  if(childData.uid != null && document.getElementById(childData.uid) != null)
+    {
+      document.getElementById(childData.uid).checked = true;
+      if($scope.gridApi != undefined)
+      {
+        
+      }
+    }
+}
+
+$scope.uncheckFirst = function(childData){
+  if(childData.uid != null && document.getElementById(childData.uid) != null)
+    {
+      document.getElementById(childData.uid).checked = false;
+    }
+}
+$scope.checkAttendanceForTheInputOnDate = function(inputDate,selectedNameOfActivity){
+  var starCountRef = firebase.database().ref('satsangiUsers-attendance').child(inputDate).child(selectedNameOfActivity);
+  starCountRef.on('value', function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    var childData = childSnapshot.val();
+      if(childData.uid != null)
+      {
+        $scope.checkForMarkedPresent(childData);
+      }
+   });
+  }
+  else
+  {
+    $scope.unCheckMarkedForThisDate(inputDate);
+  }
+ });
+}
+
+$scope.checkIfTheuserisAlreadyMarkedPresent = function(uid,dateFor){
+
+  if(dateFor === null)
+  {
+    $scope.satsangiUsersAttendance= firebase.database().ref('satsangiUsers-attendance/'+ dateFor);  
+  }
+  else
+  {
+    $scope.satsangiUsersAttendance= firebase.database().ref('satsangiUsers-attendance/');
+  }
+
+$scope.satsangiUsersAttendance.on('value', function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    var childData = childSnapshot.val();
+    if(childSnapshot.key === uid)
+    {
+      return true;
+    }
+    else
+    {
+        return false;
+    }
+
+   });
+  }
+});
+}
+
+
+function addCountForTodaysDate(datePresent,saveNow) {
+var ref = firebase.database().ref().child(datePresent);
+var obj = new $firebaseObject(ref);
+$scope.todaysCountValue ;
+obj.$loaded().then(function() {
+  if(obj.$value == null || obj.$value === null || obj.$value === "null")
+  {
+    $scope.todaysCountValue  = 0;
+  }
+  else
+  {
+    $scope.todaysCountValue = obj.$value; 
+  }
+
+if(obj.$value == NaN)
+{
+  obj.$value =1;
+  obj.$value =  obj.$value;
+}
+if(saveNow)
+{
+obj.$value = $scope.todaysCountValue + 1;
+$scope.todaysCountValue = obj.$value;
+obj.$save();
+}
+});
+
+}
+
+addCountForTodaysDate($scope.attendanceForThisData,false);
+
+function addNewUIDForTodaysDate(indexForRS,index,uid,datePresent,activityName) {
+  var postData = {
+    indexForRS:indexForRS,
+    index:index,
+    uid: uid,
+    activityName:activityName
+};
+  var newPostKey = firebase.database().ref().child('satsangiUsers-attendance').push().key;
+  var updates = {};
+  updates['/satsangiUsers-attendance/' + datePresent + '/' +  uid] = postData;
+
+  if($scope.checkIfTheuserisAlreadyMarkedPresent(uid,datePresent))
+  {
+    return;
+  }
+  else
+  {
+    return firebase.database().ref().update(updates);
+  }
+}
+
+function addNewUIDForTodaysDateByBranchCode(childAtts,deps,nameSatsangi,indexForRS,index,uid,datePresent,activityName,branchCode,gender, category,dobyear, age, branchName , districtName , regionName) {
+  console.log(branchName , districtName , regionName,"addNewUIDForTodaysDateByBranchCode, gender, category,dobyear, age",gender, category,dobyear, age)
+  if(deps === undefined){
+    deps = "-";
+  }
+  var postData = {
+    // gender:gender, 
+    // category:category,
+    // dobyear:dobyear, 
+    // age:age,
+
+     gender:gender!== undefined ? gender : "update gender",
+    category:category !== undefined?  category : "updated if initiated/jigyasu/other",
+    dobyear:dobyear !== undefined ? dobyear : "update dobyear",
+    age:age !== undefined ? age : "update dobyear",
+
+    // branchName:branchName ,
+    // districtName:districtName ,
+    // regionName:regionName,
+
+    branchName:branchName !== undefined ? branchName : "Pune" ,
+    districtName:districtName !== undefined ? districtName : "MP" ,
+    regionName:regionName !== undefined ? regionName : "MP",
+    
+    linked:deps,
+    childAtts:childAtts,
+    indexForRS:indexForRS,
+    index:index,
+    uid: uid,
+    activityName:activityName,
+    sortDate:$scope.timeFromtheSelectedDate*-1,
+    branchCode:branchCode,
+    nameSatsangi:nameSatsangi,
+    datePresent:datePresent
+};
+
+  var newPostKey = firebase.database().ref().child('satsangiUsers-attendance').push().key;
+  var updates = {};
+  updates['/satsangiUsers-attendance/' + datePresent + '/' +activityName+'/'+ branchCode] = postData;
+
+  // $scope.getData1();
+  // $scope.assignDatatoGrid1();
+  $scope.searchAttendanceGrid = "";
+
+  if($scope.checkIfTheuserisAlreadyMarkedPresent(uid,datePresent))
+  {
+    return;
+  }
+  else
+  {
+    var resp= firebase.database().ref().update(updates);
+    $scope.addNwRc(deps,nameSatsangi,branchCode);
+    $scope.reset();
+    $scope.rowIsSelected = false;
+    $scope.rowSelectedEntity = {};
+    console.log("clearing selected rows if any")
+    $scope.gridApi.selection.clearSelectedRows();
+    $scope.barCode="";
+    return resp;
+  }
+}
+
+function writeNewPost(childAtts,deps,indexForRS,index,uid,datePresent,eventType,branchCode,nameSatsangi,gender, category,dobyear, age , branchName , districtName , regionName) {
+  console.log("writeNewPost",gender, category,dobyear, age , branchName , districtName , regionName);
+  if(deps === undefined){
+    deps = "-";
+  }
+  var postData = {
+    gender:gender!== undefined ? gender : "update gender",
+    category:category !== undefined?  category : "updated if initiated/jigyasu/other",
+    dobyear:dobyear !== undefined ? dobyear : "update dobyear",
+    age:age !== undefined ? age : "update dobyear",
+    branchName:branchName !== undefined ? branchName : "Pune" ,
+    districtName:districtName !== undefined ? districtName : "MP" ,
+    regionName:regionName !== undefined ? regionName : "MP",
+    linked:deps,
+    childAtts:childAtts,
+    indexForRS:indexForRS,
+    index:index,
+    uid: uid,
+    datePresent:datePresent,
+    activityName:eventType,
+    branchCode:branchCode,
+    nameSatsangi:nameSatsangi,
+    sortDate:$scope.timeFromtheSelectedDate*-1
+};
+  var newPostKey = firebase.database().ref().child('satsangiUsers-attendance').push().key;
+  var updates = {};
+  updates['/satsangiUsers-attendance/' + eventType + '/' + branchCode+'/'+datePresent] = postData;
+  if($scope.checkIfTheuserisAlreadyMarkedPresent(uid,null))
+  {
+    return;
+  }
+  else
+  {
+    return firebase.database().ref().update(updates);
+  }
+}
+
+
+function addDatesForBranchCode(branchCode,uid) {
+
+  var postData = {
+    datePresent:$scope.attendanceForThisData,
+    activity:$scope.selectedNameOfActivity,
+    branchCode:branchCode,
+    uid:uid
+
+  };
+  var newPostKey = firebase.database().ref().child('satsangiUsers-attendance').push().key;
+  var updates = {};
+  updates['/satsangiUsers-attendance/' + branchCode+'/'+$scope.attendanceForThisData] = postData;
+  return firebase.database().ref().update(updates); 
+}
+
+
+  $scope.changeActivity = function(){
+    // console.log( $scope.selectedNameOfActivity)
+    $rootScope.selectedNameOfActivityGlobal= $scope.selectedNameOfActivity;
+    $scope.getAttendance();
+    $scope.showTodaysCountPresent = false;
+    $scope.showTodaysCountForCopy();
+    $scope.getData1();
+    $scope.assignDatatoGrid1();
+    // $scope.totalItems = $scope.gridApi1.grid.options.totalItems;
+    // alert($scope.gridApi1.grid.rows.length)
+    // var ttttCCCCC = document.evaluate('*[@id="grid1"]/div[2]/div[2]/div/span/text()[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext().value;
+    // alert(ttttCCCCC);
+  }
+
+  $scope.changeFilterSel = function(){
+    if($scope.selectedfilterSel === "Last 1 month")
+    {
+      $scope.limitToValue = 4;
+    }
+    else if($scope.selectedfilterSel === "Last 2 months")
+    {
+      $scope.limitToValue = 8;
+    }
+    else if($scope.selectedfilterSel === "Last 3 months")
+    {
+      $scope.limitToValue = 12;
+    }
+    else if($scope.selectedfilterSel === "Last 6 months")
+    {
+      $scope.limitToValue = 24;
+    }
+    else
+    {
+      $scope.limitToValue = 100;
+    }
+    $scope.activitySummaryBybranchCode = [];
+    $scope.namesOfActivity.map(function(activityName){
+      $scope.loadDetailsPerBrCd(activityName,$scope.branchCodeSelected);
+      var summaryObj = {activityName:activityName , valueNumber:$scope.dateKeys.length};
+      $scope.activitySummaryBybranchCode.push(summaryObj);
+      
+    })
+  }
+Date.prototype.getNextWeekMonday = function() {
+    var d = new Date(this.getTime());
+    var diff = d.getDate() - d.getDay() + 1;
+    if (d.getDay() == 0)
+        diff -= 7;
+    diff += 7; // ugly hack to get next monday instead of current one
+    return new Date(d.setDate(diff));
+};
+
+Date.prototype.getNextWeekSunday= function() {
+    var d = this.getNextWeekMonday();
+    
+    return new Date(d.setDate(d.getDate() + 6));
+};
+
+
+var date = new Date();
+$scope.nextWeekMonday = date.getNextWeekMonday().toString().substring(0,10);
+$scope.nextWeekSunday =date.getNextWeekSunday().toString().substring(0,10);
+
+$scope.openF = function($event) {
+      $event.preventDefault();
+      $event.stopPropagation();
+      $scope.openedF = true;
+    };
+     $scope.openT = function($event) {
+      $event.preventDefault();
+      $event.stopPropagation();
+      $scope.openedT = true;
+    };
+
+    $scope.dateOptions = {
+      'year-format': 'yy',
+      'show-weeks': false,
+    };
+
+
+    $scope.changeSelectF = function(dt){
+      $scope.showTodaysCountPresent = false;
+      $scope.showTodaysCountForCopy();
+      $scope.gridApi.selection.clearSelectedRows();
+      $scope.attendanceForThisData =  $filter('date')(dt, 'dd-MMMM-yyyy');
+      $scope.attendanceForThisDataGlobal =  $filter('date')(dt, 'dd-MMMM-yyyy');
+      $scope.timeFromtheSelectedDate = dt.getTime();
+      $scope.showTodaysCountPresent = false;
+      $scope.showTodaysCountForCopy();
+      
+       $scope.getData1();
+       $scope.assignDatatoGrid1();
+
+      $scope.checkAttendanceForTheInputOnDate($scope.attendanceForThisData,$scope.selectedNameOfActivity);
+      // $scope.totalItems = $scope.gridApi1.grid.options.totalItems;
+      $scope.showCountDialog();
+    // alert(totalItems)
+    }
+
+
+      $scope.changeSelectT = function(dt){
+      var busDateT = $filter('date')($scope.tdt , 'dd-MM-yyyy');
+      $scope.nextWeekSunday =busDateT;
+    }
+
+
+  $scope.exportCsv = function() {
+    var grid = $scope.gridApi.grid;
+    var rowTypes = uiGridExporterConstants.ALL;
+    var colTypes = uiGridExporterConstants.ALL;
+    uiGridExporterService.csvExport(grid, rowTypes, colTypes);
+  };
+
+function updateSatsangiUser(uid,datePresent,deps,branchCode,nameSatsangi) {
+  var postData = {
+    uid: uid,
+    nameSatsangi: nameSatsangi,
+    branchCode : branchCode,
+    dateValue:datePresent,
+    deps:deps
+  
+};
+
+  var newPostKey = firebase.database().ref().child('satsangiUsers-attendance').push().key;
+  var updates = {};
+  updates['/satsangiUsers/' +uid ] = postData;
+  return firebase.database().ref().update(updates);
+
+}
+
+$scope.saveRow = function(rowEntity){
+  console.log("saveRow.................."+rowEntity.uid ,$scope.attendanceForThisData,rowEntity.deps,rowEntity.branchCode,rowEntity.nameSatsangi)
+  updateSatsangiUser(rowEntity.uid ,$scope.attendanceForThisData,rowEntity.deps,rowEntity.branchCode,rowEntity.nameSatsangi);
+}
+
+  $scope.exportPdf = function() {
+    var grid = $scope.gridApi.grid;
+    var rowTypes = uiGridExporterConstants.ALL;
+    var colTypes = uiGridExporterConstants.ALL;
+    uiGridExporterService.pdfExport(grid, rowTypes, colTypes);
+  };
+  
+
+ $scope.columns = [
+  { name:'branchCode', enableCellEdit: false,width:110, cellTemplate:'<div>' +
+                       '  <a id="" class="branchCodeLinkSty" ng-click="grid.appScope.openDetails(row.entity,row.entity.uid,true)" href="">{{row.entity.branchCode}}</a>' +
+                       '</div>',headerCellClass: 'blueOne',field: 'branchCode',enableFiltering: true,enableHiding:false },
+  { name:'SatsangiName', enableCellEdit: true,headerCellClass: 'blue',field: 'nameSatsangi',enableFiltering: true,enableHiding:false  }, 
+  { name:'uid', enableCellEdit: true,field: 'uid',headerCellClass: 'blue',enableFiltering: false,enableHiding:false },
+ /* { name:'Linked', field: 'deps',headerCellClass: 'blue',enableFiltering: true,enableHiding:false },*/
+  // { name: 'Attendance', enableCellEdit: false,width:75 ,headerCellClass: 'bluePlusWidth', field:'markPresent', exporterPdfAlign: 'right',enableHiding:false ,visible:true,cellTemplate: 'mapPresent.html',enableFiltering: false  }
+];
+ 
+ $scope.columns1 = [
+  { name:'UID', visible:true, headerCellClass: 'blue', field: 'branchCode',enableFiltering: true },
+  { name:'Name',  visible:true,headerCellClass: 'blue',field: 'nameSatsangi' ,enableFiltering: true }, 
+  { name:'Gender',  filter: {
+          term: 'Male',
+          flags: { caseSensitive: true },
+          type: uiGridConstants.filter.SELECT,
+          selectOptions: [ { value: 'Male', label: 'Male' }, { value: 'Female', label: 'Female' } ],
+          cellFilter:  function(){
+            var genderHash = {
+                'Male': 'Male',
+                'Female': 'Female'
+              };
+             
+              return function(input) {
+                if (!input){
+                  return '';
+                } else {
+                  return genderHash[input];
+                }
+              };
+          }
+        },visible:true,headerCellClass: 'blue',field: 'gender' ,enableFiltering: true }, 
+  { name:'DOB Year', visible:true, headerCellClass: 'blue', field: 'dobyear',enableFiltering: true },
+  { name:'Age',  filters: [
+        {
+          condition: uiGridConstants.filter.GREATER_THAN,
+          placeholder: 'greater than'
+        },
+        {
+          condition: uiGridConstants.filter.LESS_THAN,
+          placeholder: 'less than'
+        }
+      ],visible:true,headerCellClass: 'blue',field: 'age' ,enableFiltering: true }, 
+  { name:'Initiation',filter: {
+          term: 'Initiated',
+          type: uiGridConstants.filter.SELECT,
+          selectOptions: [ { value: 'Initiated', label: 'Initiated' }, { value: 'Jigyasu', label: 'Jigyasu' }, { value: 'Children below 18', label: 'Children below 18' }  ],
+          cellFilter:  function(){
+            var genderHash = {
+                'Initiated': 'Initiated',
+                'Jigyasu': 'Jigyasu',
+                'Children below 18':'Children below 18'
+              };
+             
+              return function(input) {
+                if (!input){
+                  return '';
+                } else {
+                  return genderHash[input];
+                }
+              };
+          }
+        }, visible:true, headerCellClass: 'blue', field: 'category',enableFiltering: true },
+  
+  { name:'Region', visible:true, headerCellClass: 'blue', field: 'regionName',enableFiltering: true },
+  { name:'District',  visible:true,headerCellClass: 'blue',field: 'districtName' ,enableFiltering: true }, 
+  { name:'Branch', visible:true, headerCellClass: 'blue', field: 'branchName',enableFiltering: true },
+  
+
+
+  // { name:'Gender',  visible:true,headerCellClass: 'blue',field: 'gender' ,enableFiltering: true }, 
+
+
+ /* { name:'Linked', field: 'linked',headerCellClass: 'blue',enableFiltering: true,enableHiding:false }*/
+  /*{ name: '(+)  or  (-)', headerCellClass: 'blue',cellTemplate: 'mapAddress.html' ,enableFiltering: false },
+  { name: 'Dependants', headerCellClass: 'blue',field: 'childAtts',enableFiltering: false  }*/
+  /*
+  { name:'uid',headerCellClass: 'blue',field: 'uid' },
+  { name:'datePresent',headerCellClass: 'blue',field: 'datePresent' },
+   { name:'activityName',headerCellClass: 'blue',field: 'activityName' }
+  { name:'Present', headerCellClass: 'blue',enableFiltering: false , cellTemplate:'<div>{{" Present"}}</div>' }*/
+];
+
+  $scope.gridOptions1 = {
+  enableFiltering: true,
+  enableGridMenu: true,
+  enableRowSelection: true,
+  enableSorting: false,
+  selectionRowHeaderWidth: 35,
+  rowHeight: 35,
+  paginationPageSizes: [5,10,20],
+  paginationPageSize: 20,
+  columnDefs: $scope.columns1
+  };
+  
+  $scope.gridOptions1.multiSelect = false;
+
+  $scope.getData1 = function(){
+
+  $scope.messages1 = [];
+  var activityRef = $scope.selectedNameOfActivity;
+  var dateRef = $scope.attendanceForThisData;
+  var ref = firebase.database().ref("satsangiUsers-attendance").child(dateRef).child(activityRef).orderByChild("sortDate");
+  $scope.messages1 =  $firebaseArray(ref);
+  $scope.messages1.$loaded();
+  _.sortBy($scope.messages1,'sortDate');
+  
+
+  /*var ref = firebase.database().ref("satsangiUsers-attendance").child(dateRef).child(activityRef).orderByChild("sortDate").on('value', function(snapshot) 
+  {
+  if(snapshot.val() != null)
+  {
+   snapshot.forEach(function(childSnapshot)
+    {
+      $scope.childData = childSnapshot.val();
+    // if (_.findWhere($scope.messages1, $scope.childData) == null) {
+      $scope.messages1.push($scope.childData);
+      
+    // }
+    });
+    // _.sortBy($scope.messages1,'sortDate');
+  }
+ });*/
+}
+
+$scope.assignDatatoGrid1 = function(){
+  $scope.gridOptions1.data = $scope.messages1;
+}
+  // $scope.getData1();
+  // $scope.assignDatatoGrid1();
+
+
+
+ $scope.gridOptions = {
+  enableFiltering: true,
+  enableGridMenu: true,
+  enableRowSelection: true,
+  enableSorting: true,
+  exporterCsvFilename: 'myFile.csv',
+  exporterCsvLinkElement: angular.element(document.querySelectorAll(".custom-csv-link-location")),
+  selectionRowHeaderWidth: 35,
+  rowHeight: 35,
+  paginationPageSizes: [5,10,20],
+  paginationPageSize: 20,
+  columnDefs: $scope.columns
+  };
+  
+$scope.gridOptions.multiSelect = false;
+
+$scope.gridOptions1.onRegisterApi = function(gridApi){
+  $scope.gridApi1 = gridApi;
+  $scope.gridApi1.core.on.filterChanged( $scope, function() {
+          console.log("tontanahal...");
+          var columns = $scope.gridApi1.grid.columns;
+          $rootScope.columnTitle1MarkAtt = columns[6].filter.term;
+          $rootScope.columnTitle2MarkAtt = columns[3].filter.term;
+     });
+
+
+   $interval(function () {
+        $scope.totalItemsMarkAtt.valueNumMarkAtt = $scope.gridApi1.grid.options.totalItems;
+    }, 3000);
+};
+$scope.gridOptions.onRegisterApi = function(gridApi){
+      $scope.gridApi = gridApi;
+      
+      // alert(totalItems);
+      $scope.gridApi.edit.on.beginCellEdit($scope, function(rowEntity, colDef) { 
+      if($rootScope.levelTwoUserLoggedIn)
+      {
+         $scope.gridApi.enableCellEdit = false;
+        $scope.showPrivilageError = true;
+        $timeout(function () {
+               $scope.showPrivilageError = false;
+            }, 450);
+        var promise = $q.defer();
+        promise.resolve();
+        return;
+      }
+      });
+
+    $scope.gridApi.edit.on.afterCellEdit($scope,function(rowEntity, colDef, newValue, oldValue){
+      if($rootScope.levelOneUserLoggedIn)
+      {
+        $scope.saveRow(rowEntity)
+        var promise = $q.defer();
+        $scope.gridApi.rowEdit.setSavePromise(rowEntity, promise.promise );
+        promise.resolve();
+
+      }
+      else
+      {
+        $scope.showPrivilageError = true;
+        $timeout(function () {
+        $scope.showPrivilageError = false;
+            }, 490);
+        var promise = $q.defer();
+        promise.resolve();
+      }
+      
+    })
+
+
+     
+      $scope.gridApi.core.on.sortChanged( $scope, function(grid, sortColumns){
+           $scope.getAttendance();
+           $scope.showTodaysCountPresent = false;
+           $scope.showTodaysCountForCopy();
+           $timeout(function () {
+              document.getElementById("checkAttendanceButtonId").click();
+            }, 260);
+
+           
+      });
+
+
+
+      gridApi.selection.on.rowSelectionChanged($scope, function(row) {
+        $scope.rowIsSelected = true;
+        $scope.rowSelectedEntity = row.entity;
+        console.log("row "+JSON.stringify(row.entity))
+
+        /*if(row.isSelected)
+          {
+            if(document.getElementById(row.entity.uid).checked)
+            {
+              $scope.removeData(row.entity,false);
+              $timeout(function () {
+                $scope.gridApi.selection.clearSelectedRows();
+                $scope.showTodaysCountPresent = false;
+                $scope.showTodaysCountForCopy();
+
+                $scope.getAttendance();
+               }, 50);
+              
+              return;
+            }
+            
+          }
+          else
+          {
+          }*/
+        
+      });
+    }; 
+
+
+  $scope.showmarkAttendanceButton = false;
+
+  $scope.markAbsent = function (data) {  
+   };
+$scope.hittingEnter = function(){
+  $scope.filteredRows = $scope.gridApi.core.getVisibleRows($scope.gridApi.grid);
+  $scope.gridApi.selection.selectRow($scope.filteredRows[0].entity);
+  
+  $scope.clearFilters();
+  $scope.getAttendance();
+}
+
+$scope.getTheExtractedBranchCode = function(iP){
+  console.log("iP   ->"+iP)
+  var pos = iP.indexOf("--");
+  var strsub = iP.substring(0,pos);
+  var frmLclStrg = localStorage.getItem(strsub);
+  
+  $scope.immediateBranchCode = localStorage.getItem(frmLclStrg);
+  console.log("bc...   ->"+$scope.immediateBranchCode);
+
+  return frmLclStrg;
+}
+
+$scope.clearFilters = function() {
+    $scope.gridApi.grid.clearAllFilters();
+  };
+
+var gridDiv = document.getElementById("searchTextBox");
+var byNameIp=document.getElementById("searchTextBoxFirstNames");
+byNameIp.addEventListener("keyup" , function(event){
+      event.preventDefault();
+      if(event.keyCode === 13){
+        console.log("hellow...here...")
+        $scope.refreshData($scope.getTheExtractedBranchCode($scope.searchAttendanceGridName));
+        $scope.searchAttendanceGridName ="";
+    }
+});
+gridDiv.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13 ) {
+      console.log($scope.searchAttendanceGrid)
+     $scope.refreshData($scope.getTheExtractedBranchCode($scope.searchAttendanceGrid));
+     $scope.searchAttendanceGrid ="";
+    }
+});
+
+$scope.showErrorForActivitySelectionBeingNul = false;
+$scope.dateValue = new Date().getFullYear()+'-'+(new Date().getMonth()+1)+'-'+new Date().getDate();
+
+$scope.addAttendance = function(id,isSelected,index,indexForRS,branchCode,deps , gender, category,dobyear, age ,branch ,  district , region){
+ console.log("addAttendance===============>",id,isSelected,index,indexForRS,branchCode,deps , gender, category,dobyear, age,branch ,  district , region);
+ $scope.showTodaysCountPresent = false;
+ $scope.$apply();
+ 
+ if($scope.selectedNameOfActivity === "Select")
+  {
+    $scope.gridApi.selection.clearSelectedRows();
+    $scope.showErrorForActivitySelectionBeingNul = true;
+    $timeout(function () {
+            $scope.showErrorForActivitySelectionBeingNul = false;
+            $scope.$apply();
+            }, 429);
+    return;
+  }
+
+  if(isSelected){
+    $scope.showErrorForActivitySelectionBeingNul = false;
+    var record = $scope.GridchildData;
+    console.log( $scope.GridchildData,record,"actual marking attendance now....");
+    writeNewPost(0,deps,indexForRS,index,id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,record.branchCode,record.nameSatsangi, record.gender, record.category,record.dobYear,2019 - record.dobYear,record.branchName ,  record.districtName , record.regionName );
+    addNewUIDForTodaysDateByBranchCode(0,deps,record.nameSatsangi,indexForRS,index,id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,record.branchCode,record.gender, record.category,record.dobYear, 2019 - record.dobYear , record.branchName ,  record.districtName , record.regionName);
+    $scope.showTodaysCountPresent = false;
+    // $scope.showTodaysCountForCopy();
+    $timeout(function () {
+      $scope.gridApi.selection.clearSelectedRows();
+    }, 700);
+
+    
+  }
+  else{
+  }
+}
+
+$timeout(function () {
+         $rootScope.isLoading = false;
+         $rootScope.signedIn = true;
+         $scope.getData();
+         $scope.assignDatatoGrid();
+         $scope.$apply();
+         // console.log("filtering changes initialized..");
+         //this feature is available only after the grid gets populated with data
+         $scope.gridApi.core.on.filterChanged( $scope, function() {
+          // console.log("tontanahal...");
+        // var columns = $scope.gridApi.grid.columns;
+        //      // console.log(columns)
+        //     $rootScope.columnTitle1MarkAtt = columns[6].filter.term;
+        //     $rootScope.columnTitle2MarkAtt = columns[3].filter.term;
+
+        $scope.filteredRows = $scope.gridApi.core.getVisibleRows($scope.gridApi.grid);
+        if($scope.filteredRows.length === 1)
+        {
+          $scope.getAttendance();
+        }
+
+         var grid = this.grid;
+         $scope.showmarkAttendanceButton = true;
+         $scope.checkAttendanceForTheInputOnDate($scope.attendanceForThisData,$scope.selectedNameOfActivity);
+        
+         $scope.showTodaysCountPresent = false;
+         $scope.showTodaysCountForCopy();
+
+
+    var divForEventHitEnter = document.getElementById("gridDiv");
+    divForEventHitEnter.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13 ) {
+     $scope.hittingEnter();
+    
+    $timeout(function () {
+       $scope.getAttendance();
+    }, 480);
+    }
+});
+});
+
+  $scope.gridApi.core.on.columnVisibilityChanged( $scope, function( changedColumn ){
+        $scope.columnChanged = { name: changedColumn.colDef.name, visible: changedColumn.colDef.visible };
+  });
+     
+  },1000);
+
+
+    $scope.message = {
+      nameSatsangi:"",
+      branchCode:"",
+      uid:"",
+      activityName:"",
+      dateValue:"",
+      attendance:[]
+
+    }
+    
+
+    $scope.messages = chatMessages;
+    $scope.getData = function(){
+      $scope.messages.$loaded();
+    }
+
+ $scope.allBranchCodeList = [];
+ $scope.loadBranchCodesOnly = function(){
+  firebase.database().ref('satsangiUsers').on('value', function(snapshot) 
+{
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    $scope.childData = childSnapshot.val();
+    $scope.allBranchCodeList.push($scope.childData.branchCode);
+  });
+  }
+});
+}
+
+  $scope.assignDatatoGrid = function(){
+    $scope.gridOptions.data = $scope.messages;
+    $scope.checkAttendanceForTheInputOnDate($scope.attendanceForThisData,$scope.selectedNameOfActivity);
+  }
+
+firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+              var user = firebase.auth().currentUser;
+              if(user != null){
+                $scope.getData();
+                $scope.assignDatatoGrid();
+              }
+
+              } 
+              else {
+               return null;
+              }
+      });
+  
+$scope.gotoExportExcel = function(){
+  $location.path("/ssexportexcel");
+}
+$scope.gotoTV = function(){
+  $location.path("/temporaryVisitors");
+}
+$scope.openCentral = function(){
+  window.open("https://amsrss-a0102.firebaseapp.com");
+}
+
+
+
+
+$scope.getAttendance = function(){
+  
+   $scope.unCheckMarkedForThisDate();
+   $scope.checkAttendanceForTheInputOnDate($scope.attendanceForThisData,$scope.selectedNameOfActivity);
+   $scope.showTodaysCountPresent = true;
+   // $scope.showTodaysCountForCopy();
+} 
+ $scope.getData();
+ $scope.assignDatatoGrid();
+ $scope.checkAttendanceForTheInputOnDate($scope.attendanceForThisData,$scope.selectedNameOfActivity);
+  
+$scope.refreshData = function(bc) {
+    console.log("next here...")
+  if($scope.rowIsSelected){
+    console.log(0,$scope.rowSelectedEntity.deps,'indexForRS','index',$scope.rowSelectedEntity.id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,$scope.rowSelectedEntity.branchCode,$scope.rowSelectedEntity.nameSatsangi)
+    // console.log(0,$scope.rowSelectedEntity.deps,$scope.rowSelectedEntity.nameSatsangi,'indexForRS','index',$scope.rowSelectedEntity.id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,$scope.rowSelectedEntity.branchCode);
+    // $scope.addAttendance($scope.rowSelectedEntity.uid,true,'indexOfSelectedRec','indexForRS',$scope.rowSelectedEntity.branchCode,$scope.rowSelectedEntity.deps);
+    writeNewPost(0,$scope.rowSelectedEntity.deps,'indexForRS','index',$scope.rowSelectedEntity.uid,$scope.attendanceForThisData,$scope.selectedNameOfActivity,$scope.rowSelectedEntity.branchCode,$scope.rowSelectedEntity.nameSatsangi);
+    addNewUIDForTodaysDateByBranchCode(0,$scope.rowSelectedEntity.deps,$scope.rowSelectedEntity.nameSatsangi,'indexForRS','index',$scope.rowSelectedEntity.uid,$scope.attendanceForThisData,$scope.selectedNameOfActivity,$scope.rowSelectedEntity.branchCode);
+
+    return;
+  }
+
+  // console.log($scope.searchAttendanceGridName+"button clicked..."+$scope.searchAttendanceGrid)
+  // console.log(localStorage.getItem($scope.searchAttendanceGrid))
+  // console.log(localStorage.getItem(bc)) 
+  // console.log($scope.searchAttendanceGridName)
+
+  // console.log(localStorage.getItem($scope.searchAttendanceGridName))
+
+  if(localStorage.getItem(bc) != null || localStorage.getItem(bc) != undefined){
+    console.log("1",localStorage.getItem(bc))
+    var branchCode = localStorage.getItem(bc);
+  }
+  else if(localStorage.getItem($scope.searchAttendanceGrid) != null){
+    console.log("2")
+    var branchCode = localStorage.getItem(localStorage.getItem($scope.searchAttendanceGrid));
+  }
+  // console.log(branchCode)
+  if($scope.searchAttendanceGridName != undefined || $scope.searchAttendanceGrid != undefined)
+  {
+    $scope.getGridDataObjectForSelection(bc);
+    $scope.getGridDataObjectForSelection(branchCode);
+  }
+  else
+  {
+    $scope.getData();
+    $scope.assignDatatoGrid();
+    $scope.getAttendance();
+    // $scope.$apply();
+  }
+  
+};
+
+
+$scope.getRowIndex = function(row, grid) {
+    var rowIndex = -1;
+    for (var i = 0; i < grid.renderContainers.body.visibleRowCache.length; i++) {
+        if (row.uid === grid.renderContainers.body.visibleRowCache[i].uid) {
+            rowIndex = i;
+            break;
+        }
+    }
+    return rowIndex;
+}
+
+  $timeout(function () {
+    $scope.getAttendance();
+  }, 5000);
+
+
+
+   // $(document).ready(function () {
+        
+   //      $("#hider").hide();
+   //      $("#popup_box").hide();
+
+   //      //on click show the hider div and the message
+   //      $("#showpopup").click(function () {
+   //          $("#hider").fadeIn("slow");
+   //          $('#popup_box').fadeIn("slow");
+   //      });
+   //      //on click hide the message and the
+   //      $("#buttonClose").click(function () {
+
+   //          $("#hider").fadeOut("slow");
+   //          $('#popup_box').fadeOut("slow");
+   //      });
+
+   //      });
+
+$scope.showTodaysCountForCopy = function()
+{
+  $scope.showTodaysCountPresent = true;
+  $scope.loadCountForToday();
+  $scope.getAttendance();
+  $scope.showCountDialog();
+}
+
+/*$scope.getDBReference().child("E-Satsang").child("1004").orderByChild("sortDate").on("child_added", function(snapshot) {
+  console.log(snapshot.key);
+});
+*/
+
+function getLast3Months() {
+
+  var monthNames = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+
+  var today = new Date();
+  var last3Months = []
+
+  for (i = 0; i < 3; i++) {
+    last3Months.push(monthNames[(today.getMonth() - i)] + '-' +today.getFullYear()  );
+  }
+  return last3Months;
+}
+
+}]);
+});

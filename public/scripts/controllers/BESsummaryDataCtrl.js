@@ -1,1 +1,228 @@
-var _0x8a22=['countVallueE-Satsang','Name','blue','push','val','columns1','satsangiUsers-attendance','then','countVallue','--->','dateFor','$templateCache','value','getItem','arrayDay','$firebaseArray','./module','$filter','messagesData','$timeout','namesOfActivity','countValueDSE','getDataO','frBrnchCode1','getAllSummary','getData1','/attendanceSummary/','messages1','dateKeysForESatsang1','$scope','$log','update','writeFile','exportExcelForBrSelData','setItem','exportSummary.xlsx','satsangiUsers','uid','summary','data','log','BESsummaryDataCtrl','chatMessages','key','AuthService','Branch\x20Evening\x20Satsang','assignDatatoGrid1','length','ref','$interval','datesPresent','nameSatsangi','controller','uiGridConstants','generateCacheuIDName','once','Daily\x20Satsang\x20Evening','$rootScope','uiGridExporterConstants','table_to_book','$location','todaysDate','UID','dateKeysForDailySatsangEvening','remove','getDBReference','gridOptions1','forEach','attendanceSummary','getActivitySummary','$loaded','getElementById','database','dateKey','activity','child'];(function(_0x2657fb,_0x8a2282){var _0x54aac0=function(_0x2a518c){while(--_0x2a518c){_0x2657fb['push'](_0x2657fb['shift']());}};_0x54aac0(++_0x8a2282);}(_0x8a22,0x105));var _0x54aa=function(_0x2657fb,_0x8a2282){_0x2657fb=_0x2657fb-0x0;var _0x54aac0=_0x8a22[_0x2657fb];return _0x54aac0;};define([_0x54aa('0x3b')],function(_0x4cbb0a){'use strict';_0x4cbb0a[_0x54aa('0x13')](_0x54aa('0x8'),['$firebaseObject','$q',_0x54aa('0x1b'),_0x54aa('0x3a'),_0x54aa('0x3c'),'uiGridExporterService',_0x54aa('0x19'),_0x54aa('0xb'),_0x54aa('0x18'),_0x54aa('0x48'),'$http',_0x54aa('0x49'),_0x54aa('0x3e'),_0x54aa('0x14'),_0x54aa('0x36'),_0x54aa('0x10'),_0x54aa('0x9'),function(_0x157556,_0x363b70,_0x2b802d,_0x257ae2,_0xf8fb88,_0x2bf432,_0x5ca4fb,_0x430192,_0xaa0f18,_0x26d346,_0x43e00b,_0xc62f36,_0x25bb59,_0x3b13c4,_0x572638,_0x4ea6a7,_0x152d5c){firebase[_0x54aa('0x27')]()[_0x54aa('0xf')](_0x54aa('0x23'))[_0x54aa('0x1f')]();_0x26d346[_0x54aa('0x1c')]=new Date();setTimeout(function(){var _0x2744ff=firebase[_0x54aa('0x27')]()[_0x54aa('0xf')](_0x54aa('0x31'));_0x2744ff[_0x54aa('0x16')](_0x54aa('0x37'))[_0x54aa('0x32')](function(_0x236b72){if(_0x236b72['val']()!=null){_0x236b72['forEach'](function(_0x1514bf){console[_0x54aa('0x7')](_0x1514bf[_0x54aa('0xa')],_0x54aa('0x34'),_0x1514bf[_0x54aa('0x2f')]());});}});},0xbb8);_0x26d346[_0x54aa('0x15')]=function(){var _0x5021fd=firebase[_0x54aa('0x27')]()[_0x54aa('0xf')](_0x54aa('0x3'));_0x5021fd[_0x54aa('0x16')](_0x54aa('0x37'))[_0x54aa('0x32')](function(_0x579195){if(_0x579195['val']()!=null){_0x579195['forEach'](function(_0x33343b){localStorage[_0x54aa('0x1')](_0x33343b[_0x54aa('0x2f')]()[_0x54aa('0x4')],_0x33343b[_0x54aa('0x2f')]()[_0x54aa('0x12')]);});}});};_0x26d346[_0x54aa('0x15')]();_0x26d346[_0x54aa('0x3f')]=[_0x54aa('0xc')];_0x26d346[_0x54aa('0x3d')]=[];_0x26d346[_0x54aa('0x30')]=[{'name':_0x54aa('0x2c'),'visible':!![],'headerCellClass':'blue','field':_0x54aa('0x12'),'enableFiltering':!![]},{'name':_0x54aa('0x1d'),'visible':!![],'headerCellClass':_0x54aa('0x2d'),'field':_0x54aa('0x4'),'enableFiltering':!![]},{'name':_0x54aa('0xc'),'visible':!![],'headerCellClass':_0x54aa('0x2d'),'field':_0x54aa('0x2b'),'enableFiltering':!![]},{'name':_0x54aa('0x11'),'visible':!![],'headerCellClass':'blue','field':_0x54aa('0x11'),'enableFiltering':!![]}];_0x26d346[_0x54aa('0x21')]={'enableFiltering':!![],'enableGridMenu':!![],'enableRowSelection':!![],'enableSorting':![],'selectionRowHeaderWidth':0x23,'rowHeight':0x23,'paginationPageSizes':[0x5,0xa,0x14,0x64],'paginationPageSize':0x64,'columnDefs':_0x26d346['columns1']};_0x26d346['gridOptions1']['multiSelect']=![];_0x26d346[_0x54aa('0x44')]=function(){_0x26d346[_0x54aa('0x46')]=[];var _0xfae1=firebase[_0x54aa('0x27')]()['ref'](_0x54aa('0x23'));_0x26d346[_0x54aa('0x46')]=_0x257ae2(_0xfae1);_0x26d346[_0x54aa('0x46')][_0x54aa('0x25')]();};_0x26d346[_0x54aa('0xd')]=function(){_0x26d346[_0x54aa('0x21')][_0x54aa('0x6')]=_0x26d346[_0x54aa('0x46')];};_0x26d346[_0x54aa('0x41')]=function(){var _0x4f2a1a=firebase[_0x54aa('0x27')]()[_0x54aa('0xf')](_0x54aa('0x23'));_0x26d346[_0x54aa('0x3d')]=_0x257ae2(_0x4f2a1a);_0x26d346['messagesData'][_0x54aa('0x25')]();};setTimeout(function(){_0x26d346['getData1']();_0x26d346[_0x54aa('0xd')]();},0x1388);function _0x272abc(_0x28ad3b,_0x5f12e4,_0x59b23e,_0x4234ce,_0x1fa7d9,_0x4f4d5d){var _0x1b54ff={'nameSatsangi':localStorage[_0x54aa('0x38')](_0x59b23e),'activityE-Satsang':_0x5f12e4,'uid':_0x59b23e,'countVallueE-Satsang':_0x4234ce,'countValueDSE':_0x1fa7d9,'dateFor':_0x4f4d5d,'datesPresent':_0x28ad3b};var _0x4c2751=firebase[_0x54aa('0x27')]()[_0x54aa('0xf')]()[_0x54aa('0x2e')]()[_0x54aa('0xa')];var _0x40bc4b={};_0x40bc4b[_0x54aa('0x45')+_0x59b23e]=_0x1b54ff;return firebase[_0x54aa('0x27')]()[_0x54aa('0xf')]()[_0x54aa('0x4a')](_0x40bc4b);}_0x26d346[_0x54aa('0x20')]=function(){return firebase[_0x54aa('0x27')]()[_0x54aa('0xf')](_0x54aa('0x31'));};_0x26d346[_0x54aa('0x42')]=_0x26d346[_0x54aa('0x20')]();_0x26d346[_0x54aa('0x43')]=function(_0x14d981,_0x58b38e){_0x26d346[_0x54aa('0x47')]=[];_0x26d346[_0x54aa('0x39')]=[];_0x26d346['dateKeysForDailySatsangEvening']=[];_0x26d346[_0x54aa('0x42')]['child'](_0x14d981)['child'](_0x58b38e)['on']('value',function(_0x2c6cb4){if(_0x2c6cb4[_0x54aa('0x2f')]()!=null){_0x2c6cb4[_0x54aa('0x22')](function(_0x52f636){_0x26d346[_0x54aa('0x28')]=_0x52f636[_0x54aa('0xa')];if(_0x54aa('0x17')===_0x14d981){_0x26d346[_0x54aa('0x1e')][_0x54aa('0x2e')](_0x52f636[_0x54aa('0xa')]);}if('Branch\x20Evening\x20Satsang'===_0x14d981){_0x26d346[_0x54aa('0x47')][_0x54aa('0x2e')](_0x52f636[_0x54aa('0xa')]);_0x26d346[_0x54aa('0x39')][_0x54aa('0x2e')](_0x52f636[_0x54aa('0xa')]);}});}_0x26d346[_0x54aa('0x29')]=_0x14d981;_0x26d346['uid']=_0x58b38e;_0x26d346[_0x54aa('0x33')]=_0x26d346[_0x54aa('0x47')]['length'];_0x26d346[_0x54aa('0x40')]=_0x26d346[_0x54aa('0x1e')][_0x54aa('0xe')];_0x26d346[_0x54aa('0x35')]=_0x26d346[_0x54aa('0x28')];_0x26d346[_0x54aa('0x11')]=_0x26d346[_0x54aa('0x39')];_0x272abc(_0x26d346[_0x54aa('0x11')],_0x26d346[_0x54aa('0x29')],_0x26d346['uid'],_0x26d346[_0x54aa('0x33')],_0x26d346[_0x54aa('0x40')],_0x26d346[_0x54aa('0x35')]);});};_0x26d346[_0x54aa('0x24')]=function(_0x2eb369){_0x26d346['frBrnchCode1'][_0x54aa('0x2a')](_0x2eb369)['on'](_0x54aa('0x37'),function(_0x3060d7){if(_0x3060d7[_0x54aa('0x2f')]()!=null){_0x3060d7[_0x54aa('0x22')](function(_0x299c39){_0x26d346['getAllSummary'](_0x2eb369,_0x299c39[_0x54aa('0xa')]);});}});};for(var _0x45e79c=0x0;_0x45e79c<_0x26d346[_0x54aa('0x3f')]['length'];_0x45e79c++){console[_0x54aa('0x7')](_0x26d346['namesOfActivity'][_0x45e79c]);_0x26d346[_0x54aa('0x24')](_0x26d346['namesOfActivity'][_0x45e79c]);}_0x26d346[_0x54aa('0x0')]=function(_0x5e10ff){var _0x421892=XLSX['utils'][_0x54aa('0x1a')](document[_0x54aa('0x26')](_0x54aa('0x5')));XLSX[_0x54aa('0x4b')](_0x421892,_0x54aa('0x2'));};}]);});
+
+define(['./module'], function (controllers) {
+    'use strict';
+    controllers.controller('BESsummaryDataCtrl',['$firebaseObject','$q','$location','$firebaseArray','$filter','uiGridExporterService', 'uiGridExporterConstants','AuthService','$rootScope', '$scope','$http','$log','$timeout',
+  'uiGridConstants','$templateCache', 
+  '$interval' , 'chatMessages',
+   function ($firebaseObject,$q,$location,$firebaseArray,$filter,uiGridExporterService,uiGridExporterConstants,AuthService,$rootScope,$scope,$http,$log,$timeout,$uiGridConstants,$templateCache,$interval,chatMessages){
+
+firebase.database().ref("attendanceSummary").remove();
+
+$scope.todaysDate = new Date();
+
+setTimeout(function(){
+
+
+  var ref = firebase.database().ref("satsangiUsers-attendance");
+  ref.once("value")
+  .then(function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    console.log(childSnapshot.key,"--->",childSnapshot.val());
+    // childSnapshot.val().forEach(function(val){
+    //   console.log("val..........",val);
+    // })
+    // localStorage.setItem(childSnapshot.val().uid, childSnapshot.val().nameSatsangi);
+    // writeNewSummaryPost("",childSnapshot.val().uid,0,0,"");
+    });
+  }
+
+  });
+}, 3000);
+
+
+
+
+$scope.generateCacheuIDName = function(){
+  var ref = firebase.database().ref("satsangiUsers");
+  ref.once("value")
+  .then(function(snapshot) {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+    // console.log("snapshot.val()",childSnapshot.val());
+
+    localStorage.setItem(childSnapshot.val().uid, childSnapshot.val().nameSatsangi);
+    // writeNewSummaryPost("",childSnapshot.val().uid,0,0,"");
+    });
+  }
+
+  });
+}
+
+$scope.generateCacheuIDName();
+// $scope.namesOfActivity =["E-Satsang","Branch Morning Satsang","Branch Evening Satsang","Branch Special Satsang","Morning Cleaning","Evening Cleaning","Windup","Weekly Cleaning","Basant Arti","Basant Bhandara","Holi Arti","Holi Bhandara","Arti","Bhandara","Copy Unit","Bag Unit","Night Duty","Select"];
+
+$scope.namesOfActivity = ["Branch Evening Satsang"];
+$scope.messagesData = [];
+
+  $scope.columns1 = [
+  
+   { name:'Name',  visible:true,headerCellClass: 'blue',field: 'nameSatsangi' ,enableFiltering: true } ,
+   { name:'UID',  visible:true,headerCellClass: 'blue',field: 'uid' ,enableFiltering: true } ,
+
+  { name:'Branch Evening Satsang', visible:true, headerCellClass: 'blue', field: 'countVallueE-Satsang',enableFiltering: true },
+  { name:'datesPresent', visible:true, headerCellClass: 'blue', field: 'datesPresent',enableFiltering: true },
+  // { name:'Attendance count',  visible:true,headerCellClass: 'blue',field: 'countVallue' ,enableFiltering: true },
+ 
+
+];
+
+$scope.gridOptions1 = {
+  enableFiltering: true,
+  enableGridMenu: true,
+  enableRowSelection: true,
+  enableSorting: false,
+  selectionRowHeaderWidth: 35,
+  rowHeight: 35,
+  paginationPageSizes: [5,10,20,100],
+  paginationPageSize: 100,
+  columnDefs: $scope.columns1
+  };
+  
+$scope.gridOptions1.multiSelect = false;
+
+$scope.getData1 = function(){
+
+  $scope.messages1 = [];
+  var ref = firebase.database().ref("attendanceSummary");
+  $scope.messages1 =  $firebaseArray(ref);
+  $scope.messages1.$loaded();
+
+  
+}
+
+$scope.assignDatatoGrid1 = function(){
+  $scope.gridOptions1.data = $scope.messages1;
+}
+  
+
+
+
+$scope.getDataO = function(){
+  var ref = firebase.database().ref("attendanceSummary");
+  $scope.messagesData = $firebaseArray(ref);
+  $scope.messagesData.$loaded();
+  // console.log($scope.messagesData);
+    }
+
+  setTimeout(function(){
+      // $scope.getDataO();
+      $scope.getData1();
+      $scope.assignDatatoGrid1();
+    },5000);
+
+
+
+function writeNewSummaryPost(datesPresent , activity,uid,countVallue,countDSE,dateFor) {
+  
+
+  var postData = {
+    "nameSatsangi":localStorage.getItem(uid),
+    "activityE-Satsang":activity,
+    "uid":uid,
+    "countVallueE-Satsang":countVallue,
+    "countValueDSE":countDSE,
+    "dateFor":dateFor,
+    "datesPresent":datesPresent
+};
+  var newPostKey = firebase.database().ref().push().key;
+  var updates = {};
+  updates['/attendanceSummary/'+uid] = postData;
+  return firebase.database().ref().update(updates);
+  
+}
+
+
+$scope.getDBReference = function(){
+return firebase.database().ref('satsangiUsers-attendance');
+
+}
+
+
+$scope.frBrnchCode1 = $scope.getDBReference();
+$scope.getAllSummary = function(activity,uid){
+$scope.dateKeysForESatsang1 = [];
+$scope.arrayDay = [];
+$scope.dateKeysForDailySatsangEvening = [];
+$scope.frBrnchCode1.child(activity).child(uid).on('value', function(snapshot)
+ {
+  
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+
+    // console.log(childSnapshot.key+"-"+JSON.stringify(childSnapshot.val()));
+      $scope.dateKey = childSnapshot.key;
+      if("Daily Satsang Evening" ===activity){
+        $scope.dateKeysForDailySatsangEvening.push(childSnapshot.key);
+      }
+      if("Branch Evening Satsang" === activity){
+        $scope.dateKeysForESatsang1.push(childSnapshot.key);
+        $scope.arrayDay.push(childSnapshot.key);
+      }
+      // $scope.dateKeysForESatsang1.push(childSnapshot.key);
+      // $scope.ESatsangPresentsFrThisBrCode1 = $scope.dateKeysForESatsang1.length;
+      
+  });
+  }
+  // document.write("Activity "+'<b>'+activity+'</b>'+"  presents for UID "+uid+"-"+$scope.dateKeysForESatsang1.length);
+  // document.write("<br>")
+  // document.write("<hr>")
+  $scope.activity = activity;
+  $scope.uid = uid;
+  $scope.countVallue = $scope.dateKeysForESatsang1.length;
+  $scope.countValueDSE= $scope.dateKeysForDailySatsangEvening.length;
+  $scope.dateFor = $scope.dateKey;
+  $scope.datesPresent = $scope.arrayDay;
+  // $scope.nameSatsangi = nameSatsangi
+  // console.log({activity:$scope.activity,uid:$scope.uid ,countVallue:$scope.countVallue,dateFor:$scope.dateFor});
+  writeNewSummaryPost($scope.datesPresent,$scope.activity,$scope.uid,$scope.countVallue,$scope.countValueDSE,$scope.dateFor);
+  
+    
+  
+  
+  
+  /*console.log( 
+  $scope.activity,
+  $scope.uid ,
+  $scope.countVallue,
+  $scope.dateFor);*/
+// console.log($scope.messages1.length)
+// console.log("Activity "+activity+"  presents for UID "+uid+"-"+$scope.dateKeysForESatsang1.length);
+
+});
+}
+
+$scope.getActivitySummary = function(activity){
+  $scope.frBrnchCode1.child(activity).on('value', function(snapshot)
+ {
+  if(snapshot.val() != null)
+  {
+    snapshot.forEach(function(childSnapshot) {
+      // console.log(JSON.stringify(childSnapshot.key))
+      $scope.getAllSummary(activity,childSnapshot.key);
+    });
+  }
+ });
+}
+
+for(var index=0 ; index< $scope.namesOfActivity.length ; index++){
+  console.log($scope.namesOfActivity[index])
+  $scope.getActivitySummary($scope.namesOfActivity[index]);
+}
+
+$scope.exportExcelForBrSelData = function(branchCode)
+  {
+  
+  var wb = XLSX.utils.table_to_book(document.getElementById('summary'));
+  XLSX.writeFile(wb, "exportSummary.xlsx");
+   
+
+  }
+
+
+}]);
+});
+

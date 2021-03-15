@@ -5,24 +5,34 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="lib/font-awesome.min.css">
   <link href="lib/please-wait/please-wait.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog-theme-default.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog.min.css"> -->
+  <link rel="stylesheet" href="lib/ngDialog.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog-theme-default.min.css"> -->
+  <link rel="stylesheet" href="lib/ngDialog-theme-default.min.css">
   <title>Satsangis</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular-touch.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular-touch.js"></script> -->
+  <script src="lib/angular-touch.js"></script>
+
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="lib/angular-ui-grid/ui-grid.css">
 
   <script lang="javascript" src="/lib/xlsx/dist/xlsx.full.min.js"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
 
   <script src="/lib/ta/bootstrap3-typeahead.min.js"></script>
-  <script src="https://underscorejs.org/underscore-min.js"></script>
+  <!-- <script src="https://underscorejs.org/underscore-min.js"></script> -->
+
+  <script src="/lib/underscore-min.js"></script>
 
 
   <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog.css">
@@ -33,22 +43,29 @@
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
   <script src="semantic/dist/semantic.min.js"></script>
   <script src="/lib/angular/angular.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
-  <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
-
-  <script src="lib/chart.js/dist/Chart.min.js"></script>
-  <script src="lib/angular-chart.js/dist/angular-chart.min.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script> -->
+  <!-- <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script> -->
+  <script src="/lib/firebase/firebase.js"></script>
+  <script src="/lib/angularfire.min.js"></script>
+  <script src="/lib/chart.js/dist/Chart.min.js"></script>
+  <script src="/lib/angular-chart.js/dist/angular-chart.min.js"></script>
 
 
   <style>
     @media screen and (max-width: 600px) {
 
+      #newSat,
+      newEve,
+      impData,
+      expData {
+        display: none;
+      }
 
       #barcodeInptTxtBx {
-        width: 100px;
-        height: 50px;
-        margin-left: 80%;
-        margin-top: 0%;
+        margin-left: 0%;
+        position: relative;
+        /* top: 3%; */
+        width: 100%;
       }
 
       #dragggableSummary {
@@ -127,7 +144,59 @@
     }
   </style>
   <script>
-  var _0x4bdf=['hyderabad07arsa.firebaseapp.com','active','reload','log','AIzaSyBfMUxfw1BReNpJ-hy5WKP7Vvo-BEpCYkI','removeClass','none','innerHeight','match','auth','743562424006','location','parent','1:743562424006:web:8bbd466264d88cf6b571c7','li.active','hyderabad07arsa','style','hyderabad07arsa.appspot.com','ul.nav\x20li','getElementById','signOut','click','userAgent','addClass','find','innerWidth','logging\x20out...','logoutBtn','initializeApp'];(function(_0x48a923,_0x4bdfc1){var _0x708424=function(_0x47ebb3){while(--_0x47ebb3){_0x48a923['push'](_0x48a923['shift']());}};_0x708424(++_0x4bdfc1);}(_0x4bdf,0x195));var _0x7084=function(_0x48a923,_0x4bdfc1){_0x48a923=_0x48a923-0x0;var _0x708424=_0x4bdf[_0x48a923];return _0x708424;};const config={'apiKey':_0x7084('0x5'),'authDomain':_0x7084('0x1'),'databaseURL':'https://hyderabad07arsa.firebaseio.com','projectId':_0x7084('0x10'),'storageBucket':_0x7084('0x12'),'messagingSenderId':_0x7084('0xb'),'appId':_0x7084('0xe')};firebase[_0x7084('0x0')](config);var logout=function(){console[_0x7084('0x4')](_0x7084('0x1b'));firebase[_0x7084('0xa')]()[_0x7084('0x15')]();document[_0x7084('0x14')](_0x7084('0x1c'))[_0x7084('0x11')]['display']=_0x7084('0x7');window['location'][_0x7084('0x3')]();};var reload=function(){window[_0x7084('0xc')][_0x7084('0x3')]();};$(function(){$(_0x7084('0x13'))['on'](_0x7084('0x16'),function(){$(this)[_0x7084('0xd')]()[_0x7084('0x19')](_0x7084('0xf'))[_0x7084('0x6')](_0x7084('0x2'));$(this)[_0x7084('0x18')]('active');});});function detectmob(){if(navigator[_0x7084('0x17')][_0x7084('0x9')](/Android/i)||navigator[_0x7084('0x17')]['match'](/webOS/i)||navigator[_0x7084('0x17')][_0x7084('0x9')](/iPhone/i)||navigator[_0x7084('0x17')]['match'](/iPad/i)||navigator['userAgent'][_0x7084('0x9')](/iPod/i)||navigator['userAgent'][_0x7084('0x9')](/BlackBerry/i)||navigator[_0x7084('0x17')][_0x7084('0x9')](/Windows Phone/i)||window[_0x7084('0x1a')]<=0x320&&window[_0x7084('0x8')]<=0x3c){return!![];}else{return![];}}
+    var config = {
+
+
+      apiKey: "AIzaSyApR69k8Oyt0PLCJQSJfHbhBH4aspxtCXQ",
+      authDomain: "pams-e7971.firebaseapp.com",
+      databaseURL: "https://pams-e7971.firebaseio.com",
+      projectId: "pams-e7971",
+      storageBucket: "pams-e7971.appspot.com",
+      messagingSenderId: "821251191711"
+
+
+
+    };
+
+
+    firebase.initializeApp(config);
+
+    var logout = function () {
+      console.log("logging out...");
+      firebase.auth().signOut();
+      document.getElementById("logoutBtn").style.display = "none";
+      window.location.reload();
+
+    }
+
+    var reload = function () {
+      window.location.reload();
+    }
+
+
+    $(function () {
+      $('ul.nav li').on('click', function () {
+        $(this).parent().find('li.active').removeClass('active');
+        $(this).addClass('active');
+      });
+    });
+
+    function detectmob() {
+      if (navigator.userAgent.match(/Android/i)
+        || navigator.userAgent.match(/webOS/i)
+        || navigator.userAgent.match(/iPhone/i)
+        || navigator.userAgent.match(/iPad/i)
+        || navigator.userAgent.match(/iPod/i)
+        || navigator.userAgent.match(/BlackBerry/i)
+        || navigator.userAgent.match(/Windows Phone/i)
+        || window.innerWidth <= 800 && window.innerHeight <= 60
+      ) {
+        return true;
+      }
+      else {
+        return false;
+      }
+    }
 
   </script>
 
@@ -143,32 +212,50 @@
 <body>
 
   <span us-spinner="{radius:25, width:8, length: 16}"></span>
-  <header style="background-color: yellow;color: blue;font-weight: bold;font-size: 50px;text-align: center;border:1px solid lightblue;">Satsangis
+  <header style="background-color: yellow;color: lightblue;font-weight: bold;font-size: 50px;text-align: center;border:1px solid lightblue;">Satsangis
     Attendance</header>
 
 
-  <div>
-    <ul class="nav navbar-nav">
-      <li ng-show="signedIn">
-        <a href="#ssmarkattendance">
-          Mark Attendance</a></li>
-      <li ng-show="signedIn">
-        <a href="#ssaddNewUser">
-          New Satsangi</a></li>
-      <li ng-show="signedIn"><a href="#addNewActivity">
-          New Event</a></li>
-      <li ng-show="signedIn"><a href="#admingrid">
-          Admin</a></li>
-      <li ng-show="signedIn"><a href="#ssexportexcel">
-          Export</a></li>
-      <!-- <li><a onclick="reload()" href="#">Refresh</a></li> -->
-    </ul>
+
+  <!--
+  <a class="menuO" href="#ssmarkattendance">
+    Mark Attendance</a>
+  <a href="#ssaddNewUser">
+    New Satsangi</a>
+  <a id="newEve" href="#addNewActivity">
+    New Event</a>
+  <a id="impData" href="#admingrid">
+    Import Data</a>
+  <a id="expData" href="#ssexportexcel">
+    Export Data</a>
+   <li><a onclick="reload()" href="#">Refresh</a></li> -->
+
+
+
+<div class="row">
+  <ul ng-show="signedIn" class="nav navbar-nav">
+    <li class="list">
+      <a href="#ssmarkattendance">
+        Mark Attendance</a></li>
+    <li class="list">
+      <a href="#ssaddNewUser">
+        New Satsangi</a></li>
+    <li class="list"><a href="#addNewActivity">
+        New Event</a></li>
+    <li class="list"><a href="#admingrid">
+        Admin</a></li>
+    <li class="list"><a href="#ssexportexcel">
+        Export Data</a></li>
+  </ul>
+</div>
+ 
+
+
+  <div class="container">
+    <div class="row">
+      <div data-ng-view></div>
+    </div>
   </div>
-  <br />
-
-
-
-  <div data-ng-view></div>
 
   <script src="https://cdn.rawgit.com/serratus/quaggaJS/0420d5e0/dist/quagga.min.js"></script>
 
@@ -258,3 +345,4 @@
       </li>
     </ul>
   </div> -->
+  <!-- <a style="position: fixed;margin-bottom: 0;" onclick="logout()" href="#"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Logout</a> -->

@@ -1,0 +1,109 @@
+<div class="container">
+  <h2>Add User</h2>
+  <div class="panel panel-default">
+    <div class="panel-heading">New User</div>
+    <div class="panel-body">
+      <div class="row">
+        <form ng-submit="addMessage()">
+          <div class="col-sm-6">
+
+
+            <div class="form-group">
+              <input class="form-control" placeholder="Enter the name" type="text" ng-model="message.nameSatsangi"
+                required>
+            </div>
+
+
+            <div class="form-group">
+
+              <input class="form-control" placeholder="Enter the UID" type="text" ng-model="message.uid" required>
+            </div>
+
+
+            <div class="form-group">
+
+              <input class="form-control" placeholder="Enter the Branch code" type="text" ng-model="message.branchCode"
+                required>
+            </div>
+
+
+          </div>
+          <div class="col-sm-6">
+
+            <div class="form-group">
+
+              <input id="barCodeN" class="form-control" placeholder="prempracharak or bhent..." type="text" ng-model="message.deps"
+                required>
+            </div>
+
+
+            <div ng-hide="true" class="form-group">
+
+              <input class="form-control" placeholder="Date" type="text" ng-model="message.dateValue" required>
+            </div>
+
+            <div ng-hide="true">
+              <h2 class="func-title"> SGIFPCapture</h2>
+
+            <p style="font-size: 12px"> Click on the image below, sensor light will start glowing, place you finger
+              on the sensor to scan fingerprint.</p>
+
+            <table style="padding: 10px; border-radius: 15px; border: 2px solid #FF9933">
+              <tr>
+                <td>
+                  <img class="easyui-tooltip" title="Click To Scan" style="width: 100%; max-width: 200px; border-radius: 15px"
+                    id="fpimage" alt="FingerPrint" src="/images/left_hand_6.png" ng-click="fpCapture(succCapture, failureFunc)">
+                <td>
+              </tr>
+            </table>
+            <p id="result1">
+              <div id="rpanel" style="padding: 10px;"></div>
+
+
+              PRESENT WILL BE MARKED FOR {{thisOneRecodg}}
+
+
+            </div>
+            
+              <div class="form-group">
+
+                <button type="submit" class="button"><span>Submit</span></button>
+
+              </div>
+
+
+          </div>
+
+        </form>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<div ng-show="isNewUserAdded" class="alert alert-success">
+  <strong>Success!</strong>New user added successfully
+</div>
+
+<div ng-show="alreadyPresent" class="alert alert-danger">
+  <strong>Error!</strong>Duplicate values are not allowed
+</div>
+
+
+
+
+
+
+<!-- '<div id="navwrap">' +
+              '<ul id="nav">'+
+              '<li class=""><a href="#"></a>'+
+              '<ul>'+
+              '<a id="" class="branchCodeLinkSty" ng-click="grid.appScope.openDetails(row.entity,row.entity.uid)" href="">{{row.entity.branchCode}}</a>' +
+              '<li><a href="#">Link2</a></li>'+
+              '</ul>'+
+              '</li>'+
+              '</ul>'+
+              '</div>' -->

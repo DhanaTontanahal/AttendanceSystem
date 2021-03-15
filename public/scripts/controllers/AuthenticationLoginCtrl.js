@@ -1,1 +1,62 @@
-var _0x5dea=['auth','message','login','alert','..Au','$apply','resolveUser','signedIn','location','password_field','user\x20is\x20signed\x20in...','code','onAuthStateChanged','$rootScope','user\x20not\x20signed\x20in...','email','./module','$window','$timeout','reload','log','email_field','AuthService','signInWithEmailAndPassword','controller','getElementById','catch','value','refreshing\x20page....','logging\x20in..','/admingrid','$scope'];(function(_0xa4dca1,_0x5dea3c){var _0x39318e=function(_0xe34a18){while(--_0xe34a18){_0xa4dca1['push'](_0xa4dca1['shift']());}};_0x39318e(++_0x5dea3c);}(_0x5dea,0x8f));var _0x3931=function(_0xa4dca1,_0x5dea3c){_0xa4dca1=_0xa4dca1-0x0;var _0x39318e=_0x5dea[_0xa4dca1];return _0x39318e;};define([_0x3931('0x1')],function(_0x98c2c7){'use strict';_0x98c2c7[_0x3931('0x9')]('AuthenticationLoginCtrl',[_0x3931('0x3'),_0x3931('0x7'),_0x3931('0x1e'),_0x3931('0x10'),_0x3931('0x2'),'$location',function(_0x25e88c,_0xc9a25e,_0x179e56,_0x5ed790,_0x2df663,_0x3b711d){console[_0x3931('0x5')](_0x3931('0x15')+_0xc9a25e[_0x3931('0x17')]());firebase[_0x3931('0x11')]()[_0x3931('0x1d')](function(_0x23021f){if(_0x23021f){var _0x23021f=firebase['auth']()['currentUser'];if(_0x23021f!=null){_0x179e56[_0x3931('0x18')]=!![];console[_0x3931('0x5')](_0x3931('0x1b'));var _0x4296a5=_0x23021f[_0x3931('0x0')];_0x3b711d['path'](_0x3931('0xf'));_0x5ed790[_0x3931('0x16')]();_0x25e88c(function(){console['log'](_0x3931('0xd'));window[_0x3931('0x19')][_0x3931('0x4')]();},0xbb8);}}else{console[_0x3931('0x5')](_0x3931('0x1f'));_0x179e56[_0x3931('0x18')]=![];}});_0x5ed790[_0x3931('0x13')]=function(){console[_0x3931('0x5')](_0x3931('0xe'));var _0xc894cd=document[_0x3931('0xa')](_0x3931('0x6'))[_0x3931('0xc')];var _0x570641=document[_0x3931('0xa')](_0x3931('0x1a'))[_0x3931('0xc')];firebase[_0x3931('0x11')]()[_0x3931('0x8')](_0xc894cd,_0x570641)[_0x3931('0xb')](function(_0xf4a77f){var _0x542d4a=_0xf4a77f[_0x3931('0x1c')];var _0xcb267=_0xf4a77f[_0x3931('0x12')];window[_0x3931('0x14')]('Error\x20:\x20'+_0xcb267);});};}]);});
+define(['./module'], function (controllers) {
+    'use strict';
+    controllers.controller('AuthenticationLoginCtrl',[ '$timeout', 'AuthService','$rootScope','$scope','$window', '$location', function ($timeout,AuthService,$rootScope,$scope,$window,$location) {
+
+
+
+console.log("..Au"+AuthService.resolveUser());
+
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    // User is signed in.
+
+    // document.getElementById("user_div").style.display = "block";
+    // document.getElementById("login_div").style.display = "none";
+
+    var user = firebase.auth().currentUser;
+
+    if(user != null){
+      $rootScope.signedIn = true;
+    	console.log("user is signed in...");
+      var email_id = user.email;
+      $location.path("/admingrid");
+  	$scope.$apply();
+  	$timeout(function () {
+  		console.log("refreshing page....");
+        window.location.reload();
+    }, 3000);
+      // document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
+
+    }
+
+  } else {
+  	console.log("user not signed in...");
+  	
+    $rootScope.signedIn = false;
+    // No user is signed in.
+    // document.getElementById("user_div").style.display = "none";
+    // document.getElementById("login_div").style.display = "block";
+
+  }
+});
+
+$scope.login = function(){
+console.log("logging in..");
+  var userEmail = document.getElementById("email_field").value;
+  var userPass = document.getElementById("password_field").value;
+
+  firebase.auth().signInWithEmailAndPassword(userEmail, userPass).catch(function(error) {
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+
+    window.alert("Error : " + errorMessage);
+
+    // ...
+  });
+
+}
+
+
+    }]);
+});

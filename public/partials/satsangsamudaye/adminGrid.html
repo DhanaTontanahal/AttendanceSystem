@@ -1,4 +1,3 @@
-
 <script type="text/ng-template" id="mapPresent.html">
        <div class="ui-grid-cell-contents">
          <input type="checkbox"
@@ -39,21 +38,21 @@
   <strong>Error!</strong>User Presence Already marked for this date!! 
 </div>
 <div width="100%" class="container">
-    <div class="panel panel-default">
+    <div class="panel panel-primary">
       <div class="panel-heading">
     <button  ng-show="!showTodaysCountPresent" class="btn btn-success" ng-click="showTodaysCountForCopy()">Total Strength</button>
     &nbsp;&nbsp;
-     <u><b>{{columnTitle1}}</b></u>&nbsp;<u><b>{{columnTitle2}}</b></u>&nbsp;<span  id="strengthLabel" ng-show="showTodaysCountPresent">Strength  = {{totalItemsStrength.valueNum}}
+     <u><b>{{columnTitle1}}</b></u>&nbsp;<u><b>{{columnTitle2}}</b></u>&nbsp;<span  ng-show="showTodaysCountPresent">Strength  = {{totalItemsStrength.valueNum}}
     
      </span>
    
 
-<button class="btn btn-success" id="toolBtn"  ng-click="showHideToggleGridButtons()">Tools&nbsp;<span class="glyphicon glyphicon-cog"></span></button>&nbsp;
+<button class="btn btn-success" ng-click="showHideToggleGridButtons()">Tools&nbsp;<span class="glyphicon glyphicon-cog"></span></button>&nbsp;
 <div ng-hide="true" class="col-md-3">
 <input placeholder="Search Linked" id="searchLinkedId" class="form-control" ng-model="searchLinked" />
 </div>
 
-<button ng-disabled="toggleAttGrid" ng-hide="toggleToolButton" id="adminGridBtn" class="btn btn-success" ng-click="showHideMainGrid()">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span></button>
+<button ng-disabled="toggleAttGrid" ng-hide="toggleToolButton" class="btn btn-success" ng-click="showHideMainGrid()">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span></button>
 
 <button ng-hide="toggleToolButton" id="checkAttendanceButtonId" class="btn btn-success" ng-click="getAttendance()"><i class="fa fa-attendance" style="font-size:15px;color:red"></i>&nbsp;Refresh bulbs&nbsp;<span class="glyphicon glyphicon-refresh"></span></button>
 
@@ -82,7 +81,7 @@
               <strong>Error!</strong>Please select a valid Activity from drop down
             </div>
 
-              <select  id="activityDropDwnMenu" class="btn btn-default" ng-model="selectedNameOfActivity" ng-change="changeActivity()" ng-options="nameOfActivity for nameOfActivity in namesOfActivity">
+              <select  class="btn btn-default" ng-model="selectedNameOfActivity" ng-change="changeActivity()" ng-options="nameOfActivity for nameOfActivity in namesOfActivity">
               </select>
 
           </div>
@@ -92,13 +91,13 @@
 
     
      
-        <div>
+        <div class="col-md-2">
           <div class="form-group">
             <input ng-hide="true" placeholder="Branch code" id="searchTextBox" class="form-control" ng-model="searchAttendanceGrid" ng-change="detectSearchText()"/>
             </div>
           </div>
 
-          <div>
+          <div class="col-md-2">
           <div class="form-group">
             
             <input ng-hide="true" placeholder="First name" id="searchTextBoxFirstNames" class="form-control" ng-model="searchAttendanceGridName" ng-change="detectSearchTextName()"/>
@@ -106,13 +105,13 @@
           </div>
         </div>
         
-    <div id="mainContainer" ng-show="toggleMainGrid" class="panel-body">
+    <div ng-show="toggleMainGrid" class="panel-body">
       <div>
         <div ng-show="!levelOneUserLoggedIn && showPrivilageError" class="alert alert-danger">
         <strong>Access denied!!</strong>Not enough privilaged to act.
         </div>
          <div class="panel panel-success">
-          <div class="panel-heading">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span><b></b>
+          <div class="panel-heading">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span><b>Note: new changes deployed: update satsangi DOB Year , Gender , Category.</b>
           </div>
       <div id="gridDiv" ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions" class="grid" ui-grid-edit ui-grid-row-edit  ui-grid-cellNav ui-grid-auto-resize>
       <div class="watermark" ng-show="!gridOptions.data.length">Loading data if available </div>
@@ -128,7 +127,7 @@
 <div id="popup_box">
     
     <div id="popDiv" class="ontop">
-      <div id="popup" class="panel panel-default">
+      <div id="popup" class="panel panel-primary">
         <small><b>Important note:</b> Click "Clean" before the report is exported</small>
         <a style="color:red;font-weight:bold;padding-left: 520px;cursor:pointer;" id="buttonClose">Close</a>
         <br/>
@@ -404,7 +403,7 @@
     <input ng-disabled="true" type="text" ng-model="editOrUpdateTheUseruid" placeholder="">
 
     <label for="branchCode">Branch code</label>
-    <input  type="text" ng-model="editOrUpdateTheUserbranchCode" placeholder="">
+    <input ng-disabled="true" type="text" ng-model="editOrUpdateTheUserbranchCode" placeholder="">
 
 
     <label for="New UID">New UID</label>
@@ -425,12 +424,7 @@
      <select class="btn btn-default" ng-model="editOrUpdateTheUserCategory" ng-change="changeeditOrUpdateTheUserCategory()" ng-options="CategorySelected for CategorySelected in editOrUpdateTheUserCategorySelected">
     </select>
 
-    <label for="category">Superman Scheme</label>
-    <select class="btn btn-default" ng-model="suSchemePhaseType.value" ng-change="handleSuSchemeSelection()" ng-options="SUSchemeCategorySelected for SUSchemeCategorySelected in SUSchemeCategories">
-   </select>
-
-
-
+   
 <input ng-model="editOrUpdateTheUserregionName" type="text" placeholder="Enter Region name" />
 &nbsp;
 <input ng-model="editOrUpdateTheUserdistrictName" type="text" placeholder="Enter district name" />
