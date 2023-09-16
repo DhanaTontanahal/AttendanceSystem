@@ -1,0 +1,713 @@
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+li{
+  background: lightblue;
+  border:1px solid lightblue;
+  color:brown;
+  font-size: 2px;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: 0 1px 0 black;
+}
+
+a{
+  /* padding:10px;
+  margin:10px; */
+  border:1px solid cadetblue;
+  background-color: blue;
+  color:black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  color:white;
+
+} */
+/* .row1{
+  display: inline;
+  position: absolute;
+  padding:0;
+  left:0;
+  margin-left: 0%;
+} */
+
+#searchTextBoxFirstNames{
+  width:100px;
+}
+#searchTextBox{
+  width: 217px;
+  position: absolute;
+  height:30px;
+  margin-left: -219px;
+  margin-top: 32px;
+  border: 1px solid black;
+  margin-bottom:2px;
+}
+
+
+#dragggableSummary {
+  position: absolute;
+
+  /* margin-left: 60%; */
+
+  /* margin-top:0%; */
+  /* z-index: 9; */
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#dragggableSummaryheader {
+  /* padding: 10px; */
+  /* display: block; */
+  cursor: move;
+  /* z-index: 10; */
+  background-color: gray;
+  color: #fff;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 50%;
+}
+
+th, td {
+    border: 1px solid black;    
+}
+
+td .test {
+	border-bottom: 1px solid black;
+}
+
+
+
+#mainContainerDiv{
+  background-color: silver;
+  /* position: absolute; */
+  /* left: 0; */
+  
+  /* width:700px; */
+  /* right:100px; */
+  /* top:50px; */
+  /* width:100%;
+  height: 100%; */
+
+  resize: both;
+  overflow: auto;
+
+
+}
+
+#tvContainer{
+  position: relative;
+  z-index: 9999;
+
+  resize: both;
+  overflow: auto;
+
+}
+
+#offlineContan{
+  display: inline;
+}
+#saveOfflineAttBtn{
+  margin-left:5%;
+  padding:5px;
+}
+
+#generatedSummary{
+  /* position: absolute; */
+
+
+  /* z-index: 99999; */
+
+  /* width: 100%; */
+  
+  background-color: lightgray;
+  /* padding: 10px; */
+  /* border:5px solid black; */
+  /* margin:10px; */
+
+  resize: both;
+  overflow: auto; 
+
+  
+}
+
+#generatedSummary td, #generatedSummary table tr th {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+
+  padding: 2px;
+  /* background-color: #337ab7; */
+}
+
+#theTableNew{
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+
+  padding: 2px;
+
+}
+
+/* #generatedSummary tr:nth-child(even){background-color: lightgray;color:black;font-weight: bold;} */
+
+/* #generatedSummary tr:nth-child(odd){background-color: lightgreen;color:black;font-weight: bold;} */
+
+#smrTableHdngCaptn{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#headCountCAption
+{
+  background-color: lightblue;
+  color:black;
+  text-align: center;
+  font-weight: bold;
+}
+#hC{
+  background-color: blue;
+  color:white;
+}
+#row0{
+  font-weight: bold;
+  color: black;
+  background-color: powderblue;
+}
+#row1{
+  background-color: lightgreen;
+
+  font-weight: bold;
+  color: black;
+
+}
+#row3 , #row5 , #row6{
+  font-weight: bold;
+  color: black;
+  background-color: lightblue;
+}
+
+#row4{
+  font-weight: bold;
+  color: black;
+  background-color: khaki;
+}
+
+
+#generatedSummary tr:hover {background-color: #ddd;}
+
+#generatedSummary th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #337ab7 ;
+  color: white;
+  border-right: 1px solid white;
+}
+
+
+
+#myFile{
+
+  background: #337ab7;
+  content:"Click to Upload";
+  padding: 20px;
+  margin-top:10px;
+
+
+}
+
+#subTitle{
+  margin-left: 2px;
+  float:right;
+  font-size: 12px;
+}
+#myAppId{
+  margin-top: 150px;
+  float:right;
+  text-shadow: 1px 1px 2px grey, 0 0 25px silver, 0 0 5px darkblue;
+   font-size: 10px;
+   color:blue;
+  font-family: Snell Roundhand, cursive;
+  -webkit-transition: width 5s; /* For Safari 3.1 to 6.0 */
+  transition: width 5s;
+  
+}
+
+#titleApp{
+ 
+   font-size: 25px;
+   height: 5px;
+   color:blue;
+
+
+}
+
+#textCour{
+  color: blue;
+}
+
+.navbar-nav{
+  height:50px;
+  /* font-weight: 30px; */
+}
+#loginPage{
+  background-image: url("/images/tracking.JPG");
+}
+#email_field{
+  width:300px;
+}
+#password_field{
+  width:300px;
+}
+
+.editUpdateUser{
+  background-color:white;
+border:1px solid grey;
+color:black;
+font-style:italic;
+z-index:9999;
+width:auto;
+top:30%;
+left:10%;
+height:auto;
+position:absolute;
+}
+/*style="z-index:999;color:black;background-color:white;margin-top:0px;margin-left:1000px;position:absolute;width: 200x; height: 100px;"*/
+
+.pieChartDiv{
+background-color:white;
+border:1px solid grey;
+color:black;
+font-style:italic;
+z-index:9999;
+width:auto;
+top:5%;
+left:75%;
+height:auto;
+position:absolute;
+}
+
+
+
+
+.anim {  
+  transition: background 3s linear;
+}
+.highlight{
+  background: PowderBlue  ; 
+}
+.normal {  
+  background: transparent;  
+}
+
+
+
+ul.nav a { 
+
+  cursor: pointer;
+  /* font-weight: 30px; */
+  color:white;
+  font-weight: bold;
+  border: 1px solid black;
+  display: inline;
+
+
+
+
+}
+
+
+#markPresentOnline{
+  float: right;
+}
+
+.autocomplete-items {
+  position: absolute;
+  width:600px;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 9999;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: white; 
+  color:black;
+  border-bottom: 1px solid #d4d4d4; 
+
+
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: blue; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.watermark {
+    position: absolute;
+    top : 80px;
+    opacity: 0.25;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.ui-grid-row {
+  height: 50px;
+}
+.ui-grid-cell {
+  height: 50px !important;
+  line-height: 40px;
+  border-color: #ffffff;
+}
+.ui-grid-row-header-cell {
+  height: 50px ;
+  line-height: 40px;
+}
+/* .grid {
+  width: 1000px;
+  height: 400px;
+position:absolute;
+left:0px;
+}
+
+#mainContainer{
+  position:absolute;
+left:0px;
+} */
+/* #grid1 {
+
+  width: 800px;
+  height: 400px;
+} */
+.blue { 
+  text-align: center;
+  color: #337ab7; 
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  width:auto;
+  font-size: 20px;
+  /* background-color: #337ab7; */
+  
+   }
+.bluePlusWidth { 
+  text-align: center;
+  color: DodgerBlue; 
+
+
+   }
+
+.blueOne { 
+  text-align: center;
+  color: DodgerBlue; 
+  }
+
+
+
+input[type=checkbox] {
+    display: none;
+}
+input.hide-checkbox-follow-btn:checked + span:before {
+content: "";
+}
+
+input.hide-checkbox-follow-btn:checked + span:after {
+content: "";
+}
+
+input.hide-checkbox-follow-btn + span:before {
+content: "";
+}
+
+.hide-checkbox-follow-btn + span {
+  display: block;
+  float: center;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 25px;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  font-family: 'Lato', sans-serif;
+  color: red;
+  border-radius: 25px;
+  /*border: 1px solid transparent;*/
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 10;
+  box-shadow:0 0px 0px transparent;
+  z-index: 100;
+
+}
+
+.hide-checkbox-follow-btn:checked + span {
+  display: inline-block;
+  background-color: green;
+  color: green;
+  /*border: 1px solid #fff;*/
+  opacity: 1;
+  box-shadow:0 2px 5px #111;
+}
+
+.hide-checkbox-follow-btn:checked + span + p {
+  color: green;
+}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.buttonRed {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+
+
+.buttonRed span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonRed span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonRed:hover span {
+  padding-right: 25px;
+}
+
+.buttonRed:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.branchCodeLink{
+  float: center;
+  padding-left: 25px;
+
+}
+
+
+.hider {
+        z-index: 999;
+        width: 50%;
+        height: 50%;
+        top: 20;
+        left: 30;
+        display: block;
+        position: absolute;       
+        background-color: #cccccc;
+        color: #aaaaaa;
+        opacity: .4;
+        filter: alpha(opacity = 50);
+      }
+      #popup {
+        width: 600px;
+        height: 500px;
+        position: absolute;
+        color: #000000;
+        background-color: #ffffff;
+        /* To align popup window at the center of screen*/
+        top: 30%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -150px;
+        z-index: 45455;
+        overflow-y: auto;
+      }
+
+.nameLabelForPopup{
+  color: #BDB76B; 
+  font-weight: bold; 
+
+}
+
+.nameLabelForth{
+  color: green; 
+  font-weight: bold; 
+
+}
+
+
+      
+.branchCodeLinkSty{
+  padding-left: 25px;
+}
+
+.vl {
+    border-left: 0.5px solid #BDB76B;
+    height: 500px;
+}
+
+
+
+canvas.drawing, canvas.drawingBuffer {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hider1 {
+        z-index: 998;
+        width: 50%;
+        height: 50%;
+        top: 20;
+        left: 30;
+        display: block;
+        position: absolute;       
+        background-color: #cccccc;
+        color: #aaaaaa;
+        opacity: .4;
+        filter: alpha(opacity = 50);
+      }
+      #popup1 {
+        width: 600px;
+        height: 500px;
+        position: absolute;
+        color: #000000;
+        background-color: #ffffff;
+        /* To align popup window at the center of screen*/
+        top: 30%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -150px;
+        z-index: 997;
+        overflow-y: auto;
+      }

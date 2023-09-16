@@ -1,0 +1,61 @@
+<div class="pieChartDiv" ng-show="showPie">
+  <label>{{totalItemsPresent.valueNum/totalItemsStrength.valueNum*100 | number:0}} % Present</label>
+<canvas id="pie" class="chart chart-pie"
+  chart-data="data" chart-labels="labels" chart-options="options">
+</canvas> 
+</div>
+
+<div class="container1">
+  <br />
+  <div class="panel panel-default">
+    <div class="panel-heading">Export attendance</div>
+    <br/>
+    <button  class="btn btn-success" ng-click="gotoMarkAttendance()" href="#ssmarkattendance"><i class="glyphicon glyphicon-arrow-left" style="font-size:15px;color:white"></i>&nbsp;Mark attendance&nbsp;<span class=""></span></button> 
+
+    <button  class="btn btn-success" ng-click="showPieChart()">Statistics</button> 
+    <button ng-show="showPie" class="btn btn-success" ng-click="hidePieChart()">Hide Statistics</button> 
+
+    <button ng-disabled="levelThreeUserLoggedIn" class="btn btn-success" ng-click="exportCsv()"><i class="fa fa-file-excel-o" style="font-size:15px;color:white"></i>&nbsp;Export&nbsp;<span class="glyphicon glyphicon-arrow-right"></span></button>
+    
+    <!-- <button class="btn btn-default" ng-click="exportPdf()"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i>&nbsp;ExportPDF&nbsp;<span class="glyphicon glyphicon-arrow-right"></span></button>
+     -->
+       <div class="col-md-2">
+            <p class="input-group">
+              <input type="text" class="form-control"
+              datepicker-popup="{{format}}" 
+              ng-model="fdt"
+              is-open="openedF" min-date="minDate"
+              max-date="dtmax" 
+              datepicker-options="dateOptions" 
+              ng-change="changeSelectF(fdt)"
+              date-disabled="disabled(date, mode)" 
+              ng-required="true" close-text="Close" />
+              <span class="input-group-btn"> 
+
+                <button type="button" class="btn btn-default" ng-click="openF($event)">
+                <i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+            </p>
+        </div>
+
+        <div class="col-md-3">
+          <div class="form-group">
+            <div ng-show="showErrorForActivitySelectionBeingNul" class="alert alert-danger">
+              <strong>Error!</strong>Please select a valid Activity from drop down
+            </div>
+
+              <select class="btn btn-default" ng-model="selectedNameOfActivity" ng-change="changeActivity()" ng-options="nameOfActivity for nameOfActivity in namesOfActivity">
+              </select>
+
+          </div>
+        </div>
+    <div class="panel-body">
+
+      <div ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions" class="grid123" ui-grid-auto-resize>
+        <div class="watermark" ng-show="!gridOptions.data.length">No data in the present list</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,482 @@
+
+<script type="text/ng-template" id="mapPresent.html">
+       <div class="ui-grid-cell-contents">
+         <input type="checkbox"
+          name="checkbox-follow-btn"
+          class="hide-checkbox-follow-btn"
+          id="{{row.entity.uid}}"
+          ng-model="userAttendanceLabel.attendanceStatus"
+          ng-true-value="'PRESENT'" 
+          ng-false-value="'ABSENT'"
+          /> 
+          <span  for="ui-grid-cell-contents" class="glyphicon glyphicon-ok"></span>
+
+        </div>
+</script>
+
+
+<script type="text/ng-template" id="templateId">
+    <h4>{{selectedNameOfActivity}} - {{attendanceForThisData}}</h4>
+    <p>Satsangies present :{{totalItems}}</p>
+</script> 
+
+
+
+ <script type="text/ng-template" id="mapAddress.html">
+      <div class="ui-grid-cell-contents">
+        <button id="{{row.entity.uid}}" class="btn btn-primary" type="button" ng-click="grid.appScope.markPlusPresents(row.entity)">+1</button>
+        &nbsp;
+        <button class="btn btn-danger" type="button" ng-click="grid.appScope.markDepsAbsent(row.entity)">-1</button>
+      </div>
+</script>
+
+<div style="width:100px;position: absolute;left:10px;"> 
+
+  <h2>Santsu scheme Mapping</h2>
+
+<table>
+  <tr>
+    <th>Scheme</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Phase 1</td>
+    <td>0 - 3 years</td>
+  </tr>
+  <tr>
+    <td>Phase 2</td>
+    <td>3 - 5 years</td>
+  </tr>
+  <tr>
+    <td>Primary 1</td>
+    <td>5 - 8 years</td>
+  </tr>
+  <tr>
+    <td>Primary 2</td>
+    <td>8 - 12 years</td>
+  </tr>
+</table>
+
+
+</div>
+
+
+
+<div ng-show="isUserMarkedPresent && !isUserAlreadyMarkedPresent" class="alert alert-success">
+  <strong>Success!</strong>User Presence marked Successfully
+</div>
+<div ng-show="isUserAlreadyMarkedPresent" class="alert alert-danger">
+  <strong>Error!</strong>User Presence Already marked for this date!! 
+</div>
+<div width="100%" style="margin-top: 50px;" class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+    <button  ng-show="!showTodaysCountPresent" class="btn btn-success" ng-click="showTodaysCountForCopy()">Total Strength</button>
+    &nbsp;&nbsp;
+     <u><b>{{columnTitle1}}</b></u>&nbsp;<u><b>{{columnTitle2}}</b></u>&nbsp;<span  id="strengthLabel" ng-show="showTodaysCountPresent">Strength  = {{totalItemsStrength.valueNum}}
+    
+     </span>
+   
+
+<button class="btn btn-success" id="toolBtn"  ng-click="showHideToggleGridButtons()">Tools&nbsp;<span class="glyphicon glyphicon-cog"></span></button>&nbsp;
+<div ng-hide="true" class="col-md-3">
+<input placeholder="Search Linked" id="searchLinkedId" class="form-control" ng-model="searchLinked" />
+</div>
+
+<button ng-disabled="toggleAttGrid" ng-hide="toggleToolButton" id="adminGridBtn" class="btn btn-success" ng-click="showHideMainGrid()">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span></button>
+
+<button ng-hide="toggleToolButton" id="checkAttendanceButtonId" class="btn btn-success" ng-click="getAttendance()"><i class="fa fa-attendance" style="font-size:15px;color:red"></i>&nbsp;Refresh bulbs&nbsp;<span class="glyphicon glyphicon-refresh"></span></button>
+
+ <div class="col-md-2">
+            <p class="input-group">
+              <input type="text" class="form-control"
+              datepicker-popup="{{format}}" 
+              ng-model="fdt"
+              is-open="openedF" min-date="minDate"
+              max-date="dtmax" 
+              datepicker-options="dateOptions" 
+              ng-change="changeSelectF(fdt)"
+              date-disabled="disabled(date, mode)" 
+              ng-required="true" close-text="Close" />
+              <span class="input-group-btn"> 
+
+                <button type="button" class="btn btn-default" ng-click="openF($event)">
+                <i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+            </p>
+        </div>
+ 
+        <div class="col-md-3">
+          <div class="form-group">
+            <div ng-show="showErrorForActivitySelectionBeingNul" class="alert alert-danger">
+              <strong>Error!</strong>Please select a valid Activity from drop down
+            </div>
+
+              <select  id="activityDropDwnMenu" class="btn btn-default" ng-model="selectedNameOfActivity" ng-change="changeActivity()" ng-options="nameOfActivity for nameOfActivity in namesOfActivity">
+              </select>
+
+          </div>
+        </div>
+
+</div>
+
+    
+     
+        <div>
+          <div class="form-group">
+            <input ng-hide="true" placeholder="Branch code" id="searchTextBox" class="form-control" ng-model="searchAttendanceGrid" ng-change="detectSearchText()"/>
+            </div>
+          </div>
+
+          <div>
+          <div class="form-group">
+            
+            <input ng-hide="true" placeholder="First name" id="searchTextBoxFirstNames" class="form-control" ng-model="searchAttendanceGridName" ng-change="detectSearchTextName()"/>
+            
+          </div>
+        </div>
+        
+    <div id="mainContainer" ng-show="toggleMainGrid" class="panel-body">
+      <div>
+        <div ng-show="!levelOneUserLoggedIn && showPrivilageError" class="alert alert-danger">
+        <strong>Access denied!!</strong>Not enough privilaged to act.
+        </div>
+         <div class="panel panel-success">
+          <div class="panel-heading">Adminstrator Grid<span class="glyphicon glyphicon-screenshot"></span><b></b>
+          </div>
+      <div id="gridDiv" ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions" class="grid" ui-grid-edit ui-grid-row-edit  ui-grid-cellNav ui-grid-auto-resize>
+      <div class="watermark" ng-show="!gridOptions.data.length">Loading data if available </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="hider"></div>
+<div id="popup_box">
+    
+    <div id="popDiv" class="ontop">
+      <div id="popup" class="panel panel-default">
+        <small><b>Important note:</b> Click "Clean" before the report is exported</small>
+        <a style="color:red;font-weight:bold;padding-left: 520px;cursor:pointer;" id="buttonClose">Close</a>
+        <br/>
+        <div class="row">
+          
+    <div ng-controller="exportDataForBranchCodeCtrl" class="col-md-4">
+      
+            
+              <div class="form-group">
+                  <button ng-disabled="levelThreeUserLoggedIn" class="btn btn-success" ng-click="exportExcelForBrSelData(branchCodeSelected)" href=""><i class="fa fa-file-excel-o" style="font-size:15px;color:white"></i>&nbsp;Export to Excel<span class="glyphicon glyphicon-arrow-right"></span></button>
+              </div>
+  
+          </div> 
+          <div class="col-md-3">
+            <div class="form-group">
+                  <select ng-disabled="levelThreeUserLoggedIn" class="btn btn-default" ng-model="selectedfilterSel" ng-change="changeFilterSel()" ng-options="filterSel for filterSel in filtersSels">
+                  </select>
+              </div>
+          </div>
+      </div>
+      <div class="panel-heading"><label class="nameLabelForPopup">Code = &nbsp;</label>{{branchCodeSelected}} &nbsp;<label class="nameLabelForPopup"></label></div>
+              
+  <div id="sjs-table" ng-controller="exportDataForBranchCodeCtrl" class="row">
+    <div class="col-md-6">
+    <div class="panel panel-success">
+   
+    <table  class="table table-bordered">
+    <thead>
+     
+    
+      <tr>
+        <td>{{branchCodeSelected}}</td>
+        <td>{{nameSatsangiSelected}}</td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <th class="nameLabelForth">Activity</th>
+        <th class="nameLabelForth">Total Present</th>
+        <th>-</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.zValue,branchCodeSelected)" href="">E-Satsang</a>
+        </td>
+        <td><b>{{ESatsangPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.oneValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.oneValue,branchCodeSelected)" href="">Branch Morning Satsang</a>
+        </td>
+        <td><b>{{BranchMorningSatsangPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.oneValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.twoValue,branchCodeSelected)" href="">Branch Evening Satsang</a>
+        </td>
+        <td><b>{{BranchEveningSatsangPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.twoValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+       <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.threeValue,branchCodeSelected)" href="">Branch Special Satsang</a>
+        </td>
+        <td><b>{{BranchSpecialSatsangPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.threeValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.fourValue,branchCodeSelected)" href="">Morning Cleaning</a>
+        </td>
+        <td><b>{{MorningCleaningPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.fourValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.fiveValue,branchCodeSelected)" href="">Evening Cleaning</a>
+        </td>
+        <td><b>{{EveningCleaningPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.fiveValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.sixValue,branchCodeSelected)" href="">Windup</a>
+        </td>
+        <td><b>{{WindupPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.sixValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+       <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.sevenValue,branchCodeSelected)" href="">Weekly Cleaning</a>
+        </td>
+        <td><b>{{WeeklyCleaningPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.sevenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.eightValue,branchCodeSelected)" href="">Basant Arti</a>
+        </td>
+        <td><b>{{BasantArtiPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.eightValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+
+
+
+
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.nineValue,branchCodeSelected)" href="">Basant Bhandara</a>
+        </td>
+        <td><b>{{DailySatsangEveningPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.nineValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.tenValue,branchCodeSelected)" href="">Holi Arti</a>
+        </td>
+        <td><b>{{HoliArtiPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.tenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+       <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.elevenValue,branchCodeSelected)" href=""> Holi Bhandara</a>
+        </td>
+        <td><b>{{HoliBhandaraPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.elevenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.twelveValue,branchCodeSelected)" href="">Arti</a>
+        </td>
+        <td><b>{{ArtiPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.twelveValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+<tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.thirteenValue,branchCodeSelected)" href="">Bhandara</a>
+        </td>
+        <td><b>{{BhandaraPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.thirteenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.fourteenValue,branchCodeSelected)" href="">Copy Unit</a>
+        </td>
+        <td><b>{{CopyUnitPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.fourteenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+<tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.fifteenValue,branchCodeSelected)" href="">Bag Unit</a>
+        </td>
+        <td><b>{{BagUnitPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.fifteenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+        <a id="" ng-click="loadDetailsPerActivityAndBrCd(activityType.sixteenValue,branchCodeSelected)" href="">Night Duty</a>
+        </td>
+        <td><b>{{NightDutyPresentsFrThisBrCode}}</b></td>
+        <td>
+          <a id="" class="" ng-click="loadDetailsPerBrCd(activityType.sixteenValue,branchCodeSelected)" href=""><span class="glyphicon glyphicon-search"></span></a>
+        </td>
+      </tr>
+
+
+    </tbody>
+  </table>
+ </div>
+</div>
+ 
+
+   <div class="col-md-6">
+    <div class="panel panel-success">
+   
+    <table  class="table table-bordered">
+    <thead>
+     
+      <tr>
+        <th class="nameLabelForth">Attendance Summary</th>
+        <th class="nameLabelForth">{{selectedfilterSel}}</th>
+        
+      </tr> 
+     
+
+       <tr ng-repeat="summaryNumber in activitySummaryBybranchCode track by $index">
+        
+        <th>{{summaryNumber.activityName}}</th>
+        <th>{{summaryNumber.valueNumber}}</th>
+      <tr> 
+     
+    </thead>
+    <tbody>
+   
+
+       <tr ng-repeat="c in datesPresentArray track by $index">
+        
+        <td><b>{{c.datePresent}}</b></td>
+        <td><button class="buttonRed" value="{{c.uid}}" style="width:40px;" ng-click="removeData(c,true)"><span  class="glyphicon glyphicon-remove"></span></button></td>
+      </tr>  
+    </tbody>
+  </table>
+   </div>
+  </div>
+   
+  </div>
+
+ </div>
+</div>
+ 
+</div>
+
+
+ <div ng-show="isUserUpdated" class="alert alert-success">
+  <strong>Success!</strong>&nbsp;User Details Updated&nbsp;Kindly search in the grid for old record and you can delete old record.
+</div>
+
+
+<div ng-show="editUpdateUserBoxShow" class="editUpdateUser">
+  <form name="myForm">
+    <label for="Name">Name</label>
+    <input  ng-disabled="true" type="text" ng-model="editOrUpdateTheUsernameSatsangi"  placeholder="">
+
+    <label for="UID">UID</label>
+    <input ng-disabled="true" type="text" ng-model="editOrUpdateTheUseruid" placeholder="">
+
+    <label for="branchCode">Branch code</label>
+    <input  type="text" ng-model="editOrUpdateTheUserbranchCode" placeholder="">
+
+
+    <label for="New UID">New UID</label>
+    <input name="newUID" type="text" ng-model="editOrUpdateTheUsernewUid" placeholder="Enter new UID" required>
+    <span ng-show="myForm.myName.$touched && myForm.newUID.$invalid">The name is required.</span>
+
+ 
+
+    <label for="Gender">Gender</label>
+     <select class="btn btn-default" ng-model="editOrUpdateTheUserGender" ng-change="changeeditOrUpdateTheUserGender()" ng-options="genderSelected for genderSelected in editOrUpdateTheUserGenders">
+    </select>
+
+    <label for="Dobyear">DOB year</label>
+     <select class="btn btn-default" ng-model="editOrUpdateTheUserDOBYear" ng-change="changeeditOrUpdateTheUserDOBYear()" ng-options="DOBYearSelected for DOBYearSelected in editOrUpdateTheUserDOBYears">
+    </select>
+
+<label for="category">Category</label>
+     <select class="btn btn-default" ng-model="editOrUpdateTheUserCategory" ng-change="changeeditOrUpdateTheUserCategory()" ng-options="CategorySelected for CategorySelected in editOrUpdateTheUserCategorySelected">
+    </select>
+
+    <label for="category">Superman Scheme</label>
+    <select class="btn btn-default" ng-model="suSchemePhaseType.value" ng-change="handleSuSchemeSelection()" ng-options="SUSchemeCategorySelected for SUSchemeCategorySelected in SUSchemeCategories">
+   </select>
+
+
+
+<input ng-model="editOrUpdateTheUserregionName" type="text" placeholder="Enter Region name" />
+&nbsp;
+<input ng-model="editOrUpdateTheUserdistrictName" type="text" placeholder="Enter district name" />
+&nbsp;
+<input ng-model="editOrUpdateTheUserbranchName" type="text" placeholder="Enter branch name" />
+
+
+    <button class="button" ng-click="editOrUpdate()" type="submit"><span>Update Data</span></button>
+  </form>
+
+
+  <form>
+    <input ng-disabled="true" ng-model="regionName" type="text" placeholder="Enter Region name" />&nbsp;<input ng-disabled="true" ng-model="districtName" type="text" placeholder="Enter district name" />&nbsp;<input ng-disabled="true" ng-model="branchName" type="text" placeholder="Enter branch name" />
+
+
+    <button ng-disabled="true" class="btn btn-primary" ng-click="applyToAllDistrictBranchRegion()" type="submit"><span>Apply</span></button>
+
+  </form>
+</div>

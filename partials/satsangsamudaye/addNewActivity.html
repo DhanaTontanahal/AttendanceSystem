@@ -1,0 +1,50 @@
+
+<div class="container1">
+  <br/>
+    <div class="panel panel-default">
+    <div class="panel-heading">New Activity</div>
+    <div class="panel-body">
+      <div class="row">
+  <form ng-submit="addActivity()">
+  <div class="col-sm-6">
+
+
+        <div class="form-group">
+          <input  class="form-control" placeholder="Enter the Activity name" type="text" ng-model="message.activityName" required>
+        </div>
+
+
+        <div class="form-group">   
+
+         <input  class="form-control" placeholder="Enter the Activity Type" type="text" ng-model="message.activityType" required>
+         </div>
+
+  </div>
+  <div class="col-sm-6">
+         <div class="form-group">
+            
+            <button class="btn btn-primary" type="submit" class="button"><span>Submit</span></button>
+            
+          </div>
+
+
+      </div>
+   
+  </form>
+</div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<div ng-show="isNewActivityAdded" class="alert alert-success">
+  <strong>Success!</strong>New Activity added successfully
+</div>
+
+<div ng-show="alreadyPresent" class="alert alert-danger">
+  <strong>Error!</strong>Duplicate values are not allowed
+</div>
+
