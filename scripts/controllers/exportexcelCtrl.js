@@ -9,13 +9,21 @@ $scope.namesOfActivity =[];
 
 $scope.selectedNameOfActivity = "Select";
 
- $scope.activitiesFromServer= activitiesService;
+// setTimeout(()=>{
+//   $scope.activitiesFromServer= activitiesService;
+// },2000)
+
+
+$scope.fetchActivitiesData  = async function(){
+  $scope.namesOfActivity= await activitiesService;
+}
+
+$scope.fetchActivitiesData();
  
-$scope.getActivitiesData = function()
-  {
-    $scope.activitiesFromServer.$loaded();
-  }
-$scope.getActivitiesData();
+// $scope.getActivitiesData = function(){
+//     $scope.activitiesFromServer.$loaded();
+//   }
+// $scope.getActivitiesData();
 
 setTimeout(function(){
     for(var i = 0 ; i < $scope.activitiesFromServer.length ; i++){

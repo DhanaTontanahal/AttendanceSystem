@@ -12,6 +12,10 @@ define(['./app'], function (app) {
             controller: 'markattendanceCtrl'
         });
 
+        $routeProvider.when('/storedashboard', {
+            templateUrl: 'partials/satsangsamudaye/storedashboard.html',
+        });
+
          $routeProvider.when('/notes', {
             templateUrl: 'partials/satsangsamudaye/notes.html',
             controller: 'notesCtrl'

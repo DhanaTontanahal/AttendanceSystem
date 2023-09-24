@@ -2648,9 +2648,9 @@ function dragElement(elmnt) {
       $scope.checkAttendanceForTheInputOnDate($scope.attendanceForThisData, $scope.selectedNameOfActivity);
 
       $scope.refreshData = function (bc) {
-        console.log("next here...2020-202020202020202020202020-2020-CHANGES", $scope.rowSelectedEntity)
+        // console.log("next here...2020-202020202020202020202020-2020-CHANGES", $scope.rowSelectedEntity)
         if ($scope.rowIsSelected) {
-          console.log("202020202020202020202020***", $scope.rowSelectedEntity);
+          // console.log("202020202020202020202020***", $scope.rowSelectedEntity);
           // //console.log(0,$scope.rowSelectedEntity.deps,$scope.rowSelectedEntity.nameSatsangi,'indexForRS','index',$scope.rowSelectedEntity.id,$scope.attendanceForThisData,$scope.selectedNameOfActivity,$scope.rowSelectedEntity.branchCode);
           // $scope.addAttendance($scope.rowSelectedEntity.uid,true,'indexOfSelectedRec','indexForRS',$scope.rowSelectedEntity.branchCode,$scope.rowSelectedEntity.deps);
           writeNewPost(0, $scope.rowSelectedEntity.deps, 'permanant', 'index', $scope.rowSelectedEntity.uid, $scope.attendanceForThisData, $scope.selectedNameOfActivity, $scope.rowSelectedEntity.branchCode, $scope.rowSelectedEntity.nameSatsangi);
