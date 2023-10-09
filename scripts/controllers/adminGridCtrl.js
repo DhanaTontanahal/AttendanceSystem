@@ -1007,7 +1007,7 @@ define(['./module'], function (controllers) {
           $scope.reset();
           $scope.rowIsSelected = false;
           $scope.rowSelectedEntity = {};
-          console.log("clearing selected rows if any")
+          // console.log("clearing selected rows if any")
           $scope.gridApi.selection.clearSelectedRows();
           return resp;
         }
@@ -1406,10 +1406,10 @@ define(['./module'], function (controllers) {
         console.log($scope.gridApi.grid.options.totalItems);
 
 
-        $interval(function () {
-          $rootScope.totalItemsStrength.valueNum = $scope.gridApi.grid.options.totalItems;
-          $scope.clearFiltersTDS();
-        }, 3000);
+        // $interval(function () {
+        //   $rootScope.totalItemsStrength.valueNum = $scope.gridApi.grid.options.totalItems;
+        //   $scope.clearFiltersTDS();
+        // }, 3000);
 
         // alert(totalItems);
         $scope.gridApi.edit.on.beginCellEdit($scope, function (rowEntity, colDef) {
