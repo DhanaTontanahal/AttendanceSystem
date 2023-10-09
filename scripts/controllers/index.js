@@ -18,5 +18,6 @@ define([
     './WcsummaryDataCtrl',
     './WwusummaryDataCtrl',
     './CusummaryDataCtrl',
-    './addNewActivityCtrl'
+    './addNewActivityCtrl',
+    './addNewStoreItemCtrl'
 ], function () {});

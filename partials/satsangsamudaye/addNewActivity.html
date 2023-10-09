@@ -1,41 +1,80 @@
-
-<div class="container1">
-  <br/>
-    <div class="panel panel-default">
-    <div class="panel-heading">New Activity</div>
-    <div class="panel-body">
-      <div class="row">
-  <form ng-submit="addActivity()">
+<div class="row">
   <div class="col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">New Activity</div>
+      <div class="panel-body">
+        <div class="row">
+          <form ng-submit="addActivity()">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  placeholder="Enter the Activity name"
+                  type="text"
+                  ng-model="message.activityName"
+                  required
+                />
+              </div>
 
-
-        <div class="form-group">
-          <input  class="form-control" placeholder="Enter the Activity name" type="text" ng-model="message.activityName" required>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  placeholder="Enter the Activity Type"
+                  type="text"
+                  ng-model="message.activityType"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <button class="btn btn-primary" type="submit" class="button">
+                  <span>Submit</span>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
-
-
-        <div class="form-group">   
-
-         <input  class="form-control" placeholder="Enter the Activity Type" type="text" ng-model="message.activityType" required>
-         </div>
-
+      </div>
+    </div>
   </div>
   <div class="col-sm-6">
-         <div class="form-group">
-            
-            <button class="btn btn-primary" type="submit" class="button"><span>Submit</span></button>
-            
-          </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">New Store Item</div>
+      <div class="panel-body">
+        <div class="row">
+          <form ng-submit="addStoreItem()">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  placeholder="Enter the item name"
+                  type="text"
+                  ng-model="satsangstore.itemName"
+                  required
+                />
+              </div>
 
-
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  placeholder="Enter the Item Type"
+                  type="text"
+                  ng-model="satsangstore.itemType"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <button class="btn btn-primary" type="submit" class="button">
+                  <span>Submit</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-   
-  </form>
-</div>
-
-
-
-
     </div>
   </div>
 </div>
@@ -48,3 +87,98 @@
   <strong>Error!</strong>Duplicate values are not allowed
 </div>
 
+<div ng-show="isNewStoreItemAdded" class="alert alert-success">
+  <strong>Success!</strong>New Store Item added successfully
+</div>
+
+<div ng-show="alreadyPresent" class="alert alert-danger">
+  <strong>Error!</strong>Duplicate values are not allowed
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <button class="btn btn-primary" ng-click="getAllItems('activities')">
+      Get all activities {{allActivities.length}}
+    </button>
+    <input type="text" ng-model="actvSearch" placeholder="Type to search..." />
+    <div style="height: 250px !important; overflow-y: scroll">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+        <tr
+          ng-repeat="activity in allActivities | filter:{activityName:actvSearch} track by $index"
+        >
+          <td><span class="item-arrange">{{activity.activityName}}</span></td>
+          <td style="padding: 5px;">
+            <button
+              class="btn btn-danger"
+              ng-click="handleDelete('activities',activity)"
+            >
+              Delete
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-trash"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"
+                />
+                <path
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <button class="btn btn-primary" ng-click="getAllItems('store')">
+      Get store Items {{allStoreItems.length}}
+    </button>
+    <input type="text" ng-model="storeSearch" placeholder="Type to search..." />
+    <div style="height: 250px !important; overflow-y: scroll">
+      <table id="customers">
+        <tr>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+        <tr
+          ng-repeat="storeItem in allStoreItems | filter:{itemName:storeSearch} track by $index "
+        >
+          <td>{{storeItem.itemName}}</td>
+          <td style="padding: 5px;">
+            <button
+              class="btn btn-danger"
+              ng-click="handleDelete('store',storeItem)"
+            >
+              Delete
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-trash"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"
+                />
+                <path
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

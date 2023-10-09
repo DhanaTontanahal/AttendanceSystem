@@ -21,7 +21,11 @@ define(['./app'], function (app) {
             templateUrl: 'partials/satsangsamudaye/addNewActivity.html',
             controller: 'addNewActivityCtrl'
         });
-
+        $routeProvider.when('/addNewStoreItem', {
+            templateUrl: 'partials/satsangsamudaye/addNewStoreItem.html',
+            controller: 'addNewStoreItemCtrl'
+        });
+        
          
 
           $routeProvider.when('/admingrid', {

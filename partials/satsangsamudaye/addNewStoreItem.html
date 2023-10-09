@@ -1,0 +1,48 @@
+<div class="container1">
+  <br />
+  <div class="panel panel-default">
+    <div class="panel-heading">New Store Item</div>
+    <div class="panel-body">
+      <div class="row">
+        <form ng-submit="addStoreItem()">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <input
+                class="form-control"
+                placeholder="Enter the item name"
+                type="text"
+                ng-model="satsangstore.itemName"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                class="form-control"
+                placeholder="Enter the Item Type"
+                type="text"
+                ng-model="satsangstore.itemType"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <button class="btn btn-primary" type="submit" class="button">
+                <span>Submit</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ng-show="isNewStoreItemAdded" class="alert alert-success">
+  <strong>Success!</strong>New Store Item added successfully
+</div>
+
+<div ng-show="alreadyPresent" class="alert alert-danger">
+  <strong>Error!</strong>Duplicate values are not allowed
+</div>
