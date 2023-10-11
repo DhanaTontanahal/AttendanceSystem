@@ -6,9 +6,9 @@ define(["./module"], function (controllers) {
     "$scope",
     function ($rootScope, $timeout, $scope) {
       $rootScope.isNewUserAdded = false;
-      $scope.storeSearch=""
-      $scope.actvSearch=""
-      
+      $scope.storeSearch = "";
+      $scope.actvSearch = "";
+
       function writeUserData(where, itmName, itmType) {
         if (where == "store") {
           firebase
@@ -29,7 +29,6 @@ define(["./module"], function (controllers) {
         }
       }
 
-      
       $scope.addActivity = function () {
         if (
           $scope.message.activityName === "" ||
@@ -66,7 +65,10 @@ define(["./module"], function (controllers) {
       };
 
       $scope.allStoreItems = [];
+      $scope.showStoreItems=true;
       $scope.getAllItems = function (type) {
+        $scope.showStoreItems=true;
+        $scope.showStoreOrders=false;
         firebase
           .database()
           .ref(type)
@@ -80,6 +82,35 @@ define(["./module"], function (controllers) {
             $scope.$apply();
           });
       };
+      $scope.allStoreOrderItems = [];
+      $scope.showStoreOrders=false;
+      $scope.getAllOrderItems = function () {
+        $scope.showStoreItems=false;
+        $scope.showStoreOrders=true;
+        firebase
+          .database()
+          .ref("satsangiUsers-store-requests")
+          .once("value", function (snapshot) {
+            var data = snapshot.val();
+            console.log(Object.keys(data))
+            $scope.allStoreOrderItems = Object.keys(data);
+            $scope.$apply();
+          });
+      };
+
+      $scope.allStoreOrderItemsSpecific = [];
+      $scope.handleShowOrders = function(by){
+        firebase
+          .database()
+          .ref("satsangiUsers-store-requests")
+          .child(by)
+          .once("value", function (snapshot) {
+            var data = snapshot.val();
+            console.log(Object.values(data))
+            $scope.allStoreOrderItemsSpecific = Object.values(data)
+            $scope.$apply();
+          });
+      }
 
       $scope.handleDelete = function (type, item) {
         console.log(type);

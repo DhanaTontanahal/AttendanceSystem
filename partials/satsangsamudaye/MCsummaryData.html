@@ -1,9 +1,71 @@
-<div  class="panel-body">
-          <div class="panel panel-primary">
-          <div class="panel-heading">Morning Cleaning Present Summary : Till Today 
-          </div>
-          <div ui-grid-pagination ui-grid-selection ui-grid-exporter id="grid1" ui-grid="gridOptions1" class="gridc1" ui-grid-auto-resize>
-            <div class="watermark" ng-show="!gridOptions1.data.length">No data in the present list</div>
-        </div> 
+<div class="row">
+  <div class="col-md-2">
+    <button
+      style="
+        border: 0.5px solid black;
+        color: black;
+        padding: 1px;
+        margin-bottom: 2px;
+        width: 80%;
+        height: 30px;
+        font-weight: bold;
+      "
+    >
+      Event
+    </button>
+    <select
+      style="height: 30px; width: 80%"
+      ng-model="selectedNameOfActivity"
+      ng-change="changeActivity()"
+      ng-options="nameOfActivity for nameOfActivity in namesOfActivity"
+    ></select>
+  </div>
+
+  <div class="col-md-2">
+    <button
+      style="
+        border: 0.5px solid black;
+        color: black;
+        padding: 1px;
+        margin-bottom: 2px;
+        width: 80%;
+        height: 30px;
+        font-weight: bold;
+      "
+    >
+      Month
+    </button>
+    <select
+      style="height: 30px; width: 80%"
+      ng-model="monthName"
+      ng-change="changeMonthName()"
+      ng-options="monthName for monthName in monthNames"
+    ></select>
+  </div>
+
+  <button ng-click="refreshGrid()">Refresh</button>
+</div>
+
+<div class="panel-body">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      {{selectedNameOfActivity}} Attendance Summary ({{monthName}})
+    </div>
+    <!-- <span>Live : {{liveLog}}</span> -->
+    <div
+      ui-grid-pagination
+      ui-grid-selection
+      ui-grid-exporter
+      id="grid1"
+      ui-grid="gridOptions1"
+      class="gridc1"
+      ui-grid-auto-resize
+    >
+      <div class="watermark" ng-show="!gridOptions1.data.length">
+        <span ng-show="showData">Loading data.... {{timerCount}}</span>
+
+        <span ng-hide="showData">Select the Event and month</span>
       </div>
     </div>
+  </div>
+</div>

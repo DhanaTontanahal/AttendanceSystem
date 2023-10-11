@@ -143,8 +143,13 @@
     <button class="btn btn-primary" ng-click="getAllItems('store')">
       Get store Items {{allStoreItems.length}}
     </button>
+    <button class="btn btn-primary" ng-click="getAllOrderItems('store')">
+      Get store Orders {{allStoreItems.length}}
+    </button>
     <input type="text" ng-model="storeSearch" placeholder="Type to search..." />
-    <div style="height: 250px !important; overflow-y: scroll">
+
+    <div ng-show="showStoreItems" style="height: 250px !important; overflow-y: scroll">
+
       <table id="customers">
         <tr>
           <th>Name</th>
@@ -179,6 +184,51 @@
           </td>
         </tr>
       </table>
+
     </div>
+
+
+    <div  ng-show="showStoreOrders" style="height: 250px !important; overflow-y: scroll">
+
+      <table id="customers">
+        <tr>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+        <tr
+          ng-repeat="storeItemOrdersBy in allStoreOrderItems  track by $index "
+        >
+          <td>{{storeItemOrdersBy}}</td>
+          <td style="padding: 5px;">
+            <button
+              class="btn btn-primary"
+              ng-click="handleShowOrders(storeItemOrdersBy)"
+            >
+              View orders
+            </button>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div>
+      <table id="customers"> 
+        <tr>
+          <th>Name</th>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+        <tr ng-repeat="storeOrder in allStoreOrderItemsSpecific track by $index">
+          <td>{{storeOrder.requestedByName}}</td>
+          <td>{{storeOrder.storeItem}}</td>
+          <td>{{storeOrder.quantity}}</td>
+        </tr>
+      </table>
+
+    </div>
+
+
+
   </div>
 </div>

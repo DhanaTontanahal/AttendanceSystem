@@ -1,243 +1,248 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="lib/please-wait/please-wait.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog-theme-default.min.css"
+    />
+    <title>Satsangis</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular-touch.js"></script>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="lib/angular-ui-grid/ui-grid.css" />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="lib/please-wait/please-wait.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/1.0.1/css/ngDialog-theme-default.min.css">
-  <title>Satsangis</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular-touch.js"></script>
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="lib/angular-ui-grid/ui-grid.css">
+    <script lang="javascript" src="/lib/xlsx/dist/xlsx.full.min.js"></script>
 
-  <script lang="javascript" src="/lib/xlsx/dist/xlsx.full.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/lib/ta/bootstrap3-typeahead.min.js"></script>
+    <script src="https://underscorejs.org/underscore-min.js"></script>
 
+    <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog.css" />
+    <link rel="stylesheet" href="lib/angular-print/angularPrint.css" />
+    <link
+      rel="stylesheet"
+      href="lib/ng-dialog/css/ngDialog-theme-default.css"
+    />
+    <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog-theme-plain.css" />
+    <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog-custom-width.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="semantic/dist/semantic.min.css"
+    />
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="/lib/angular/angular.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
 
-  <script src="/lib/ta/bootstrap3-typeahead.min.js"></script>
-  <script src="https://underscorejs.org/underscore-min.js"></script>
+    <script src="lib/chart.js/dist/Chart.min.js"></script>
+    <script src="lib/angular-chart.js/dist/angular-chart.min.js"></script>
 
+    <style>
+      @media screen and (max-width: 600px) {
+        #barcodeInptTxtBx {
+          width: 100px;
+          height: 50px;
+          margin-left: 80%;
+          margin-top: 0%;
+        }
 
-  <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog.css">
-  <link rel="stylesheet" href="lib/angular-print/angularPrint.css">
-  <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog-theme-default.css">
-  <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog-theme-plain.css">
-  <link rel="stylesheet" href="lib/ng-dialog/css/ngDialog-custom-width.css">
-  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-  <script src="semantic/dist/semantic.min.js"></script>
-  <script src="/lib/angular/angular.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
-  <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+        #dragggableSummary {
+          margin-left: 1%;
+          position: relative;
+          margin-top: 500px;
+        }
 
-  <script src="lib/chart.js/dist/Chart.min.js"></script>
-  <script src="lib/angular-chart.js/dist/angular-chart.min.js"></script>
+        #myAppId,
+        .dropdown {
+          display: none;
+        }
 
+        #generatedSummary {
+          display: block;
+          background-color: gray;
+          z-index: 999;
+          border: 2px solid lightgray;
+          padding: 3px;
+        }
 
-  <style>
-    @media screen and (max-width: 600px) {
+        #barcodeInptTxtBx {
+          margin-right: 10%;
+          position: absolute;
+          top: 0%;
+        }
 
+        #msgBtn1 {
+          display: none;
+        }
 
-      #barcodeInptTxtBx {
-        width: 100px;
-        height: 50px;
-        margin-left: 80%;
-        margin-top: 0%;
+        #msgBtn2 {
+          display: none;
+        }
+
+        #offlineAttMnuBtn,
+        #bioMenuBtn {
+          display: none;
+        }
+
+        #titleApp {
+          display: none;
+        }
+
+        #toolBtn,
+        #adminGridBtn,
+        #checkAttendanceButtonId {
+          display: none;
+        }
+
+        #activityDropDwnMenu {
+          padding: 5px;
+        }
+
+        #gridDiv {
+          width: 100%;
+          overflow-x: scroll;
+        }
+
+        #grid1 {
+          width: 300px;
+          height: 400px;
+          overflow: scroll;
+        }
       }
+    </style>
+    <script>
+      const config = {
+        apiKey: "AIzaSyC13btHGEnl-JB6TDaa05D-5Pk28jyWekQ",
+        authDomain: "pune-ams.firebaseapp.com",
+        databaseURL: "https://pune-ams-default-rtdb.firebaseio.com",
+        projectId: "pune-ams",
+        storageBucket: "pune-ams.appspot.com",
+        messagingSenderId: "178023651028",
+        appId: "1:178023651028:web:16bf3a7e6df57cad73cd41"
+      };
 
-      #dragggableSummary {
-        margin-left: 1%;
-        position: relative;
-        margin-top: 500px;
-      }
+      // const config = {
+      //   apiKey: "AIzaSyApR69k8Oyt0PLCJQSJfHbhBH4aspxtCXQ",
+      //   authDomain: "pams-e7971.firebaseapp.com",
+      //   databaseURL: "https://pams-e7971.firebaseio.com",
+      //   projectId: "pams-e7971",
+      //   storageBucket: "pams-e7971.appspot.com",
+      //   messagingSenderId: "821251191711",
+      //   appId: "1:821251191711:web:dd4ce38f4dca3eb45d03aa",
+      // };
 
-      #myAppId,
-      .dropdown {
-        display: none;
-      }
+      firebase.initializeApp(config);
 
+      var logout = function () {
+        console.log("logging out...");
+        firebase.auth().signOut();
+        document.getElementById("logoutBtn").style.display = "none";
+        window.location.reload();
+      };
 
+      var reload = function () {
+        window.location.reload();
+      };
 
-      #generatedSummary {
-        display: block;
-        background-color: gray;
-        z-index: 999;
-        border: 2px solid lightgray;
-        padding: 3px;
-
-      }
-
-      #barcodeInptTxtBx {
-        margin-right: 10%;
-        position: absolute;
-        top: 0%;
-      }
-
-
-
-      #msgBtn1 {
-        display: none;
-      }
-
-      #msgBtn2 {
-        display: none;
-      }
-
-      #offlineAttMnuBtn,
-      #bioMenuBtn {
-        display: none;
-      }
-
-      #titleApp {
-        display: none;
-      }
-
-      #toolBtn,
-      #adminGridBtn,
-      #checkAttendanceButtonId {
-        display: none;
-      }
-
-
-      #activityDropDwnMenu {
-        padding: 5px;
-      }
-
-      #gridDiv {
-
-        width: 100%;
-        overflow-x: scroll;
-
-      }
-
-      #grid1 {
-
-        width: 300px;
-        height: 400px;
-        overflow: scroll;
-      }
-
-
-    }
-  </style>
-  <script>
-    const config = {
-      apiKey: "AIzaSyC13btHGEnl-JB6TDaa05D-5Pk28jyWekQ",
-      authDomain: "pune-ams.firebaseapp.com",
-      databaseURL: "https://pune-ams-default-rtdb.firebaseio.com",
-      projectId: "pune-ams",
-      storageBucket: "pune-ams.appspot.com",
-      messagingSenderId: "178023651028",
-      appId: "1:178023651028:web:16bf3a7e6df57cad73cd41"
-    };
-
-    firebase.initializeApp(config);
-
-    var logout = function () {
-      console.log("logging out...");
-      firebase.auth().signOut();
-      document.getElementById("logoutBtn").style.display = "none";
-      window.location.reload();
-
-    }
-
-    var reload = function () {
-      window.location.reload();
-    }
-
-
-    $(function () {
-      $('ul.nav li').on('click', function () {
-        $(this).parent().find('li.active').removeClass('active');
-        $(this).addClass('active');
+      $(function () {
+        $("ul.nav li").on("click", function () {
+          $(this).parent().find("li.active").removeClass("active");
+          $(this).addClass("active");
+        });
       });
-    });
 
-    function detectmob() {
-      if (navigator.userAgent.match(/Android/i)
-        || navigator.userAgent.match(/webOS/i)
-        || navigator.userAgent.match(/iPhone/i)
-        || navigator.userAgent.match(/iPad/i)
-        || navigator.userAgent.match(/iPod/i)
-        || navigator.userAgent.match(/BlackBerry/i)
-        || navigator.userAgent.match(/Windows Phone/i)
-        || window.innerWidth <= 800 && window.innerHeight <= 60
-      ) {
-        return true;
+      function detectmob() {
+        if (
+          navigator.userAgent.match(/Android/i) ||
+          navigator.userAgent.match(/webOS/i) ||
+          navigator.userAgent.match(/iPhone/i) ||
+          navigator.userAgent.match(/iPad/i) ||
+          navigator.userAgent.match(/iPod/i) ||
+          navigator.userAgent.match(/BlackBerry/i) ||
+          navigator.userAgent.match(/Windows Phone/i) ||
+          (window.innerWidth <= 800 && window.innerHeight <= 60)
+        ) {
+          return true;
+        } else {
+          return false;
+        }
       }
-      else {
-        return false;
-      }
-    }
+    </script>
 
-  </script>
+    <script src="/lib/angucomplete/angucomplete-alt.min.js"></script>
+    <script src="/lib/pdf/csv.js"></script>
+    <script src="/lib/pdf/pdfmake.js"></script>
+    <script src="/lib/pdf/vfs_fonts.js"></script>
+    <script src="/lib/angular-toarrayfilter/toArrayFilter.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
+  </head>
 
-  <script src="/lib/angucomplete/angucomplete-alt.min.js"></script>
-  <script src="/lib/pdf/csv.js"></script>
-  <script src="/lib/pdf/pdfmake.js"></script>
-  <script src="/lib/pdf/vfs_fonts.js"></script>
-  <script src="/lib/angular-toarrayfilter/toArrayFilter.js"></script>
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-</head>
+  <body>
+    <span us-spinner="{radius:25, width:8, length: 16}"></span>
+    <header
+      style="
+        background-color: yellow;
+        color: blue;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        border: 1px solid lightblue;
+      "
+    >
+      Satsangis Attendance
+    </header>
 
-<body>
-
-  <span us-spinner="{radius:25, width:8, length: 16}"></span>
-  <header style="background-color: yellow;color: blue;font-weight: bold;font-size: 50px;text-align: center;border:1px solid lightblue;">Satsangis
-    Attendance</header>
-
-
-  <div>
-    <ul class="nav navbar-nav">
-      <li ng-show="signedIn">
-        <a href="#ssmarkattendance">
-          Mark Attendance</a></li>
-      <li ng-show="signedIn">
-        <a href="#ssaddNewUser">
-          New Satsangi</a></li>
-      <li ng-show="signedIn"><a href="#addNewActivity">
-          Manage items</a></li>
-      <!-- <li><a href="#addNewStoreItem">
+    <div>
+      <ul class="nav navbar-nav">
+        <li ng-show="signedIn">
+          <a href="#ssmarkattendance"> Mark Attendance</a>
+        </li>
+        <li ng-show="signedIn">
+          <a href="#ssaddNewUser"> New Satsangi</a>
+        </li>
+        <li ng-show="signedIn"><a href="#addNewActivity"> Manage items</a></li>
+        <!-- <li><a href="#addNewStoreItem">
             New Store Item</a></li> -->
-      <li ng-show="signedIn"><a href="#admingrid">
-          Admin</a></li>
-      <li ng-show="signedIn"><a href="#ssexportexcel">
-          Export</a></li>
-      <!-- <li><a onclick="reload()" href="#">Refresh</a></li> -->
-    </ul>
-  </div>
-  <br />
+        <li ng-show="signedIn"><a href="#admingrid"> Admin</a></li>
+        <li ng-show="signedIn"><a href="#ssexportexcel"> Export</a></li>
+        <li ng-show="signedIn">
+          <a href="#exportspecific"> Export Specific</a>
+        </li>
+        <!-- <li><a onclick="reload()" href="#">Refresh</a></li> -->
+      </ul>
+    </div>
+    <br />
 
+    <div data-ng-view></div>
 
+    <script src="https://cdn.rawgit.com/serratus/quaggaJS/0420d5e0/dist/quagga.min.js"></script>
 
-  <div data-ng-view></div>
-
-  <script src="https://cdn.rawgit.com/serratus/quaggaJS/0420d5e0/dist/quagga.min.js"></script>
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
-  <script src="lib/requirejs/require.js" data-main="scripts/main.js"></script>
-
-
-</body>
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
+    <script src="lib/requirejs/require.js" data-main="scripts/main.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
 
 <!-- 
 <div ng-show="signedIn" style="position: absolute; right: 0;" class="dropdown">
